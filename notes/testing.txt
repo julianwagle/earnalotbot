@@ -1,0 +1,34 @@
+
+testing
+=======
+
+docker-compose -f local.yml down;
+docker-compose -f local.yml up 
+
+docker-compose -f local.yml run django python manage.py shell
+docker-compose -f local.yml run django python manage.py createsuperuser
+
+
+scripts
+=======
+
+from earnalotbot.bot.utils.testing import *; test_one()
+
+
+
+from earnalotbot.bot.utils.robinhood_login import *; robinhood_login();
+import robin_stocks.robinhood as rh;
+holdings = rh.account.build_holdings(); print(holdings);
+{
+    'AAPL': {
+        'price': '133.570000', 
+        'quantity': '0.75766100', 
+        'average_buy_price': '131.9851', 
+        'equity': '101.20', 
+        'percent_change': '1.20', 
+        'equity_change': '1.200817', 
+    }
+}
+
+
+
