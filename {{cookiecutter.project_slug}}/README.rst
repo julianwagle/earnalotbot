@@ -67,7 +67,6 @@ Moved to `Live reloading and SASS compilation`_.
 
 .. _`Live reloading and SASS compilation`: http://cookiecutter-django.readthedocs.io/en/latest/live-reloading-and-sass-compilation.html
 
-{%- if cookiecutter.use_celery == "y" %}
 
 Celery
 ^^^^^^
@@ -83,12 +82,10 @@ To run a celery worker:
 
 Please note: For Celery's import magic to work, it is important *where* the celery commands are run. If you are in the same folder with *manage.py*, you should be right.
 
-{%- endif %}
 {%- if cookiecutter.use_mailhog == "y" %}
 
 Email Server
 ^^^^^^^^^^^^
-{%- if cookiecutter.use_docker == 'y' %}
 
 In development, it is often nice to be able to see emails that are being sent from your application. For that reason local SMTP server `MailHog`_ with a web interface is available as docker container.
 
@@ -96,30 +93,7 @@ Container mailhog will start automatically when you will run all docker containe
 Please check `cookiecutter-django Docker documentation`_ for more details how to start all containers.
 
 With MailHog running, to view messages that are sent by your application, open your browser and go to ``http://127.0.0.1:8025``
-{%- else %}
 
-In development, it is often nice to be able to see emails that are being sent from your application. If you choose to use `MailHog`_ when generating the project a local SMTP server with a web interface will be available.
-
-#. `Download the latest MailHog release`_ for your OS.
-
-#. Rename the build to ``MailHog``.
-
-#. Copy the file to the project root.
-
-#. Make it executable: ::
-
-    $ chmod +x MailHog
-
-#. Spin up another terminal window and start it there: ::
-
-    ./MailHog
-
-#. Check out `<http://127.0.0.1:8025/>`_ to see how it goes.
-
-Now you have your own mail server running locally, ready to receive whatever you send it.
-
-.. _`Download the latest MailHog release`: https://github.com/mailhog/MailHog/releases
-{%- endif %}
 
 .. _mailhog: https://github.com/mailhog/MailHog
 {%- endif %}
@@ -147,7 +121,6 @@ See detailed `cookiecutter-django Heroku documentation`_.
 
 .. _`cookiecutter-django Heroku documentation`: http://cookiecutter-django.readthedocs.io/en/latest/deployment-on-heroku.html
 {%- endif %}
-{%- if cookiecutter.use_docker.lower() == "y" %}
 
 Docker
 ^^^^^^
@@ -155,7 +128,7 @@ Docker
 See detailed `cookiecutter-django Docker documentation`_.
 
 .. _`cookiecutter-django Docker documentation`: http://cookiecutter-django.readthedocs.io/en/latest/deployment-with-docker.html
-{%- endif %}
+
 {%- if cookiecutter.custom_bootstrap_compilation == "y" %}
 Custom Bootstrap Compilation
 ^^^^^^

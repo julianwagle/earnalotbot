@@ -2,14 +2,8 @@
 
 Werkzeug==1.0.1 # https://github.com/pallets/werkzeug
 ipdb==0.13.9  # https://github.com/gotcha/ipdb
-{%- if cookiecutter.use_docker == 'y' %}
 psycopg2==2.9.1  # https://github.com/psycopg/psycopg2
-{%- else %}
-psycopg2-binary==2.9.1  # https://github.com/psycopg/psycopg2
-{%- endif %}
-{%- if cookiecutter.use_async == 'y' or cookiecutter.use_celery == 'y' %}
 watchgod==0.7  # https://github.com/samuelcolvin/watchgod
-{%- endif %}
 
 # Testing
 # ------------------------------------------------------------------------------
@@ -30,9 +24,7 @@ flake8-isort==4.0.0  # https://github.com/gforcada/flake8-isort
 coverage==5.5  # https://github.com/nedbat/coveragepy
 black==21.6b0  # https://github.com/psf/black
 pylint-django==2.4.4  # https://github.com/PyCQA/pylint-django
-{%- if cookiecutter.use_celery == 'y' %}
 pylint-celery==0.3  # https://github.com/PyCQA/pylint-celery
-{%- endif %}
 pre-commit==2.13.0  # https://github.com/pre-commit/pre-commit
 
 # Django

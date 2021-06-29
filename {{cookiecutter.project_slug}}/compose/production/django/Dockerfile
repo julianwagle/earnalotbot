@@ -88,7 +88,6 @@ RUN sed -i 's/\r$//g' /start
 RUN chmod +x /start
 
 
-{%- if cookiecutter.use_celery == "y" %}
 COPY --chown=django:django ./compose/production/django/celery/worker/start /start-celeryworker
 RUN sed -i 's/\r$//g' /start-celeryworker
 RUN chmod +x /start-celeryworker
@@ -102,7 +101,6 @@ RUN chmod +x /start-celerybeat
 COPY ./compose/production/django/celery/flower/start /start-flower
 RUN sed -i 's/\r$//g' /start-flower
 RUN chmod +x /start-flower
-{%- endif %}
 
 
 # copy application code to WORKDIR

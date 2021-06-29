@@ -35,7 +35,6 @@ SUPPORTED_COMBINATIONS = [
     {"windows": "n"},
     {"use_pycharm": "y"},
     {"use_pycharm": "n"},
-    {"use_docker": "y"},
     {"postgresql_version": "13.2"},
     {"postgresql_version": "12.6"},
     {"postgresql_version": "11.11"},
@@ -73,14 +72,12 @@ SUPPORTED_COMBINATIONS = [
     # Note: cloud_providers GCP and None with mail_service Amazon SES is not supported
     {"use_async": "y"},
     {"use_async": "n"},
-    {"use_drf": "y"},
     {"js_task_runner": "None"},
     {"js_task_runner": "Gulp"},
     {"custom_bootstrap_compilation": "y"},
     {"custom_bootstrap_compilation": "n"},
     {"use_compressor": "y"},
     {"use_compressor": "n"},
-    {"use_celery": "y"},
     {"use_mailhog": "y"},
     {"use_mailhog": "n"},
     {"use_sentry": "y"},
@@ -100,10 +97,6 @@ SUPPORTED_COMBINATIONS = [
 ]
 
 UNSUPPORTED_COMBINATIONS = [
-    {"use_docker": "n"},
-    {"use_drf": "n"},
-    {"use_celery": "n"},
-
     {"cloud_provider": "None", "use_whitenoise": "n"},
     {"cloud_provider": "GCP", "mail_service": "Amazon SES"},
     {"cloud_provider": "None", "mail_service": "Amazon SES"},
@@ -174,93 +167,6 @@ def test_black_passes(cookies, context_override):
     except sh.ErrorReturnCode as e:
         pytest.fail(e.stdout.decode())
 
-
-@pytest.mark.parametrize(
-    ["use_docker", "expected_test_script"],
-    [
-        ("n", "pytest"),
-        ("y", "docker-compose -f local.yml run django pytest"),
-    ],
-)
-def test_travis_invokes_pytest(cookies, context, use_docker, expected_test_script):
-    context.update({"ci_tool": "Travis", "use_docker": use_docker})
-    result = cookies.bake(extra_context=context)
-
-    assert result.exit_code == 0
-    assert result.exception is None
-    assert result.project.basename == context["project_slug"]
-    assert result.project.isdir()
-
-    with open(f"{result.project}/.travis.yml", "r") as travis_yml:
-        try:
-            yml = yaml.safe_load(travis_yml)["jobs"]["include"]
-            assert yml[0]["script"] == ["flake8"]
-            assert yml[1]["script"] == [expected_test_script]
-        except yaml.YAMLError as e:
-            pytest.fail(str(e))
-
-
-@pytest.mark.parametrize(
-    ["use_docker", "expected_test_script"],
-    [
-        ("n", "pytest"),
-        ("y", "docker-compose -f local.yml run django pytest"),
-    ],
-)
-def test_gitlab_invokes_flake8_and_pytest(
-    cookies, context, use_docker, expected_test_script
-):
-    context.update({"ci_tool": "Gitlab", "use_docker": use_docker})
-    result = cookies.bake(extra_context=context)
-
-    assert result.exit_code == 0
-    assert result.exception is None
-    assert result.project.basename == context["project_slug"]
-    assert result.project.isdir()
-
-    with open(f"{result.project}/.gitlab-ci.yml", "r") as gitlab_yml:
-        try:
-            gitlab_config = yaml.safe_load(gitlab_yml)
-            assert gitlab_config["flake8"]["script"] == ["flake8"]
-            assert gitlab_config["pytest"]["script"] == [expected_test_script]
-        except yaml.YAMLError as e:
-            pytest.fail(e)
-
-
-@pytest.mark.parametrize(
-    ["use_docker", "expected_test_script"],
-    [
-        ("n", "pytest"),
-        ("y", "docker-compose -f local.yml run django pytest"),
-    ],
-)
-def test_github_invokes_linter_and_pytest(
-    cookies, context, use_docker, expected_test_script
-):
-    context.update({"ci_tool": "Github", "use_docker": use_docker})
-    result = cookies.bake(extra_context=context)
-
-    assert result.exit_code == 0
-    assert result.exception is None
-    assert result.project.basename == context["project_slug"]
-    assert result.project.isdir()
-
-    with open(f"{result.project}/.github/workflows/ci.yml", "r") as github_yml:
-        try:
-            github_config = yaml.safe_load(github_yml)
-            linter_present = False
-            for action_step in github_config["jobs"]["linter"]["steps"]:
-                if action_step.get("uses", "NA").startswith("pre-commit"):
-                    linter_present = True
-            assert linter_present
-
-            expected_test_script_present = False
-            for action_step in github_config["jobs"]["pytest"]["steps"]:
-                if action_step.get("run") == expected_test_script:
-                    expected_test_script_present = True
-            assert expected_test_script_present
-        except yaml.YAMLError as e:
-            pytest.fail(e)
 
 
 @pytest.mark.parametrize("slug", ["project slug", "Project_Slug"])

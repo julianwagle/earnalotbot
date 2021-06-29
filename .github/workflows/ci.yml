@@ -36,7 +36,7 @@ jobs:
           - name: Basic
             args: ""
           - name: Extended
-            args: "use_celery=y use_drf=y js_task_runner=Gulp"
+            args: "js_task_runner=Gulp"
 
     env:
       DOCKER_BUILDKIT: 1
@@ -57,7 +57,7 @@ jobs:
       matrix:
         script:
           - name: With Celery
-            args: "use_celery=y use_compressor=y"
+            args: "use_compressor=y"
 
     services:
       redis:

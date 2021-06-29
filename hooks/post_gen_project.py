@@ -324,8 +324,7 @@ def main():
     if "{{ cookiecutter.js_task_runner}}".lower() == "none":
         remove_gulp_files()
         remove_packagejson_file()
-        if "{{ cookiecutter.use_docker }}".lower() == "y":
-            remove_node_dockerfile()
+        remove_node_dockerfile()
 
     if "{{ cookiecutter.cloud_provider}}".lower() == "none":
         print(

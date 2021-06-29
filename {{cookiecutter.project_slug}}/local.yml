@@ -5,7 +5,7 @@ volumes:
   local_postgres_data_backups: {}
 
 services:
-  django:{% if cookiecutter.use_celery == 'y' %} &django{% endif %}
+  django: &django
     build:
       context: .
       dockerfile: ./compose/local/django/Dockerfile
@@ -61,7 +61,6 @@ services:
       - "8025:8025"
 
   {%- endif %}
-  {%- if cookiecutter.use_celery == 'y' %}
 
   redis:
     image: redis:5.0
@@ -101,7 +100,6 @@ services:
       - "5555:5555"
     command: /start-flower
 
-  {%- endif %}
   {%- if cookiecutter.js_task_runner == 'Gulp' %}
 
   node:

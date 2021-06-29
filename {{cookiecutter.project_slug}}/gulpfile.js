@@ -141,9 +141,6 @@ function initBrowserSync() {
         `${paths.templates}/*.html`
       ], {
         // https://www.browsersync.io/docs/options/#option-proxy
-        {%- if cookiecutter.use_docker == 'n' %}
-        proxy: 'localhost:8000'
-        {%- else %}
         proxy:  {
           target: 'django:8000',
           proxyReq: [
@@ -156,7 +153,6 @@ function initBrowserSync() {
         // https://www.browsersync.io/docs/options/#option-open
         // Disable as it doesn't work from inside a container
         open: false
-        {%- endif %}
       }
     )
 }
@@ -178,13 +174,7 @@ const generateAssets = parallel(
 
 // Set up dev environment
 const dev = parallel(
-  {%- if cookiecutter.use_docker == 'n' %}
-  {%- if cookiecutter.use_async == 'y' %}
-  asyncRunServer,
-  {%- else %}
-  runServer,
-  {%- endif %}
-  {%- endif %}
+
   initBrowserSync,
   watchPaths
 )

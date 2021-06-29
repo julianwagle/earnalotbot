@@ -43,9 +43,6 @@ windows:
 use_pycharm:
     Indicates whether the project should be configured for development with PyCharm_.
 
-use_docker:
-    Indicates whether the project should be configured to use Docker_ and `Docker Compose`_.
-
 postgresql_version:
     Select a PostgreSQL_ version to use. The choices are:
 
@@ -86,9 +83,6 @@ mail_service:
 use_async:
     Indicates whether the project should use web sockets with Uvicorn + Gunicorn.
 
-use_drf:
-    Indicates whether the project should be configured to use `Django Rest Framework`_.
-
 custom_bootstrap_compilation:
     Indicates whether the project should support Bootstrap recompilation
     via the selected JavaScript task runner's task. This can be useful
@@ -96,9 +90,6 @@ custom_bootstrap_compilation:
 
 use_compressor:
     Indicates whether the project should be configured to use `Django Compressor`_.
-
-use_celery:
-    Indicates whether the project should be configured to use Celery_.
 
 use_mailhog:
     Indicates whether the project should be configured to use MailHog_.

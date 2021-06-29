@@ -7,7 +7,6 @@ PostgreSQL Backups with Docker
 Prerequisites
 -------------
 
-#. the project was generated with ``use_docker`` set to ``y``;
 #. the stack is up and running: ``docker-compose -f local.yml up -d postgres``.
 
 

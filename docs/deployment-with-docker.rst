@@ -20,9 +20,6 @@ Before you begin, check out the ``production.yml`` file in the root of this proj
 * ``postgres``: PostgreSQL database with the application's relational data;
 * ``redis``: Redis instance for caching;
 * ``traefik``: Traefik reverse proxy with HTTPS on by default.
-
-Provided you have opted for Celery (via setting ``use_celery`` to ``y``) there are three more services:
-
 * ``celeryworker`` running a Celery worker process;
 * ``celerybeat`` running a Celery beat process;
 * ``flower`` running Flower_.

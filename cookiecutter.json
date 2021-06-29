@@ -16,7 +16,6 @@
   "timezone": "UTC",
   "windows": "n",
   "use_pycharm": "n",
-  "use_docker": "y",
   "postgresql_version": [
     "13.2",
     "12.6",
@@ -44,10 +43,8 @@
     "Other SMTP"
   ],
   "use_async": "n",
-  "use_drf": "y",
   "custom_bootstrap_compilation": "n",
   "use_compressor": "n",
-  "use_celery": "y",
   "use_mailhog": "n",
   "use_sentry": "n",
   "use_whitenoise": "n",
