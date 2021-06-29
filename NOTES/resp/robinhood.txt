@@ -1,0 +1,11 @@
+holdings = rh.account.build_holdings(); print(holdings);
+{
+    'AAPL': {
+        'price': '133.570000', 
+        'quantity': '0.75766100', 
+        'average_buy_price': '131.9851', 
+        'equity': '101.20', 
+        'percent_change': '1.20', 
+        'equity_change': '1.200817', 
+    }
+}

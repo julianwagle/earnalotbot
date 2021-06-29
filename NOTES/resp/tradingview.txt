@@ -1,0 +1,202 @@
+from tradingview_ta import TA_Handler, Interval
+analysis = TA_Handler(symbol="AAPL",screener="america",exchange="nasdaq",interval=Interval.INTERVAL_4_HOURS,timeout=10).get_analysis()
+print(analysis)
+
+tradingview_ta = {
+    "summary": analysis.summary,
+    "oscillators": analysis.oscillators,
+    "moving_averages": analysis.moving_averages,
+    "indicators": analysis.indicators
+}
+print(tradingview_ta)
+
+ ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### 
+
+{
+    'summary': {
+        'RECOMMENDATION': 'BUY', 
+        'BUY': 13, 
+        'SELL': 3, 
+        'NEUTRAL': 10
+    }, 
+    'oscillators': {
+        'RECOMMENDATION': 'NEUTRAL', 
+        'BUY': 1, 
+        'SELL': 1, 
+        'NEUTRAL': 9, 
+        'COMPUTE': {
+            'RSI': 'NEUTRAL', 
+            'STOCH.K': 'NEUTRAL', 
+            'CCI': 'NEUTRAL', 
+            'ADX': 'NEUTRAL', 
+            'AO': 'NEUTRAL', 
+            'Mom': 'BUY', 
+            'MACD': 'SELL', 
+            'Stoch.RSI': 'NEUTRAL', 
+            'W%R': 'NEUTRAL', 
+            'BBP': 'NEUTRAL', 
+            'UO': 'NEUTRAL'
+        }
+    },
+    'moving_averages': {
+        'RECOMMENDATION': 'STRONG_BUY', 
+        'BUY': 12, 
+        'SELL': 2, 
+        'NEUTRAL': 1, 
+        'COMPUTE': {
+            'EMA10': 'BUY', 
+            'SMA10': 'SELL', 
+            'EMA20': 'BUY', 
+            'SMA20': 'BUY', 
+            'EMA30': 'BUY', 
+            'SMA30': 'BUY', 
+            'EMA50': 'BUY', 
+            'SMA50': 'BUY', 
+            'EMA100': 'BUY', 
+            'SMA100': 'BUY', 
+            'EMA200': 'BUY', 
+            'SMA200': 'BUY', 
+            'Ichimoku': 'NEUTRAL', 
+            'VWMA': 'BUY', 
+            'HullMA': 'SELL'
+        }
+    }, 
+    'indicators': {
+        'Recommend.Other': 0, 
+        'Recommend.All': 0.33, 
+        'Recommend.MA': 0.66, 
+
+        # 'close': 133.11, 
+        # 'open': 133.34, 
+        # 'P.SAR': 131.06, 
+
+
+        # OSCILLATORS ##### 
+        '''
+        Oscillators are popular and widely used because they are leading indicators that can signal a possible trend change that is yet to start. 
+        This type of indicator oscillates between two limits, above and below a midpoint and its value helps to gauge the strength and momentum of a trend. 
+        Oscillators also typically signal if a market is overbought or oversold (meaning price is unjustifiably high or unjustifiably low), which could point to a reversal of the trend. 
+        This could be used to determine when to close open positions.
+        Oscillators work best in ranging markets because in trending markets they can show overbought or oversold conditions too soon. 
+        Common things to look for are a midpoint cross, approaching maximum or minimum value and regular or hidden divergence. 
+        Oscillators are usually plotted with a line or histogram. 
+        There are many oscillators such as the Relative Strength Index, the Stochastic Oscillator, the True Strength Index and the Ultimate Oscillator.
+        '''
+        
+        'RSI': 65.18, 
+        # 'RSI[1]': 67.27, 
+        'Stoch.K': 76.90,
+        # 'Stoch.D': 79.82,
+        # 'Stoch.K[1]': 79.56,
+        # 'Stoch.D[1]': 83.62,
+        'CCI20': 58.87,
+        # 'CCI20[1]': 74.09,
+        'ADX': 38.21,
+        # 'ADX+DI': 32.66,
+        # 'ADX-DI': 13.14,
+        # 'ADX+DI[1]': 33.76,
+        # 'ADX-DI[1]': 11.90,
+        'AO': 4.16,
+        # 'AO[1]': 4.54,
+        # 'AO[2]': 4.82,
+        'Mom': 2.71,
+        # 'Mom[1]': 2.53,
+        'MACD.macd': 1.57, 
+        # 'MACD.signal': 1.60,, 
+        # 'Rec.Stoch.RSI': 0, 
+        'Stoch.RSI.K': 47.92,
+        # 'Rec.WR': 0, 
+        'W.R': -28.17,
+        # 'Rec.BBPower': 0, 
+        'BBPower': 1.01,
+        # 'BB.lower': 128.83,
+        # 'BB.upper': 134.95,
+        # 'Rec.UO': 0, 
+        'UO': 55.63,
+
+        # MOVING AVERAGES ##### 
+        '''
+        Moving Averages are price based, lagging (or reactive) indicators that display the average price of a security over a set period of time. 
+        A Moving Average is a good way to gauge momentum as well as to confirm trends, and define areas of support and resistance. 
+        Essentially, Moving Averages smooth out the “noise” when trying to interpret charts. 
+        Noise is made up of fluctuations of both price and volume. 
+        Because a Moving Average is a lagging indicator and reacts to events that have already happened, it is not used as a predictive indicator but as an interpretive one for confirmations and analysis.
+        In fact, Moving Averages form the basis of several other well-known technical analysis tools such as the Bollinger Bands and the MACD. 
+        There are different types of Moving Averages which all take the same basic premise and add a variation. 
+        Most notable are the Simple Moving Average (SMA), the Exponential Moving Average (EMA), the Weighted Moving Average (WMA) and the Hull Moving Average (HMA).
+        '''
+
+        # 'EMA5': 133.28,
+        # 'SMA5': 133.38,
+        'EMA10': 132.91,
+        'SMA10': 133.27,
+        'EMA20': 131.73,
+        'SMA20': 131.89,
+        'EMA30': 130.76,
+        'SMA30': 130.12,
+        'EMA50': 129.68,
+        'SMA50': 128.30,
+        'EMA100': 128.77,
+        'SMA100': 129.14,
+        'EMA200': 127.49,
+        'SMA200': 127.88,
+        # 'Rec.Ichimoku': 0, 
+        'Ichimoku.BLine': 130.29, 
+        # 'Rec.VWMA': 1, 
+        'VWMA': 131.74,
+        # 'Rec.HullMA9': -1, 
+        'HullMA9': 133.27,
+
+        # PIVOTS ##### 
+        '''
+        Pivot Point analysis is a technique of determining key levels that price may react to. 
+        Pivot points tend to function as support or resistance and can be turning points. 
+        This technique is commonly used by day traders, though the concepts are valid on various timeframes. 
+        There are several methods of identifying the exact points. 
+        Common types of pivot points are Traditional, Fibonacci, Woodie, Classic, Camarilla and DM and each type has its own calculation method.
+        Most use a variation of significant prices such as established highs, lows, opening and closing prices and then apply a calculation to determine these points. 
+        They all calculate additional support and resistance levels alongside the pivot points. 
+        They can be used to determine when to enter or exit trades or to determine the range of a market. 
+        Conservative traders look for additional confirmation before entering a trade. 
+        Whether pivot points are used alone or in combination with other techniques, they are a useful tool in a technical trader's toolbox.
+        '''
+
+        'Pivot.M.Classic.S3': 119.04,
+        'Pivot.M.Classic.S2': 124.52,
+        'Pivot.M.Classic.S1': 127.46,
+        'Pivot.M.Classic.Middle': 130.23,
+        'Pivot.M.Classic.R1': 132.94,
+        'Pivot.M.Classic.R2': 135.48,
+        'Pivot.M.Classic.R3': 140.96,
+
+        'Pivot.M.Fibonacci.S3': 124.52,
+        'Pivot.M.Fibonacci.S2': 126.62,
+        'Pivot.M.Fibonacci.S1': 127.91,
+        'Pivot.M.Fibonacci.Middle': 130.00,
+        'Pivot.M.Fibonacci.R1': 132.10,
+        'Pivot.M.Fibonacci.R2': 133.39, 
+        'Pivot.M.Fibonacci.R3': 135.48,
+
+        'Pivot.M.Camarilla.S3': 128.89, 
+        'Pivot.M.Camarilla.S2': 129.39,
+        'Pivot.M.Camarilla.S1': 129.89,
+        'Pivot.M.Camarilla.Middle': 130.00,
+        'Pivot.M.Camarilla.R1': 130.90,
+        'Pivot.M.Camarilla.R2': 131.40,
+        'Pivot.M.Camarilla.R3': 131.97, 
+
+        'Pivot.M.Woodie.S3': 122.09, 
+        'Pivot.M.Woodie.S2': 124.58,
+        'Pivot.M.Woodie.S1': 127.57,
+        'Pivot.M.Woodie.Middle': 130.65, 
+        'Pivot.M.Woodie.R1': 133.06, 
+        'Pivot.M.Woodie.R2': 135.54,
+        'Pivot.M.Woodie.R3': 138.54,
+
+        'Pivot.M.Demark.S1': 128.73, 
+        'Pivot.M.Demark.Middle': 130.64, 
+        'Pivot.M.Demark.R1': 134.21, 
+
+
+    }
+}

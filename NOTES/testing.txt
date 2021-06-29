@@ -1,0 +1,22 @@
+
+testing
+=======
+
+docker-compose -f local.yml down;
+docker-compose -f local.yml up 
+
+docker-compose -f local.yml run django python manage.py shell
+docker-compose -f local.yml run django python manage.py createsuperuser
+
+repo
+====
+git init;
+git rm -r --cached .;
+git add .; 
+git commit -m "2021-Jun-29@13:30CST"; 
+git branch -M main; 
+git remote add origin https://github.com/julianwagle/earnalotbot.git; 
+git push -u origin main -f
+
+git init; git rm -r --cached .; git add .; git commit -m "2021-Jun-29@12:23CST"; git branch -M main; git remote add origin https://github.com/julianwagle/earnalotbot.git;  git push -u origin main -f
+
