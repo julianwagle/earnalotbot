@@ -97,8 +97,8 @@ APCA_API_SECRET_KEY=
 
 # API/Scrape Sleep Times
 # ------------------------------------------------------------------------------
-RH_SLEEP=1 # ROBINHOOD API
-TV_SLEEP=1 # TRADINGVIEW TA
-YF_SLEEP=1 # Y FINANCE
-AL_SLEEP=1  # ALPACA API
+RH_SLEEP=1
+TV_SLEEP=1
+YF_SLEEP=1
+AL_SLEEP=1
 
