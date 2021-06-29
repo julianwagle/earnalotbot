@@ -130,66 +130,66 @@ You'll be prompted for some values. Provide them, then a Django project will be 
 
 Answer the prompts with your own desired options_. For example::
 
-me@jool-yuhns-laptop:~$ cookiecutter https://github.com/julianwagle/earnalotbot
-project_name [Earn A Lot Bot]: 
-project_slug [earn_a_lot_bot]: earnalotbot
-description [A bot that earns a lot!]: 
-author_name [Julian Wagle]: 
-domain_name [example.com]: earnalotbot.com
-email [julian-wagle@example.com]: julian.wagle@gmail.com
-version [0.1.0]: 
-Select open_source_license:
-1 - MIT
-2 - BSD
-3 - GPLv3
-4 - Apache Software License 2.0
-5 - Not open source
-Choose from 1, 2, 3, 4, 5 [1]: 
-timezone [UTC]: "America/Chicago"
-windows [n]: 
-use_pycharm [n]: 
-Select postgresql_version:
-1 - 13.2
-2 - 12.6
-3 - 11.11
-4 - 10.16
-Choose from 1, 2, 3, 4 [1]: 2
-Select js_task_runner:
-1 - None
-2 - Gulp
-Choose from 1, 2 [1]: 2
-Select cloud_provider:
-1 - AWS
-2 - GCP
-3 - None
-Choose from 1, 2, 3 [1]: 2
-Select mail_service:
-1 - Mailgun
-2 - Amazon SES
-3 - Mailjet
-4 - Mandrill
-5 - Postmark
-6 - Sendgrid
-7 - SendinBlue
-8 - SparkPost
-9 - Other SMTP
-Choose from 1, 2, 3, 4, 5, 6, 7, 8, 9 [1]: 
-use_async [n]: 
-custom_bootstrap_compilation [n]: y
-use_compressor [n]: y
-use_mailhog [n]: y
-use_sentry [n]: y
-use_whitenoise [n]: y
-use_heroku [n]: 
-Select ci_tool:
-1 - None
-2 - Travis
-3 - Gitlab
-4 - Github
-Choose from 1, 2, 3, 4 [1]: 4
-keep_local_envs_in_vcs [y]: 
-debug [n]: 
-[SUCCESS]: Project initialized, keep up the good work!
+    me@jool-yuhns-laptop:~$ cookiecutter https://github.com/julianwagle/earnalotbot
+    project_name [Earn A Lot Bot]: 
+    project_slug [earn_a_lot_bot]: earnalotbot
+    description [A bot that earns a lot!]: 
+    author_name [Julian Wagle]: 
+    domain_name [example.com]: earnalotbot.com
+    email [julian-wagle@example.com]: julian.wagle@gmail.com
+    version [0.1.0]: 
+    Select open_source_license:
+    1 - MIT
+    2 - BSD
+    3 - GPLv3
+    4 - Apache Software License 2.0
+    5 - Not open source
+    Choose from 1, 2, 3, 4, 5 [1]: 
+    timezone [UTC]: "America/Chicago"
+    windows [n]: 
+    use_pycharm [n]: 
+    Select postgresql_version:
+    1 - 13.2
+    2 - 12.6
+    3 - 11.11
+    4 - 10.16
+    Choose from 1, 2, 3, 4 [1]: 2
+    Select js_task_runner:
+    1 - None
+    2 - Gulp
+    Choose from 1, 2 [1]: 2
+    Select cloud_provider:
+    1 - AWS
+    2 - GCP
+    3 - None
+    Choose from 1, 2, 3 [1]: 2
+    Select mail_service:
+    1 - Mailgun
+    2 - Amazon SES
+    3 - Mailjet
+    4 - Mandrill
+    5 - Postmark
+    6 - Sendgrid
+    7 - SendinBlue
+    8 - SparkPost
+    9 - Other SMTP
+    Choose from 1, 2, 3, 4, 5, 6, 7, 8, 9 [1]: 
+    use_async [n]: 
+    custom_bootstrap_compilation [n]: y
+    use_compressor [n]: y
+    use_mailhog [n]: y
+    use_sentry [n]: y
+    use_whitenoise [n]: y
+    use_heroku [n]: 
+    Select ci_tool:
+    1 - None
+    2 - Travis
+    3 - Gitlab
+    4 - Github
+    Choose from 1, 2, 3, 4 [1]: 4
+    keep_local_envs_in_vcs [y]: 
+    debug [n]: 
+    [SUCCESS]: Project initialized, keep up the good work!
 
 
 Enter the project and take a look around::
