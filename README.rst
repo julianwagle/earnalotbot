@@ -24,7 +24,7 @@ Cookiecutter Django
     :target: https://github.com/ambv/black
     :alt: Code style: black
 
-Powered by Cookiecutter_, Cookiecutter Django is a framework for jumpstarting
+Built on top of Cookiecutter Django - a framework for jumpstarting
 production-ready Django projects quickly.
 
 * Documentation: https://cookiecutter-django.readthedocs.io/en/latest/
@@ -36,6 +36,12 @@ production-ready Django projects quickly.
 
 .. _528: https://github.com/pydanny/cookiecutter-django/issues/528#issuecomment-212650373
 .. _issues: https://github.com/pydanny/cookiecutter-django/issues/new
+
+
+
+To get started run:
+    * python3 -m cookiecutter https://github.com/julianwagle/bullbot
+
 
 Features
 ---------
@@ -98,40 +104,6 @@ Constraints
 * Only maintained 3rd party libraries are used.
 * Uses PostgreSQL everywhere (10.16 - 13.2)
 * Environment variables for configuration (This won't work with Apache/mod_wsgi).
-
-Support this Project!
-----------------------
-
-This project is run by volunteers. Please support them in their efforts to maintain and improve Cookiecutter Django:
-
-* Daniel Roy Greenfeld, Project Lead (`GitHub <https://github.com/pydanny>`_, `Patreon <https://www.patreon.com/danielroygreenfeld>`_): expertise in Django and AWS ELB.
-
-* Nikita Shupeyko, Core Developer (`GitHub <https://github.com/webyneter>`_): expertise in Python/Django, hands-on DevOps and frontend experience.
-
-Projects that provide financial support to the maintainers:
-
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. image:: https://cdn.shopify.com/s/files/1/0304/6901/products/Two-Scoops-of-Django-3-Alpha-Cover_540x_26507b15-e489-470b-8a97-02773dd498d1_1080x.jpg
-   :name: Two Scoops of Django 3.x
-   :align: center
-   :alt: Two Scoops of Django
-   :target: https://www.feldroy.com/products//two-scoops-of-django-3-x
-
-Two Scoops of Django 3.x is the best ice cream-themed Django reference in the universe!
-
-pyup
-~~~~~~~~~~~~~~~~~~
-
-.. image:: https://pyup.io/static/images/logo.png
-   :name: pyup
-   :align: center
-   :alt: pyup
-   :target: https://pyup.io/
-
-Pyup brings you automated security and dependency updates used by Google and other organizations. Free for open source projects!
 
 Usage
 ------
