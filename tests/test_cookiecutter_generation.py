@@ -70,10 +70,6 @@ SUPPORTED_COMBINATIONS = [
     {"cloud_provider": "GCP", "mail_service": "SparkPost"},
     {"cloud_provider": "GCP", "mail_service": "Other SMTP"},
     # Note: cloud_providers GCP and None with mail_service Amazon SES is not supported
-    {"use_async": "y"},
-    {"use_async": "n"},
-    {"js_task_runner": "None"},
-    {"js_task_runner": "Gulp"},
     {"custom_bootstrap_compilation": "y"},
     {"custom_bootstrap_compilation": "n"},
     {"use_compressor": "y"},
@@ -90,8 +86,6 @@ SUPPORTED_COMBINATIONS = [
     {"ci_tool": "Travis"},
     {"ci_tool": "Gitlab"},
     {"ci_tool": "Github"},
-    {"keep_local_envs_in_vcs": "y"},
-    {"keep_local_envs_in_vcs": "n"},
     {"debug": "y"},
     {"debug": "n"},
 ]

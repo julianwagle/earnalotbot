@@ -3,8 +3,8 @@
   "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
   "description": "A bot that earns a lot!",
   "author_name": "Julian Wagle",
-  "domain_name": "example.com",
-  "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@example.com",
+  "domain_name": "earnalotbot.com",
+  "email": "{{ cookiecutter.author_name.lower()|replace(' ', '.') }}@email.com",
   "version": "0.1.0",
   "open_source_license": [
     "MIT",
@@ -22,10 +22,6 @@
     "11.11",
     "10.16"
   ],
-  "js_task_runner": [
-    "None",
-    "Gulp"
-  ],
   "cloud_provider": [
     "AWS",
     "GCP",
@@ -42,12 +38,11 @@
     "SparkPost",
     "Other SMTP"
   ],
-  "use_async": "n",
-  "custom_bootstrap_compilation": "n",
-  "use_compressor": "n",
-  "use_mailhog": "n",
-  "use_sentry": "n",
-  "use_whitenoise": "n",
+  "custom_bootstrap_compilation": "y",
+  "use_compressor": "y",
+  "use_mailhog": "y",
+  "use_sentry": "y",
+  "use_whitenoise": "y",
   "use_heroku": "n",
   "ci_tool": [
     "None",
@@ -55,6 +50,5 @@
     "Gitlab",
     "Github"
   ],
-  "keep_local_envs_in_vcs": "y",
   "debug": "n"
 }

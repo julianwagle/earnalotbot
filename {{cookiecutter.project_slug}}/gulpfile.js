@@ -110,7 +110,6 @@ function imgCompression() {
     .pipe(dest(paths.images))
 }
 
-{%- if cookiecutter.use_async == 'y' -%}
 // Run django server
 function asyncRunServer() {
   var cmd = spawn('gunicorn', [
@@ -121,16 +120,7 @@ function asyncRunServer() {
     console.log('gunicorn exited with code ' + code)
   })
 }
-{%- else %}
-// Run django server
-function runServer(cb) {
-  var cmd = spawn('python', ['manage.py', 'runserver'], {stdio: 'inherit'})
-  cmd.on('close', function(code) {
-    console.log('runServer exited with code ' + code)
-    cb(code)
-  })
-}
-{%- endif %}
+
 
 // Browser sync server for live reload
 function initBrowserSync() {

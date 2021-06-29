@@ -143,9 +143,6 @@ Answer the prompts with your own desired options_. For example::
     3 - 11.11
     4 - 10.16
     Choose from 1, 2, 3, 4 [1]: 2
-    Select js_task_runner:
-    1 - None
-    2 - Gulp
     Choose from 1, 2 [1]: 2
     Select cloud_provider:
     1 - AWS
@@ -163,7 +160,6 @@ Answer the prompts with your own desired options_. For example::
     8 - SparkPost
     9 - Other SMTP
     Choose from 1, 2, 3, 4, 5, 6, 7, 8, 9 [1]: 
-    use_async [n]: 
     custom_bootstrap_compilation [n]: y
     use_compressor [n]: y
     use_mailhog [n]: y
@@ -176,7 +172,6 @@ Answer the prompts with your own desired options_. For example::
     3 - Gitlab
     4 - Github
     Choose from 1, 2, 3, 4 [1]: 4
-    keep_local_envs_in_vcs [y]: 
     debug [n]: 
     [SUCCESS]: Project initialized, keep up the good work!
 

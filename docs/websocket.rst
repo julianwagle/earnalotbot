@@ -4,8 +4,6 @@
 Websocket
 =========
 
-You can enable web sockets if you select ``use_async`` option when creating a project. That indicates whether the project can use web sockets with Uvicorn + Gunicorn.
-
 Usage
 -----
 

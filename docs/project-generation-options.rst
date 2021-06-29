@@ -52,12 +52,6 @@ postgresql_version:
     4. 9.6
     5. 9.5
 
-js_task_runner:
-    Select a JavaScript task runner. The choices are:
-
-    1. None
-    2. Gulp_
-
 cloud_provider:
     Select a cloud provider for static & media files. The choices are:
 
@@ -79,9 +73,6 @@ mail_service:
     7. SendinBlue_
     8. SparkPost_
     9. `Other SMTP`_
-
-use_async:
-    Indicates whether the project should use web sockets with Uvicorn + Gunicorn.
 
 custom_bootstrap_compilation:
     Indicates whether the project should support Bootstrap recompilation
@@ -111,12 +102,6 @@ ci_tool:
     2. `Travis CI`_
     3. `Gitlab CI`_
     4. `Github Actions`_
-
-keep_local_envs_in_vcs:
-    Indicates whether the project's ``.envs/.local/`` should be kept in VCS
-    (comes in handy when working in teams where local environment reproducibility
-    is strongly encouraged).
-    Note: .env(s) are only utilized when Docker Compose and/or Heroku support is enabled.
 
 debug:
     Indicates whether the project should be configured for debugging.
