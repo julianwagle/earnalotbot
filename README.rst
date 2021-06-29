@@ -15,13 +15,32 @@ Earnalotbot 🤖💰
 
 
 
-OVERVIEW
---------
+Project Overview
+----------------
+
 The Earnalotbot is a scaffolding for advanced python based developers looking to make trading bots. 
 It comes equipped with basic packages for live-trading, paper-trading, web-scrapping, reinforcement-learning, a database for long-term strategy analysis and much more. 
 Included is an extra app titled 'example_app' - it is a fully functional trading bot and act as an example of how to use and integrate the packages. 
 If you're not careful to customize it to your liking or delete it, it will perform live trades if the TESTING var in .envs is set to 'False'
 
+
+The default bot included follwos the general trading strategy list below:
+
+* First, the bot finds a list of companies projected by experts to have a profitable earnings report occuring in the next ${n} days.
+
+* Second, the bot filters through buy/sell ratings provided by experts analyzing the fundamentals of each company to filter out those with poor fundamentrals. 
+
+* Third, the bot sorts the remaining companies by their technical indicators and fundamental analysis ratings to determine where to invest at any given moment.
+
+
+The strategy is a little more nuanced than this and I have designed the code to be quickly and easily changed by anyone with a low-level understanding of Python.
+This way, the bot can be adjusted to fit your temperment/risk-tolerance rather fast without too much of a headache. 
+
+* To give the bot's strategy a quick overview simply navigate to::
+
+    ROOT/PROJ_SLUG/example_app/utils
+
+    
 DISCALIMER
 ----------
 Decisions to buy, sell, hold or trade in securities involve risk and are best made based on the advice of qualified financial professionals. 
@@ -199,10 +218,135 @@ It is requirued for running locally.
 
 
 
-"Your Stuff"
--------------
+Initial Config
+--------------
 
-Scattered throughout the Python and HTML of this project are places marked with "your stuff". This is where third-party libraries are to be integrated with your project.
+Integrating the bot with Robinhood's API
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Much of the following section is either para-phrasing or directly quoting from the documentation for the Robin Stocks Repo's documentation. You can find more at::
+
+    https://www.robin-stocks.com/en/latest/quickstart.html
+
+
+* For this step, you will have to sign into your Robinhood account and turn on 2FA. When Robinhood asks you which 2FA app you want to use - select “other”. 
+
+* Robinhood will present you with an alphanumeric code. This code is what you will use for “My2factorAppHere” in the code below. 
+
+* After installing Pyotp on your machine, open up a Python terminal and run the following command::
+
+    >>> print(pyotp.TOTP("My2factorAppHere").now())
+
+* Type the resulting MFA code into the prompt on your Robinhood app.
+
+* Robinhood will then give you a backup code. Make sure you **do not lose this backup code or you may be locked out of your account!** 
+
+* You can also take the exact same “My2factorAppHere” from above and enter it into your phone’s authentication app, such as Google Authenticator. This will cause the exact same MFA code to be generated on your phone as well as your python code.  This is important to do if you plan on being away from your computer and need to access your Robinhood account from your phone.
+
+
+Settings
+--------
+
+Moved to settings_.
+
+.. _settings: http://cookiecutter-django.readthedocs.io/en/latest/settings.html
+
+Basic Commands
+--------------
+
+Setting Up Your Users
+^^^^^^^^^^^^^^^^^^^^^
+
+* To create a **normal user account**, just go to Sign Up and fill out the form. Once you submit it, you'll see a "Verify Your E-mail Address" page. Go to your console to see a simulated email verification message. Copy the link into your browser. Now the user's email should be verified and ready to go.
+
+* To create an **superuser account**, use this command::
+
+    $ python manage.py createsuperuser
+
+For convenience, you can keep your normal user logged in on Chrome and your superuser logged in on Firefox (or similar), so that you can see how the site behaves for both kinds of users.
+
+Type checks
+^^^^^^^^^^^
+
+Running type checks with mypy:
+
+::
+
+  $ mypy earnalotbot
+
+Test coverage
+^^^^^^^^^^^^^
+
+To run the tests, check your test coverage, and generate an HTML coverage report::
+
+    $ coverage run -m pytest
+    $ coverage html
+    $ open htmlcov/index.html
+
+Running tests with py.test
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+::
+
+  $ pytest
+
+Live reloading and Sass CSS compilation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Moved to `Live reloading and SASS compilation`_.
+
+.. _`Live reloading and SASS compilation`: http://cookiecutter-django.readthedocs.io/en/latest/live-reloading-and-sass-compilation.html
+
+Celery
+^^^^^^
+
+This app comes with Celery.
+
+To run a celery worker:
+
+.. code-block:: bash
+
+    cd earnalotbot
+    celery -A config.celery_app worker -l info
+
+Please note: For Celery's import magic to work, it is important *where* the celery commands are run. If you are in the same folder with *manage.py*, you should be right.
+
+
+Email Server
+^^^^^^^^^^^^
+
+In development, it is often nice to be able to see emails that are being sent from your application. For that reason local SMTP server `MailHog`_ with a web interface is available as docker container.
+
+Container mailhog will start automatically when you will run all docker containers.
+Please check `cookiecutter-django Docker documentation`_ for more details how to start all containers.
+
+With MailHog running, to view messages that are sent by your application, open your browser and go to ``http://127.0.0.1:8025``
+
+.. _mailhog: https://github.com/mailhog/MailHog
+
+
+Deployment
+----------
+
+The following details how to deploy this application.
+
+Docker
+^^^^^^
+
+See detailed `cookiecutter-django Docker documentation`_.
+
+.. _`cookiecutter-django Docker documentation`: http://cookiecutter-django.readthedocs.io/en/latest/deployment-with-docker.html
+Custom Bootstrap Compilation
+^^^^^^
+
+The generated CSS is set up with automatic Bootstrap recompilation with variables of your choice.
+Bootstrap v4 is installed using npm and customised by tweaking your variables in ``static/sass/custom_bootstrap_vars``.
+
+You can find a list of available variables `in the bootstrap source`_, or get explanations on them in the `Bootstrap docs`_.
+Bootstrap's javascript as well as its dependencies is concatenated into a single file: ``static/js/vendors.js``.
+
+.. _in the bootstrap source: https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
+.. _Bootstrap docs: https://getbootstrap.com/docs/4.1/getting-started/theming/
 
 Code of Conduct
 ---------------
