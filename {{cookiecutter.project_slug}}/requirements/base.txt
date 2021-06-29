@@ -4,7 +4,6 @@ Pillow==8.2.0  # https://github.com/python-pillow/Pillow
 {%- if cookiecutter.use_compressor == "y" %}
 rcssmin==1.0.6  # https://github.com/ndparker/rcssmin
 {%- endif %}
-{%- endif %}
 argon2-cffi==20.1.0  # https://github.com/hynek/argon2_cffi
 {%- if cookiecutter.use_whitenoise == 'y' %}
 whitenoise==5.2.0  # https://github.com/evansd/whitenoise
