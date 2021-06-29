@@ -1,0 +1,17 @@
+{
+  "name": "earn_a_lot_bot",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "scripts": {
+    
+  }
+}

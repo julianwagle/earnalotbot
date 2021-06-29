@@ -10,7 +10,7 @@ To build and serve docs, use the commands::
     
     docker-compose -f local.yml up docs
 
-{% endif %}
+
 
 Changes to files in `docs/_source` will be picked up and reloaded automatically.
 
