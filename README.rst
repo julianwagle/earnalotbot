@@ -51,18 +51,25 @@ There are numerous other factors related to the market in general or to the impl
 Integrations
 ------------
 
-* Integration with Robin_Stocks for market data and live-trading
-* Integration with Alpaca API for paper-trading
-* Store trading data in a PostgresSQL database for long-term strategy evaluations.
-* Scrape/Crawl relevant data from the internet with Selenium & BS4
-* Integrate Reinforcement learnign with Tensorflow, OpenAI Gym and other RL packages.
-* View pre-calculated technical analysis with Tradiungview_TA
-* Perform custom technical analysis with data from y-finance
+* Integration with RobinStocks_ for market data and live-trading
+* Integration with Alpaca_ API for paper-trading
+* Store trading data in a PostgresSQL_ database for long-term strategy evaluations.
+* Scrape/Crawl relevant data from the internet with Selenium_ & BS4_
+* Integrate Reinforcement learnign with Tensorflow_ and other RL packages.
+* View pre-calculated technical analysis with Tradingview_TA_
+* Perform custom technical analysis with data from y-finance_
 * Serve static files from Amazon S3, Google Cloud Storage or Whitenoise_
 * Configuration for Celery_ and Flower_ 
 * Integration with MailHog_ for local email testing
 * Integration with Sentry_ for error logging
 
+.. _RobinStocks: https://github.com/twbs/bootstrap
+.. _Aplaca: https://github.com/twbs/bootstrap
+.. _PostgreSQL: https://github.com/twbs/bootstrap
+.. _Selenium: https://github.com/twbs/bootstrap
+.. _BS4: https://github.com/twbs/bootstrap
+.. _Tensorflow: https://github.com/twbs/bootstrap
+.. _Y-Finance: https://github.com/twbs/bootstrap
 .. _Bootstrap: https://github.com/twbs/bootstrap
 .. _django-environ: https://github.com/joke2k/django-environ
 .. _12-Factor: http://12factor.net/
