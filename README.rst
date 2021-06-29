@@ -14,15 +14,6 @@ Earnalotbot 🤖💰
     :alt: Code style: black
 
 
-* Documentation: https://cookiecutter-django.readthedocs.io/en/latest/
-* See Troubleshooting_ for common errors and obstacles
-* If you have problems with Cookiecutter Django, please open issues_ don't send
-  emails to the maintainers.
-
-.. _Troubleshooting: https://cookiecutter-django.readthedocs.io/en/latest/troubleshooting.html
-
-.. _528: https://github.com/pydanny/cookiecutter-django/issues/528#issuecomment-212650373
-.. _issues: https://github.com/pydanny/cookiecutter-django/issues/new
 
 OVERVIEW
 --------
