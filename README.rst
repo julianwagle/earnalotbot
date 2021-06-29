@@ -51,7 +51,6 @@ There are numerous other factors related to the market in general or to the impl
 Integrations
 ------------
 
-*These features can be enabled during initial project setup.*
 * Integration with Robin_Stocks for market data and live-trading
 * Integration with Alpaca API for paper-trading
 * Store trading data in a PostgresSQL database for long-term strategy evaluations.
