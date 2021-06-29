@@ -4,6 +4,7 @@ volumes:
   production_postgres_data: {}
   production_postgres_data_backups: {}
   production_traefik: {}
+  production_celery: {}
 
 services:
   django: &django
@@ -14,6 +15,8 @@ services:
     depends_on:
       - postgres
       - redis
+    volumes:
+      - production_celery:/app/data:z
     env_file:
       - ./.envs/.production/.django
       - ./.envs/.production/.postgres

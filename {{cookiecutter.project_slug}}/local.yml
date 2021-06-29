@@ -3,6 +3,7 @@ version: '3'
 volumes:
   local_postgres_data: {}
   local_postgres_data_backups: {}
+  local_celery: {}
 
 services:
   django: &django
@@ -18,6 +19,7 @@ services:
       {%- endif %}
     volumes:
       - .:/app:z
+      - local_celery:/app/data:z
     env_file:
       - ./.envs/.local/.django
       - ./.envs/.local/.postgres
