@@ -20,3 +20,6 @@ git push -u origin main -f
 
 git init; git rm -r --cached .; git add .; git commit -m "2021-Jun-29@12:23CST"; git branch -M main; git remote add origin https://github.com/julianwagle/earnalotbot.git;  git push -u origin main -f
 
+git remote set-url <remote-name> <remote-ssh-url>
+git remote set-url origin git@github.com:julianwagle/earnalotbot.git
+git remote set-url origin https://github.com/julianwagle/earnalotbot.git; 
