@@ -48,39 +48,18 @@ The ability to withstand losses or to adhere to a particular trading program in 
 There are numerous other factors related to the market in general or to the implementation of any specific trading program which cannot be fully accounted for in the preparation of hypothetical performance results and all of which can adversely affect actual trading results.
 
 
-Features
----------
-
-* For Django 3.1
-* Works with Python 3.9
-* Renders Django projects with 100% starting test coverage
-* Twitter Bootstrap_ v4 (`maintained Foundation fork`_ also available)
-* 12-Factor_ based settings via django-environ_
-* Secure by default. We believe in SSL.
-* Optimized development and production settings
-* Registration via django-allauth_
-* Comes with custom user model ready to go
-* Optional basic ASGI setup for Websockets
-* Optional custom static build using Gulp and livereload
-* Send emails via Anymail_ (using Mailgun_ by default or Amazon SES if AWS is selected cloud provider, but switchable)
-* Media storage using Amazon S3 or Google Cloud Storage
-* Docker support using docker-compose_ for development and production (using Traefik_ with LetsEncrypt_ support)
-* Procfile_ for deploying to Heroku
-* Instructions for deploying to PythonAnywhere_
-* Run tests with unittest or pytest
-* Customizable PostgreSQL version
-* Default integration with pre-commit_ for identifying simple issues before submission to code review
-
-.. _`maintained Foundation fork`: https://github.com/Parbhat/cookiecutter-django-foundation
-
-
 Integrations
 ------------
 
 *These features can be enabled during initial project setup.*
-
+* Integration with Robin_Stocks for market data and live-trading
+* Integration with Alpaca API for paper-trading
+* Store trading data in a PostgresSQL database for long-term strategy evaluations.
+* Scrape/Crawl relevant data from the internet with Selenium & BS4
+* Integrate Reinforcement learnign with Tensorflow, OpenAI Gym and other RL packages.
+* View pre-calculated technical analysis with Tradiungview_TA
 * Serve static files from Amazon S3, Google Cloud Storage or Whitenoise_
-* Configuration for Celery_ and Flower_ (the latter in Docker setup only)
+* Configuration for Celery_ and Flower_ 
 * Integration with MailHog_ for local email testing
 * Integration with Sentry_ for error logging
 
