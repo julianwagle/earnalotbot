@@ -38,9 +38,9 @@ django-cors-headers==3.7.0 # https://github.com/adamchainz/django-cors-headers
 # ------------------------------------------------------------------------------
 
 ##### Machine Learning packages
-# xgboost
-# tensorflow
-# gym
+xgboost
+tensorflow
+gym
 
 ##### Data-science packages
 scipy
