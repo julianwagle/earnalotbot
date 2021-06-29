@@ -18,8 +18,8 @@ Earnalotbot 🤖💰
 OVERVIEW
 --------
 The Earnalotbot is a scaffolding for advanced python based developers looking to make trading bots. 
-It comes equipped with basic packages for live-trading, paper-trading, web-scrapping, reinforcement-learning, a database for long-term stratgegy analysis and much more.
-Included is an extra app titled 'example_app' - it is afully functional trading bot and acta as an example of how to use and integrate the packages.
+It comes equipped with basic packages for live-trading, paper-trading, web-scrapping, reinforcement-learning, a database for long-term strategy analysis and much more. 
+Included is an extra app titled 'example_app' - it is a fully functional trading bot and act as an example of how to use and integrate the packages. 
 If you're not careful to customize it to your liking or delete it, it will perform live trades if the TESTING var in .envs is set to 'False'
 
 DISCALIMER
@@ -85,9 +85,6 @@ Constraints
 
 Usage
 ------
-
-Let's pretend you want to create a Django project called "redditclone". Rather than using ``startproject``
-and then editing the results to include your name, email, and various configuration issues that always get forgotten until the worst possible moment, get cookiecutter_ to do all the work.
 
 First, get Cookiecutter. Trust me, it's awesome::
 
@@ -167,7 +164,7 @@ Answer the prompts with your own desired options_. For example::
 
 Enter the project and take a look around::
 
-    $ cd reddit/
+    $ cd earnalotbot/
     $ ls
 
 Create a git repo and push it there::
