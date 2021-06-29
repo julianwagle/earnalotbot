@@ -63,13 +63,13 @@ Integrations
 * Integration with MailHog_ for local email testing
 * Integration with Sentry_ for error logging
 
-.. _RobinStocks: https://github.com/twbs/bootstrap
-.. _Aplaca: https://github.com/twbs/bootstrap
-.. _PostgreSQL: https://github.com/twbs/bootstrap
-.. _Selenium: https://github.com/twbs/bootstrap
-.. _BS4: https://github.com/twbs/bootstrap
-.. _Tensorflow: https://github.com/twbs/bootstrap
-.. _Y-Finance: https://github.com/twbs/bootstrap
+.. _RobinStocks: https://www.robin-stocks.com/en/latest/
+.. _Aplaca: https://alpaca.markets/
+.. _PostgreSQL: https://www.postgresql.org/
+.. _Selenium: https://www.selenium.dev/
+.. _BS4: https://beautiful-soup-4.readthedocs.io/en/latest/
+.. _Tensorflow: https://www.tensorflow.org/
+.. _Y-Finance: https://github.com/ranaroussi/yfinance
 .. _Bootstrap: https://github.com/twbs/bootstrap
 .. _django-environ: https://github.com/joke2k/django-environ
 .. _12-Factor: http://12factor.net/
