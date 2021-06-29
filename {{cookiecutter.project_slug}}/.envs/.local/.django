@@ -1,0 +1,51 @@
+# General
+# ------------------------------------------------------------------------------
+USE_DOCKER=yes
+IPYTHONDIR=/app/.ipython
+
+{%- if cookiecutter.use_celery == 'y' %}
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+# Celery
+# ------------------------------------------------------------------------------
+
+# Flower
+CELERY_FLOWER_USER=!!!SET CELERY_FLOWER_USER!!!
+CELERY_FLOWER_PASSWORD=!!!SET CELERY_FLOWER_PASSWORD!!!
+{%- endif %}
+
+
+
+# Trading Add Ons
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+TESTING=False
+STARTING_WALLET_VALUE=
+
+# Robinhood API
+# ------------------------------------------------------------------------------
+RH_USERNAME=
+RH_PASSWORD=
+RH_DEVICE_TOKEN=
+
+# Morningstar Account 
+# ------------------------------------------------------------------------------
+MS_USERNAME=
+MS_PASSWORD=
+
+# Alpaca API
+# ------------------------------------------------------------------------------
+APCA_API_BASE_URL=https://paper-api.alpaca.markets
+APCA_API_KEY_ID=
+APCA_API_SECRET_KEY= 
+
+
+# API/Scrape Sleep Times
+# ------------------------------------------------------------------------------
+RH_SLEEP=1 # ROBINHOOD API
+TV_SLEEP=1 # TRADINGVIEW TA
+YF_SLEEP=1 # Y FINANCE
+AL_SLEEP=1  # ALPACA API
+

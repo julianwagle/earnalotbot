@@ -1,0 +1,105 @@
+# General
+# ------------------------------------------------------------------------------
+# DJANGO_READ_DOT_ENV_FILE=True
+DJANGO_SETTINGS_MODULE=config.settings.production
+DJANGO_SECRET_KEY=!!!SET DJANGO_SECRET_KEY!!!
+DJANGO_ADMIN_URL=!!!SET DJANGO_ADMIN_URL!!!
+DJANGO_ALLOWED_HOSTS=.{{ cookiecutter.domain_name }}
+
+# Security
+# ------------------------------------------------------------------------------
+# TIP: better off using DNS, however, redirect is OK too
+DJANGO_SECURE_SSL_REDIRECT=False
+
+# Email
+# ------------------------------------------------------------------------------
+DJANGO_SERVER_EMAIL=
+{% if cookiecutter.mail_service == 'Mailgun' %}
+MAILGUN_API_KEY=
+MAILGUN_DOMAIN=
+{% elif cookiecutter.mail_service == 'Mailjet' %}
+MAILJET_API_KEY=
+MAILJET_SECRET_KEY=
+{% elif cookiecutter.mail_service == 'Mandrill' %}
+MANDRILL_API_KEY=
+{% elif cookiecutter.mail_service == 'Postmark' %}
+POSTMARK_SERVER_TOKEN=
+{% elif cookiecutter.mail_service == 'Sendgrid' %}
+SENDGRID_API_KEY=
+SENDGRID_GENERATE_MESSAGE_ID=True
+SENDGRID_MERGE_FIELD_FORMAT=None
+{% elif cookiecutter.mail_service == 'SendinBlue' %}
+SENDINBLUE_API_KEY=
+{% elif cookiecutter.mail_service == 'SparkPost' %}
+SPARKPOST_API_KEY=
+{% endif %}
+{% if cookiecutter.cloud_provider == 'AWS' %}
+# AWS
+# ------------------------------------------------------------------------------
+DJANGO_AWS_ACCESS_KEY_ID=
+DJANGO_AWS_SECRET_ACCESS_KEY=
+DJANGO_AWS_STORAGE_BUCKET_NAME=
+{% elif cookiecutter.cloud_provider == 'GCP' %}
+# GCP
+# ------------------------------------------------------------------------------
+GOOGLE_APPLICATION_CREDENTIALS=
+DJANGO_GCP_STORAGE_BUCKET_NAME=
+{% endif %}
+# django-allauth
+# ------------------------------------------------------------------------------
+DJANGO_ACCOUNT_ALLOW_REGISTRATION=True
+
+# Gunicorn
+# ------------------------------------------------------------------------------
+WEB_CONCURRENCY=4
+{% if cookiecutter.use_sentry == 'y' %}
+# Sentry
+# ------------------------------------------------------------------------------
+SENTRY_DSN=
+{% endif %}
+
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+{% if cookiecutter.use_celery == 'y' %}
+# Celery
+# ------------------------------------------------------------------------------
+
+# Flower
+CELERY_FLOWER_USER=!!!SET CELERY_FLOWER_USER!!!
+CELERY_FLOWER_PASSWORD=!!!SET CELERY_FLOWER_PASSWORD!!!
+{% endif %}
+
+
+
+# Trading Add Ons
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+TESTING=True
+STARTING_WALLET_VALUE=
+
+# Robinhood API
+# ------------------------------------------------------------------------------
+RH_USERNAME=
+RH_PASSWORD=
+RH_DEVICE_TOKEN=
+
+# Morningstar Account 
+# ------------------------------------------------------------------------------
+MS_USERNAME=
+MS_PASSWORD=
+
+# Alpaca API
+# ------------------------------------------------------------------------------
+APCA_API_BASE_URL=https://paper-api.alpaca.markets
+APCA_API_KEY_ID=
+APCA_API_SECRET_KEY= 
+
+
+# API/Scrape Sleep Times
+# ------------------------------------------------------------------------------
+RH_SLEEP=1 # ROBINHOOD API
+TV_SLEEP=1 # TRADINGVIEW TA
+YF_SLEEP=1 # Y FINANCE
+AL_SLEEP=1  # ALPACA API
+
