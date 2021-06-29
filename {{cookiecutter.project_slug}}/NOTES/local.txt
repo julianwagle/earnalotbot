@@ -1,0 +1,25 @@
+
+testing
+=======
+
+docker-compose -f local.yml down;
+docker-compose -f local.yml up 
+
+docker-compose -f local.yml run django python manage.py shell
+docker-compose -f local.yml run django python manage.py createsuperuser
+
+
+scripts
+=======
+
+from {{cookiecutter.project_slug}}.example_app.utils.testing import *; test_one()
+from {{cookiecutter.project_slug}}.example_app.utils.testing import *; test_two()
+from {{cookiecutter.project_slug}}.example_app.utils.testing import *; test_three()
+from {{cookiecutter.project_slug}}.example_app.utils.testing import *; test_four()
+from {{cookiecutter.project_slug}}.example_app.utils.testing import *; test_five()
+
+
+
+from {{cookiecutter.project_slug}}.example_app.utils.robinhood_login import *; robinhood_login();
+import robin_stocks.robinhood as rh;
+
