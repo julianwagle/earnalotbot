@@ -28,13 +28,12 @@ Earnalotbot 🤖💰
 .. _528: https://github.com/pydanny/cookiecutter-django/issues/528#issuecomment-212650373
 .. _issues: https://github.com/pydanny/cookiecutter-django/issues/new
 
+OVERVIEW
+--------
 The Earnalotbot is a scaffolding for advanced python based developers looking to make trading bots. 
 It comes equipped with basic packages for live-trading, paper-trading, web-scrapping, reinforcement-learning, a database for long-term stratgegy analysis and much more.
 Included is an extra app titled 'example_app' - it is afully functional trading bot and acta as an example of how to use and integrate the packages.
 If you're not careful to customize it to your liking or delete it, it will perform live trades if the TESTING var in .envs is set to 'False'
-
-
-:License: MIT
 
 DISCALIMER
 ----------
