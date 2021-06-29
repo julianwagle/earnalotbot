@@ -57,6 +57,7 @@ Integrations
 * Scrape/Crawl relevant data from the internet with Selenium & BS4
 * Integrate Reinforcement learnign with Tensorflow, OpenAI Gym and other RL packages.
 * View pre-calculated technical analysis with Tradiungview_TA
+* Perform custom technical analysis with data from y-finance
 * Serve static files from Amazon S3, Google Cloud Storage or Whitenoise_
 * Configuration for Celery_ and Flower_ 
 * Integration with MailHog_ for local email testing
