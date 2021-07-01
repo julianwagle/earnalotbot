@@ -33,14 +33,20 @@ def {{cookiecutter.project_slug}}_main(
         # adding time funcs here for testing ease. Not aesthetics haha.
     ):
     current_holdings_dict = get_current_holdings()
-    profitable_holdings_list = profitable_holdings(current_holdings_dict, min_profit)
+    current_holdings = bool(len(current_holdings_dict))
+    if current_holdings:
+        profitable_holdings_list = profitable_holdings(current_holdings_dict, min_profit)
+
     if buy_time:
         projected_winners_list = projected_winners(max_buys)
         print('winners list:',projected_winners_list)
-        sell_list = [ticker for ticker in profitable_holdings_list if ticker not in projected_winners_list]
-        for ticker in sell_list:
-            sell(ticker, current_holdings_dict)
-        print('sell list:',sell_list)
+
+        if current_holdings:
+            sell_list = [ticker for ticker in profitable_holdings_list if ticker not in projected_winners_list]
+            for ticker in sell_list:
+                sell(ticker, current_holdings_dict)
+            print('sell list:',sell_list)
+
         if purchasing_power():
             print("pruchasing_power() = True")
             if allocation_style == "one":
@@ -54,22 +60,27 @@ def {{cookiecutter.project_slug}}_main(
                     print(f"getting ready to buy {ticker}")
                     buy_size = monetary_allocation_experiment_two()
                     buy(ticker, buy_size)
-    elif hold_time:
+
+    elif hold_time and current_holdings:
         for ticker in current_holdings_dict:
             if ticker in profitable_holdings_list and projected_loss_soon(ticker):
                 sell(ticker, current_holdings_dict)
-    elif sell_time:
+
+    elif sell_time and current_holdings:
         for ticker in current_holdings_dict:
             if ticker in profitable_holdings_list and projected_loss_soon(ticker):
                 sell(ticker, current_holdings_dict)
             elif earnings_coming_soon(ticker):
                 sell(ticker, current_holdings_dict)
+
     else: print("The market is closed. Might be a holiday. Go celebrate!")
 
 def {{cookiecutter.project_slug}}_crazy():
     current_holdings_dict = get_current_holdings()
-    for ticker in current_holdings_dict:
-        sell(ticker)
+    current_holdings = bool(len(current_holdings_dict))
+    if current_holdings:
+        for ticker in current_holdings_dict:
+            sell(ticker)
     while True:
         try:
             current_holdings_dict = rh.account.build_holdings()
