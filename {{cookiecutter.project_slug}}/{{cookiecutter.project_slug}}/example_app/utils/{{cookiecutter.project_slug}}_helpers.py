@@ -57,6 +57,7 @@ def get_current_holdings():
             time.sleep(float(env('AL_SLEEP')))
         except:
             current_holdings_dict = {}
+    return current_holdings_dict
 
 
 def projected_winners(max_buys):
