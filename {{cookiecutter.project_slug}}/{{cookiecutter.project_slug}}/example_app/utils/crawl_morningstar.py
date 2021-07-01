@@ -1,5 +1,7 @@
 from environ import Env
+
 env = Env()
+
 # <div class='legend-price'>
 # <span></span>
 # </div>

@@ -1,29 +1,27 @@
+import math
+import uuid
+import json
+
+from pathlib import Path
+
 import robin_stocks.robinhood as rh
 import alpaca_trade_api
-alpaca = alpaca_trade_api.REST()
-import uuid
-import time
-import json
-from {{cookiecutter.project_slug}}.example_app.models import Transaction
+
 from environ import Env
+
+from {{cookiecutter.project_slug}}.example_app.models import Transaction
+from {{cookiecutter.project_slug}}.example_app.utils.{{cookiecutter.project_slug}}_helpers import get_cash
+
 env = Env()
-from pathlib import Path
-ROOT = Path(__file__).resolve(strict=True).parent.parent.parent.parent
-import math
-
 testing_bool = env.bool("TESTING", default=True)
+ROOT = Path(__file__).resolve(strict=True).parent.parent.parent.parent
+alpaca = alpaca_trade_api.REST()
 
-if not testing_bool:
-    cash = float(rh.account.build_user_profile()['cash'])
-    time.sleep(float(env('RH_SLEEP')))
-elif testing_bool:
-    # alpaca is **very** slow updating wallet so i keep track on my own
-    try: cash = float(json.load(open(f"{ROOT}/data/wallet.json")))
-    except: cash = 1000000.00
 
 def buy(ticker, transaction_total):
     print(f"{ticker} ${transaction_total}")
-    if not testing_bool: 
+    cash = get_cash()
+    if not testing_bool:
         print('submitting robinhood order')
         rh.orders.order_buy_fractional_by_price(
             symbol=ticker, amountInDollars=transaction_total
@@ -114,6 +112,7 @@ def hold(ticker, holdings):
     transactions.save()
 
 def sell(ticker, holdings):
+    cash = get_cash()
     holding = holdings[ticker] 
     if not testing_bool:
         print('submitting robinhood order')

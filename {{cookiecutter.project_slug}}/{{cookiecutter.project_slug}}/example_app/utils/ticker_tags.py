@@ -1,6 +1,8 @@
-from environ import Env
-env = Env()
 from pathlib import Path
+
+from environ import Env
+
+env = Env()
 APP = Path(__file__).resolve(strict=True).parent.parent
 
 def size_tag(ticker):

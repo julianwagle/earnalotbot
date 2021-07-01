@@ -1,11 +1,15 @@
-from environ import Env
-env = Env()
+from datetime import date
 from pathlib import Path
-ROOT = Path(__file__).resolve(strict=True).parent.parent.parent.parent
+
 import numpy as np
 import pandas as pd
-from datetime import date
-from {{cookiecutter.project_slug}}.example_app.utils.yfinance_history import *
+
+from environ import Env
+
+from {{cookiecutter.project_slug}}.example_app.utils.yfinance_history import yfinance_history
+
+env = Env()
+ROOT = Path(__file__).resolve(strict=True).parent.parent.parent.parent
 
 # https://www.top1000funds.com/wp-content/uploads/2010/11/FAJskulls.pdf
 
@@ -24,7 +28,7 @@ def create_turbulence_index():
         unique_dates = df.Date.unique()
         most_recent_date = df['Date'].max()
         most_recent_date = most_recent_date.strftime("%Y-%m-%d")
-        assert(most_recent_date == today)
+        assert most_recent_date == today
         # TODO: replace assert with a func to update data
     except:
         df = yfinance_history(ticker=False, timeframe="10y", category='sp100', new=True)
@@ -42,7 +46,7 @@ def create_turbulence_index():
         after_one_year_ago = (df.index >= unique_dates[i - one_year])
         # https://stackoverflow.com/questions/10062954/valueerror-the-truth-value-of-an-array-with-more-than-one-element-is-ambiguous
         prev_year = df[before_today & after_one_year_ago].dropna(axis='columns')
-        filtered_tickers = [x for x in prev_year]
+        filtered_tickers = list(prev_year)
         prev_year_mean = np.mean(prev_year, axis=0)
         today = df[df.index == unique_dates[i]]
         mean_variances = today[filtered_tickers] - prev_year_mean
@@ -56,7 +60,8 @@ def create_turbulence_index():
         score = mean_variances.dot(covariances_inversed).dot(mean_variances_transposed)
         if score > 0:
             skip_counter += 1
-            if skip_counter > init_skips: turbulence_index.append(score[0][0])
+            if skip_counter > init_skips:
+                turbulence_index.append(score[0][0])
             # avoid outliers in the beginning - they'll sckew the data dispraportionately later down the line
             else: turbulence_index.append(0)
         else: turbulence_index.append(0)

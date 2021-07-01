@@ -1,18 +1,22 @@
-from environ import Env
-env = Env()
-from pathlib import Path
-ROOT = Path(__file__).resolve(strict=True).parent.parent.parent.parent
-APP = Path(__file__).resolve(strict=True).parent.parent
 import random
 import time
-from bs4 import BeautifulSoup as bs
-from selenium import webdriver
-from datetime import datetime, date, timedelta
 import json
 import re
-from {{cookiecutter.project_slug}}.example_app.utils.ticker_tags import *
-from {{cookiecutter.project_slug}}.example_app.utils.robinhood_ratings import *
-from {{cookiecutter.project_slug}}.example_app.utils.downside_deviation import *
+
+from datetime import datetime, date, timedelta
+from pathlib import Path
+
+from environ import Env
+from bs4 import BeautifulSoup as bs
+from selenium import webdriver
+
+from {{cookiecutter.project_slug}}.example_app.utils.ticker_tags import exchange_tag
+from {{cookiecutter.project_slug}}.example_app.utils.robinhood_ratings import robinhood_rating_summary
+from {{cookiecutter.project_slug}}.example_app.utils.downside_deviation import downside_deviation
+
+env = Env()
+ROOT = Path(__file__).resolve(strict=True).parent.parent.parent.parent
+APP = Path(__file__).resolve(strict=True).parent.parent
 
 class CrawlEarningsWhispers:
     def __init__(self, end_date=10, start_date=-1):
@@ -32,7 +36,7 @@ class CrawlEarningsWhispers:
         self.link_list_counter=start_date
         self.link_list_max=end_date
         self.main_data = {}
-        self.move_around() 
+        self.move_around()
 
     def move_around(self):
         try:
@@ -43,7 +47,7 @@ class CrawlEarningsWhispers:
                 )
             time.sleep(round(random.uniform(2, 7), 4))
             self.get_page_data()
-            self.move_around() 
+            self.move_around()
         except:
             self.selenium_driver.quit()
             assert isinstance(self.main_data, dict), "Failed the final type test... so close!"
@@ -100,5 +104,7 @@ class CrawlEarningsWhispers:
                             assert isinstance(test, dict), "Failed type test"
                             print(test)
                             self.main_data[ticker] = test
-                        except: pass
-        except Exception as e: print(f"Exception: {e}")
+                        except: 
+                            pass
+        except Exception as e: 
+            print(f"Exception: {e}")

@@ -1,22 +1,27 @@
-from environ import Env
-env = Env()
 import math
+
 from datetime import date
-from {{cookiecutter.project_slug}}.example_app.utils.yfinance_history import *
+
+import pandas as pd
+
+from environ import Env
+
+from {{cookiecutter.project_slug}}.example_app.utils.yfinance_history import yfinance_history
+
+env = Env()
 
 def downside_deviation(ticker):
-    today = date.today()
-    today = today.strftime("%Y-%m-%d")
+    today = date.today().strftime("%Y-%m-%d")
     try:
         hist = yfinance_history(ticker=ticker, timeframe="1y", category=False, new=False)
         hist['Date'] = pd.to_datetime(hist['Date'])
         most_recent_date = hist['Date'].max()
         most_recent_date = most_recent_date.strftime("%Y-%m-%d")
-        assert(most_recent_date == today)
-        # TODO: replace assert with a func to update data
+        assert most_recent_date == today
     except:
         hist = yfinance_history(ticker=ticker, timeframe="1y")
-    rows = len(hist.index) 
+        # TODO: replace w func to update data
+    rows = len(hist.index)
     prices = []
     for price in hist['Close']:
         prices.append(price)
@@ -32,6 +37,6 @@ def downside_deviation(ticker):
         if downside > 0:
             downside_squares.append(downside ** 2)
     downside_sum_of_squares = sum(downside_squares)
-    downside_deviation = math.sqrt(downside_sum_of_squares / int(rows - 1))
-    downside_deviation = downside_deviation * math.sqrt(rows)
-    return downside_deviation
+    downside_dev = math.sqrt(downside_sum_of_squares / int(rows - 1))
+    downside_dev *= math.sqrt(rows)
+    return downside_dev
