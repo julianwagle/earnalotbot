@@ -47,9 +47,3 @@ def test_four():
     {{cookiecutter.project_slug}}_main(
         buy_time=True, hold_time=False, sell_time=False
         )
-    {{cookiecutter.project_slug}}_main(
-        buy_time=False, hold_time=True, sell_time=False
-        )
-    {{cookiecutter.project_slug}}_main(
-        buy_time=False, hold_time=False, sell_time=True
-        )

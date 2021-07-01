@@ -28,11 +28,13 @@ def get_cash():
         time.sleep(float(env('RH_SLEEP')))
     elif testing_bool:
         # alpaca is **very** slow updating wallet so i keep track on my own
-        try:
-            cash = float(json.load(open(f"{ROOT}/data/wallet.json")))
-        except:
-            cash = 1000000.00
+        cash = float(json.load(open(f"{ROOT}/data/wallet.json")))
     return cash
+
+def set_testing_cash():
+    account = alpaca.get_account()
+    cash = float(account.cash)
+    json.dump(cash, open(f"{ROOT}/data/wallet.json", "w"))
 
 def get_current_holdings():
     if not testing_bool:
@@ -58,7 +60,6 @@ def get_current_holdings():
         except:
             current_holdings_dict = {}
     return current_holdings_dict
-
 
 def projected_winners(max_buys):
     potential_buys = {}

@@ -17,6 +17,7 @@ from {{cookiecutter.project_slug}}.example_app.utils.{{cookiecutter.project_slug
     purchasing_power,
     monetary_allocation_experiment_one,
     monetary_allocation_experiment_two,
+    set_testing_cash
 )
 from {{cookiecutter.project_slug}}.example_app.utils.robinhood_ratings import robinhood_rating_buy
 from {{cookiecutter.project_slug}}.example_app.utils.tradingview_ta_ratings import tradingview_ta_buy, tradingview_ta_sell
@@ -27,8 +28,12 @@ alpaca = alpaca_trade_api.REST()
 
 robinhood_login()
 
+if testing_bool:
+    set_testing_cash()
+
+
 def {{cookiecutter.project_slug}}_main(
-        max_buys=10, min_profit=0.01, allocation_style='two', 
+        max_buys=10, min_profit=0.01, allocation_style='two',
         buy_time=get_buy_time(), hold_time=get_hold_time(), sell_time=get_sell_time()
         # adding time funcs here for testing ease. Not aesthetics haha.
     ):

@@ -12,4 +12,5 @@ def final_rating(
     ta = ticker['tradingview_ta']['summary']['SCORE'] * ta_rating_multi
     downside_deviation = ticker['downside_deviation'] ** downside_deviation_power
     rating = float(fundamental * ta ) / downside_deviation
+    print('rating',rating)
     return rating
