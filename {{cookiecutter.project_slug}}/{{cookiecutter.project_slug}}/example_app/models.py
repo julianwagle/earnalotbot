@@ -1,15 +1,15 @@
 from django.db import models
 
 class TransactionQuerySet(models.QuerySet):
-	def active(self):
-		return self.filter(is_active=True)
+    def active(self):
+        return self.filter(is_active=True)
 
 class TransactionManager(models.Manager):
-	def get_queryset(self):
-		return TransactionQuerySet(self.model, using=self.db)
+    def get_queryset(self):
+        return TransactionQuerySet(self.model, using=self.db)
 
-	def all(self):
-		return self.get_queryset().active()
+    def all(self):
+        return self.get_queryset().active()
 
 class Transaction(models.Model):
     transaction_code = models.CharField(default=True, null=True, blank=True, max_length=100)
