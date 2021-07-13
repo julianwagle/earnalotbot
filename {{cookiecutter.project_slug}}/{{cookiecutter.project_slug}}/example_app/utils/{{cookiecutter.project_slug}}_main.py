@@ -17,7 +17,8 @@ from {{cookiecutter.project_slug}}.example_app.utils.{{cookiecutter.project_slug
     purchasing_power,
     monetary_allocation_experiment_one,
     monetary_allocation_experiment_two,
-    set_testing_cash
+    set_testing_cash,
+    top_movers,
 )
 from {{cookiecutter.project_slug}}.example_app.utils.robinhood_ratings import robinhood_rating_buy
 from {{cookiecutter.project_slug}}.example_app.utils.tradingview_ta_ratings import tradingview_ta_buy, tradingview_ta_sell
@@ -44,7 +45,13 @@ def {{cookiecutter.project_slug}}_main(
 
     if buy_time:
         projected_winners_list = projected_winners(max_buys)
-        print('winners list:',projected_winners_list)
+        print(f'upcoming earnings projected winners: {projected_winners_list}')
+        if len(projected_winners_list) < 5:
+            print('getting extras from top movers ...')
+            grab_len = max_buys - len(projected_winners_list)
+            projected_winners_list += top_movers(grab_len)
+
+        print('complete projected winners list:',projected_winners_list)
 
         if current_holdings:
             sell_list = [ticker for ticker in profitable_holdings_list if ticker not in projected_winners_list]
@@ -54,17 +61,12 @@ def {{cookiecutter.project_slug}}_main(
 
         if purchasing_power():
             print("pruchasing_power() = True")
-            if allocation_style == "one":
-                buy_list = list(projected_winners_list)
-                # ^^ optional add on: # if ticker not in current_holdings_list
-                for ticker in buy_list:
-                    buy_size = monetary_allocation_experiment_one(buy_list)
-                    buy(ticker, buy_size)
-            elif allocation_style == "two":
-                for ticker in projected_winners_list:
-                    print(f"getting ready to buy {ticker}")
+            for ticker in projected_winners_list:
+                if allocation_style == "one":
+                    buy_size = monetary_allocation_experiment_one(projected_winners_list)
+                elif allocation_style == "two":
                     buy_size = monetary_allocation_experiment_two()
-                    buy(ticker, buy_size)
+                buy(ticker, buy_size)
 
     elif hold_time and current_holdings:
         for ticker in current_holdings_dict:
@@ -80,29 +82,4 @@ def {{cookiecutter.project_slug}}_main(
 
     else: print("The market is closed. Might be a holiday. Go celebrate!")
 
-def {{cookiecutter.project_slug}}_crazy():
-    current_holdings_dict = get_current_holdings()
-    current_holdings = bool(len(current_holdings_dict))
-    if current_holdings:
-        for ticker in current_holdings_dict:
-            sell(ticker)
-    while True:
-        try:
-            current_holdings_dict = rh.account.build_holdings()
-            time.sleep(float(env('RH_SLEEP')))
-            for ticker in current_holdings_dict:
-                if tradingview_ta_sell(ticker, exchange=False):
-                    sell(ticker)
-        except:
-            pass
-        top_movers_list = rh.markets.get_top_movers() # len = 20
-        time.sleep(float(env('RH_SLEEP')))
-        for mover in top_movers_list:
-            ticker = mover['symbol']
-            if (
-                tradingview_ta_buy(ticker, exchange=False)
-                and robinhood_rating_buy(ticker)
-            ):
-                buy_size = monetary_allocation_experiment_two()
-                buy(ticker, buy_size)
-                
+

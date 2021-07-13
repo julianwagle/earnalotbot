@@ -5,7 +5,6 @@ from django_celery_beat.models import CrontabSchedule, PeriodicTask
 from config import celery_app
 from {{cookiecutter.project_slug}}.example_app.utils.crawl_earnings_whispers import CrawlEarningsWhispers
 from {{cookiecutter.project_slug}}.example_app.utils.{{cookiecutter.project_slug}}_main import {{cookiecutter.project_slug}}_main
-from {{cookiecutter.project_slug}}.example_app.utils.turbulence_index import create_turbulence_index
 
 def print_time():
     now = datetime.now().strftime('%Y %b %d %a @%H:%M')
@@ -27,7 +26,6 @@ def zero():
 def one():
     print_time()
     CrawlEarningsWhispers()
-    create_turbulence_index()
 
 @celery_app.task(name='t2')
 def two():

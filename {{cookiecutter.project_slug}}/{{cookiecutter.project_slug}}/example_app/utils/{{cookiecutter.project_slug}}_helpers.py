@@ -22,6 +22,7 @@ try:
 except:
     upcoming_earnings = {}
 
+
 def get_cash():
     if not testing_bool:
         cash = float(rh.account.build_user_profile()['cash'])
@@ -31,10 +32,12 @@ def get_cash():
         cash = float(json.load(open(f"{ROOT}/data/wallet.json")))
     return cash
 
+
 def set_testing_cash():
     account = alpaca.get_account()
     cash = float(account.cash)
     json.dump(cash, open(f"{ROOT}/data/wallet.json", "w"))
+
 
 def get_current_holdings():
     if not testing_bool:
@@ -61,6 +64,7 @@ def get_current_holdings():
             current_holdings_dict = {}
     return current_holdings_dict
 
+
 def projected_winners(max_buys):
     potential_buys = {}
     for ticker in upcoming_earnings:
@@ -68,20 +72,44 @@ def projected_winners(max_buys):
         try:
             upcoming_earnings[ticker]['tradingview_ta'] = tradingview_ta_analysis(
                 ticker, upcoming_earnings[ticker]['exchange']
-                )
+            )
             upcoming_earnings[ticker]['overall_score'] = final_rating(
                 upcoming_earnings[ticker]
-                )
+            )
             potential_buys[ticker] = upcoming_earnings[ticker]
         except:
             pass
     sorted_projected_winners = sorted(
         potential_buys, key=lambda x: (
             potential_buys[x]['overall_score']
-            ),
+        ),
         reverse=True
-        )
+    )
     return sorted_projected_winners[:max_buys]
+
+
+def top_movers(grab_len):
+    potential_buys = {}
+    top_movers_dict = {}
+    top_movers_list = rh.markets.get_top_movers()  # len = 20
+    time.sleep(float(env('RH_SLEEP')))
+    for mover in top_movers_list:
+        ticker = mover['symbol']
+        print(ticker)
+        try:
+            top_movers_dict[ticker]['tradingview_ta'] = tradingview_ta_analysis(ticker, exchange=False)
+            top_movers_dict[ticker]['overall_score'] = final_rating(ticker)
+            potential_buys[ticker] = top_movers_dict[ticker]
+        except:
+            pass
+    sorted_projected_winners = sorted(
+        potential_buys, key=lambda x: (
+            potential_buys[x]['overall_score']
+        ),
+        reverse=True
+    )
+    return sorted_projected_winners[:grab_len]
+
 
 def profitable_holdings(current_holdings_dict, min_profit):
     profitable_holds = []
@@ -90,11 +118,13 @@ def profitable_holdings(current_holdings_dict, min_profit):
             profitable_holds.append(ticker)
     return profitable_holds
 
+
 def projected_loss_soon(ticker):
     try:
         return tradingview_ta_sell(ticker, upcoming_earnings[ticker]['exchange'])
     except:
         return tradingview_ta_sell(ticker, None)
+
 
 def earnings_coming_soon(ticker):
     if ticker in upcoming_earnings:
@@ -102,17 +132,21 @@ def earnings_coming_soon(ticker):
             return bool(upcoming_earnings[ticker]['date'] == date.today().strftime("Y-%m-%d"))
         except:
             return True
-    else: return False
+    else:
+        return False
+
 
 def monetary_allocation_experiment_one(buy_list):
     cash = get_cash()
     print('current cash: $', cash)
     return round(float(cash/len(buy_list)))
 
+
 def monetary_allocation_experiment_two(pie_slicer=0.33):
     cash = get_cash()
     print('current cash: $', cash)
     return round(float(cash*pie_slicer))
+
 
 def purchasing_power(min_purchase_power=0.10):
     cash = get_cash()

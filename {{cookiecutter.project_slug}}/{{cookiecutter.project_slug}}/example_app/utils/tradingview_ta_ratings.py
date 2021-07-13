@@ -24,12 +24,12 @@ def tradingview_ta_analysis(ticker, exchange, min_score=0.5, sell_multi=1):
         "indicators": analysis.indicators
     }
     time.sleep(float(env('TV_SLEEP')))
-    oscillators_rec = tradingview_ta["oscillators"]["RECOMMENDATION"]
-    print('oscillators_rec:', oscillators_rec)
-    assert bool("BUY" in oscillators_rec)
-    moving_averages_rec = tradingview_ta["moving_averages"]["RECOMMENDATION"]
-    print('moving_averages_rec:', moving_averages_rec)
-    assert bool("BUY" in moving_averages_rec)
+    # oscillators_rec = tradingview_ta["oscillators"]["RECOMMENDATION"]
+    # print('oscillators_rec:', oscillators_rec)
+    # assert bool("BUY" in oscillators_rec)
+    # moving_averages_rec = tradingview_ta["moving_averages"]["RECOMMENDATION"]
+    # print('moving_averages_rec:', moving_averages_rec)
+    # assert bool("BUY" in moving_averages_rec)
     buy = int(tradingview_ta["summary"]["BUY"])
     assert buy > 0, "No BUY Rating"
     sell = int(tradingview_ta["summary"]["SELL"]) * sell_multi

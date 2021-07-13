@@ -12,7 +12,6 @@ from selenium import webdriver
 
 from {{cookiecutter.project_slug}}.example_app.utils.ticker_tags import exchange_tag
 from {{cookiecutter.project_slug}}.example_app.utils.robinhood_ratings import robinhood_rating_summary
-from {{cookiecutter.project_slug}}.example_app.utils.downside_deviation import downside_deviation
 
 env = Env()
 ROOT = Path(__file__).resolve(strict=True).parent.parent.parent.parent
@@ -94,13 +93,12 @@ class CrawlEarningsWhispers:
                                 assert len(self.trading_days) > 1
                                 earnings_date = self.trading_days[-2]
                             exchange = exchange_tag(ticker)
-                            downside = downside_deviation(ticker)
                             test = {
                                 "date": earnings_date,
                                 "projd_growth": projd_growth_float,
                                 "exchange": exchange,
                                 "robinhood_rating": robinhood_rating_summary(ticker),
-                                "downside_deviation": downside}
+                            }
                             assert isinstance(test, dict), "Failed type test"
                             print(test)
                             self.main_data[ticker] = test
