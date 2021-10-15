@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-10-14]
+### Updated
+- Update flake8 to 4.0.1 ([#3361](https://api.github.com/repos/pydanny/cookiecutter-django/pulls/3361))
+- Update flake8-isort to 4.1.1 ([#3360](https://api.github.com/repos/pydanny/cookiecutter-django/pulls/3360))
+- Update django-model-utils to 4.2.0 ([#3359](https://api.github.com/repos/pydanny/cookiecutter-django/pulls/3359))
+
 ## [2021-10-13]
 ### Changed
 - Add drf stubs ([#3353](https://api.github.com/repos/pydanny/cookiecutter-django/pulls/3353))
