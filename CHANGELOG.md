@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-10-18]
+### Updated
+- Update django-environ to 0.8.0 ([#3367](https://api.github.com/repos/pydanny/cookiecutter-django/pulls/3367))
+
 ## [2021-10-14]
 ### Updated
 - Update flake8 to 4.0.1 ([#3361](https://api.github.com/repos/pydanny/cookiecutter-django/pulls/3361))
