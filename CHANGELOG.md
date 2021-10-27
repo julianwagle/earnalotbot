@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-10-26]
+### Changed
+- use Wayback Machine to fix dead link for postgres user setup ([#3363](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3363))
+- Fix pull request links to correct repo URL on CHANGELOG.md  ([#3370](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3370))
+### Updated
+- Update pyyaml to 6.0 ([#3362](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3362))
+- Update pillow to 8.4.0 ([#3364](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3364))
+- Update django-storages to 1.12.2 ([#3365](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3365))
+- Update django-environ to 0.8.1 ([#3368](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3368))
+
 ## [2021-10-22]
 ### Changed
 - Move repo under cookiecutter organisation ([#3357](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3357))
