@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-10-28]
+### Updated
+- Update factory-boy to 3.2.1 ([#3373](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3373))
+
 ## [2021-10-26]
 ### Changed
 - use Wayback Machine to fix dead link for postgres user setup ([#3363](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3363))
