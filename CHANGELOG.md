@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-11-01]
+### Updated
+- Update django-storages to 1.12.3 ([#3374](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3374))
+- Update coverage to 6.1.1 ([#3376](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3376))
+
 ## [2021-10-28]
 ### Updated
 - Update factory-boy to 3.2.1 ([#3373](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3373))
