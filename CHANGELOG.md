@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-11-04]
+### Changed
+- change path in docs Makefile to use APP variable ([#3379](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3379))
+### Fixed
+- fix help in docs Makefile ([#3380](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3380))
+### Updated
+- Bump peter-evans/create-pull-request from 3.10.1 to 3.11.0 ([#3382](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3382))
+- Auto-update pre-commit hooks ([#3381](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3381))
+- Update isort to 5.10.0 ([#3378](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3378))
+
 ## [2021-11-02]
 ### Updated
 - Auto-update pre-commit hooks ([#3377](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3377))
