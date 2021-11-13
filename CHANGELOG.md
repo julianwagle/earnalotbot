@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-11-12]
+### Changed
+- Add Django major/minor release table maker in GitHub issues ([#3288](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3288))
+- Upgrade to Bootstrap 5 ([#3276](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3276))
+### Updated
+- Update requests to 2.26.0 ([#3397](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3397))
+- Update crispy-bootstrap5 to 0.6 ([#3396](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3396))
+
 ## [2021-11-11]
 ### Changed
 - Build all images on CI ([#3394](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3394))
