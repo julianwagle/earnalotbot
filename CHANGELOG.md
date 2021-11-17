@@ -3,6 +3,18 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-11-16]
+### Changed
+- Upgrade JS dependencies and upgrade to node 16 ([#3400](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3400))
+### Fixed
+- Fix ungraceful Celery workers shutdown in container ([#3405](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3405))
+### Updated
+- Update psycopg2-binary to 2.9.2 ([#3411](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3411))
+- Update psycopg2 to 2.9.2 ([#3410](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3410))
+- Update redis to 4.0.0 ([#3406](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3406))
+- Update django-coverage-plugin to 2.0.2 ([#3409](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3409))
+- Update black to 21.10b0 ([#3408](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3408))
+
 ## [2021-11-15]
 ### Updated
 - Update django-allauth to 0.46.0 ([#3407](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3407))
