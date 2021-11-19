@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-11-18]
+### Changed
+- Switch template to calendar versioning &amp; automate releases ([#3415](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3415))
+### Updated
+- Update black to 21.11b1 ([#3421](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3421))
+- Update redis to 4.0.1 ([#3416](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3416))
+
 ## [2021-11-17]
 ### Updated
 - Update sentry-sdk to 1.5.0 ([#3417](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3417))
