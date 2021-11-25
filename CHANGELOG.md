@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-11-24]
+### Changed
+- Cache Python dependencies on our CI ([#3434](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3434))
+- Small formatting fixes to Deploy to PythonAnywhere page ([#3432](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3432))
+### Updated
+- Upgrade to Django 3.2 ([#3425](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3425))
+
 ## [2021-11-22]
 ### Changed
 - Removed unnecessary custom context processor exposing the DEBUG Template Context Variable ([#3042](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3042))
