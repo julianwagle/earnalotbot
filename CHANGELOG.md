@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-11-25]
+### Changed
+- Add an assertion to fix mypy type error ([#3150](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3150))
+- Make `django` depend on `redis` in local Docker  ([#3265](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3265))
+
 ## [2021-11-24]
 ### Changed
 - Cache Python dependencies on our CI ([#3434](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3434))
