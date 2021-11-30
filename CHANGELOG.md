@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-11-29]
+### Fixed
+- Fix pre-commit config ([#3435](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3435))
+### Updated
+- Update sphinx to 4.3.1 ([#3438](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3438))
+
 ## [2021-11-27]
 ### Updated
 - Update coverage to 6.2 ([#3437](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3437))
