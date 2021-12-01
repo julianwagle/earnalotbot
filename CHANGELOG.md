@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-11-30]
+### Updated
+- Update django-redis to 5.1.0 ([#3440](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3440))
+- Update django-stubs to 1.9.0 ([#3439](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3439))
+
 ## [2021-11-29]
 ### Fixed
 - Fix pre-commit config ([#3435](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3435))
