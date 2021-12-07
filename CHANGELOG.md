@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-12-06]
+### Updated
+- Auto-update pre-commit hooks ([#3449](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3449))
+- Update black to 21.12b0 ([#3448](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3448))
+- Update django-cors-headers to 3.10.1 ([#3447](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3447))
+
 ## [2021-12-04]
 ### Changed
 - Removed mention of Foundation fork from readme ([#3445](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3445))
