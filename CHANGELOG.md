@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-12-08]
+### Changed
+- Reword introduction in documentation ([#3452](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3452))
+### Updated
+- Update argon2-cffi to 21.2.0 ([#3453](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3453))
+
 ## [2021-12-07]
 ### Changed
 - Add docker, pip and npm to GitHub&#39;s Dependabot ([#3401](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3401))
