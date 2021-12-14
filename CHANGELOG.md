@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-12-13]
+### Updated
+- Update djangorestframework to 3.13.0 ([#3468](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3468))
+- Update sentry-sdk to 1.5.1 ([#3467](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3467))
+- Update django-debug-toolbar to 3.2.3 ([#3466](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3466))
+- Update argon2-cffi to 21.3.0 ([#3464](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3464))
+- Update django-allauth to 0.47.0 ([#3459](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3459))
+
 ## [2021-12-09]
 ### Updated
 - Auto-update pre-commit hooks ([#3457](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3457))
