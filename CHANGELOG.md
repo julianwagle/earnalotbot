@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-12-14]
+### Changed
+- Update rcssmin &amp; django-compressor ([#3470](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3470))
+### Updated
+- Update pytest-django to 4.5.2 ([#3471](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3471))
+- Bump peter-evans/create-pull-request from 3.11.0 to 3.12.0 ([#3469](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3469))
+
 ## [2021-12-13]
 ### Updated
 - Update djangorestframework to 3.13.0 ([#3468](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3468))
