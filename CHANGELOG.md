@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-12-16]
+### Fixed
+- Fix carriage return in `.gitignore` on Windows ([#3456](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3456))
+### Updated
+- Update django-debug-toolbar to 3.2.4 ([#3473](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3473))
+
 ## [2021-12-15]
 ### Updated
 - Update djangorestframework to 3.13.1 ([#3472](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3472))
