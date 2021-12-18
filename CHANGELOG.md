@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-12-17]
+### Fixed
+- Fix BrowserSync config on non-Docker setup ([#3461](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3461))
+
 ## [2021-12-16]
 ### Fixed
 - Fix carriage return in `.gitignore` on Windows ([#3456](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3456))
