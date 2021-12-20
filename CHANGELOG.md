@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-12-19]
+### Updated
+- Update mypy to 0.920 ([#3478](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3478))
+- Update django-compressor to 3.1 ([#3476](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3476))
+- Update sphinx to 4.3.2 ([#3477](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3477))
+
 ## [2021-12-17]
 ### Fixed
 - Fix BrowserSync config on non-Docker setup ([#3461](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3461))
