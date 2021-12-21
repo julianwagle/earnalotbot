@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-12-20]
+### Changed
+- Add a PyCharm run configuration for docker-compose ([#3462](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3462))
+
 ## [2021-12-19]
 ### Updated
 - Update mypy to 0.920 ([#3478](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3478))
