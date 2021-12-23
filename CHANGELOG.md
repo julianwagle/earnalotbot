@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-12-22]
+### Changed
+- Use built-in pip caching from actions/setup-python in generated project ([#3481](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3481))
+- Speed up CI tests on macOS ([#3480](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3480))
+### Updated
+- Update mypy to 0.930 ([#3487](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3487))
+- Update redis to 4.0.2 ([#3486](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3486))
+- Update django-redis to 5.2.0 ([#3485](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3485))
+
 ## [2021-12-20]
 ### Changed
 - Add a PyCharm run configuration for docker-compose ([#3462](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3462))
