@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-12-25]
+### Changed
+- Automatically add Django version label to issue ([#3492](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3492))
+### Updated
+- Auto-update pre-commit hooks ([#3493](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3493))
+
 ## [2021-12-24]
 ### Changed
 - Simplify `TEMPLATES` settings with `APP_DIRS=True` ([#3488](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3488))
