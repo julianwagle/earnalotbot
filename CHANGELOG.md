@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-12-26]
+### Fixed
+- Fix missing psycopg2 dependency in docs Docker image ([#3494](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3494))
+### Updated
+- Update celery to 5.2.2 ([#3496](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3496))
+- Update redis to 4.1.0 ([#3495](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3495))
+
 ## [2021-12-25]
 ### Changed
 - Automatically add Django version label to issue ([#3492](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3492))
