@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2021-12-29]
+### Fixed
+- Add generated files to `.gitignore` when selecting Gulp ([#3500](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3500))
+### Updated
+- Update psycopg2-binary to 2.9.3 ([#3504](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3504))
+- Update psycopg2 to 2.9.3 ([#3503](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3503))
+- Update celery to 5.2.3 ([#3502](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3502))
+- Update tox to 3.24.5 ([#3501](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3501))
+
 ## [2021-12-28]
 ### Changed
 - Build the HTML for the documentation as part of the CI ([#3498](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3498))
