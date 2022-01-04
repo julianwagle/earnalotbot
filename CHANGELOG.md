@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-01-03]
+### Changed
+- Convert top level RST files to Markdown ([#3489](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3489))
+### Updated
+- Update requests to 2.27.0 ([#3509](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3509))
+- Update pillow to 9.0.0 ([#3508](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3508))
+- Update pylint-django to 2.5.0 ([#3505](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3505))
+
 ## [2021-12-29]
 ### Fixed
 - Add generated files to `.gitignore` when selecting Gulp ([#3500](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3500))
