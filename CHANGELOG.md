@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-01-04]
+### Changed
+- Double quote array expansions to avoid re-splitting elements ([#3514](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3514))
+### Updated
+- Update django to 3.2.11 ([#3510](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3510))
+
 ## [2022-01-03]
 ### Changed
 - Convert top level RST files to Markdown ([#3489](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3489))
