@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-01-05]
+### Changed
+- Update references to Bootstrap from v4 to v5 in README ([#3513](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3513))
+### Updated
+- Update requests to 2.27.1 ([#3516](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3516))
+
 ## [2022-01-04]
 ### Changed
 - Double quote array expansions to avoid re-splitting elements ([#3514](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3514))
