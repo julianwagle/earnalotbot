@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-01-06]
+### Changed
+- Update output example in README ([#3512](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3512))
+
 ## [2022-01-05]
 ### Changed
 - Update references to Bootstrap from v4 to v5 in README ([#3513](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3513))
