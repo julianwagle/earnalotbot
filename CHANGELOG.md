@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-01-07]
+### Fixed
+- Fix cache dependency path for linter job in CI workflow ([#3520](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3520))
+- Fix `open` option for `initBrowserSync` when using Docker ([#3519](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3519))
+### Updated
+- Update mypy to 0.931 ([#3521](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3521))
+- Update gitpython to 3.1.25 ([#3518](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3518))
+
 ## [2022-01-06]
 ### Changed
 - Update output example in README ([#3512](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3512))
