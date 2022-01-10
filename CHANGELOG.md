@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-01-09]
+### Changed
+- Fix broken center align of image links in README  ([#3522](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3522))
+
 ## [2022-01-07]
 ### Fixed
 - Fix cache dependency path for linter job in CI workflow ([#3520](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3520))
