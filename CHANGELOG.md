@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-01-14]
+### Updated
+- Update uvicorn to 0.17.0 ([#3534](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3534))
+- Bump stefanzweifel/git-auto-commit-action from 4.13.0 to 4.13.1 ([#3532](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3532))
+
 ## [2022-01-13]
 ### Changed
 - Add UserSignupForm and UserSocialSignupForm ([#3515](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3515))
