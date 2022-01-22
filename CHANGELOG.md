@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-01-21]
+### Changed
+- mysql support link ([#3544](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3544))
+### Updated
+- Update sentry-sdk to 1.5.3 ([#3543](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3543))
+- Update django-anymail to 8.5 ([#3542](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3542))
+
 ## [2022-01-19]
 ### Changed
 - Add swagger API documentation when DRF is enabled  ([#3536](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3536))
