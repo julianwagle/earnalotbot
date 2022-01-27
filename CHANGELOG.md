@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-01-26]
+### Updated
+- Update coverage to 6.3 ([#3550](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3550))
+- Update sentry-sdk to 1.5.4 ([#3549](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3549))
+- Update django-crispy-forms to 1.14.0 ([#3548](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3548))
+- Update uvicorn to 0.17.0.post1 ([#3547](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3547))
+
 ## [2022-01-21]
 ### Changed
 - mysql support link ([#3544](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3544))
