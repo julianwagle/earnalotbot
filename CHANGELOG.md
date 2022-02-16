@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-02-15]
+### Changed
+- Update the drf-spectacular local dev server url to use http instead of https ([#3591](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3591))
+
 ## [2022-02-13]
 ### Changed
 - Change docs port from 7000 to 9000 ([#3590](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3590))
