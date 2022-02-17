@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-02-16]
+### Fixed
+- Fix Swagger schema API endpoint &amp; add a test for it ([#3592](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3592))
+
 ## [2022-02-15]
 ### Changed
 - Update the drf-spectacular local dev server url to use http instead of https ([#3591](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3591))
