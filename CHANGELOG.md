@@ -3,6 +3,17 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-02-21]
+### Changed
+- Cancel previous CI runs on successive PR pushes with GitHub actions ([#3575](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3575))
+### Updated
+- Update coverage to 6.3.2 ([#3610](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3610))
+- Update gitpython to 3.1.27 ([#3607](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3607))
+- Update pylint-django to 2.5.2 ([#3602](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3602))
+- Update python-slugify to 6.0.1 ([#3599](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3599))
+- Update uvicorn to 0.17.5 ([#3596](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3596))
+- Update redis to 4.1.4 ([#3595](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3595))
+
 ## [2022-02-20]
 ### Changed
 - Fix incorrect createdb instruction in documentation ([#3606](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3606))
