@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-02-25]
+### Updated
+- Bump actions/setup-node from 2 to 3 ([#3614](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3614))
+
 ## [2022-02-24]
 ### Updated
 - Update django-allauth to 0.49.0 ([#3613](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3613))
