@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-02-28]
+### Updated
+- Update python-slugify to 6.1.1 ([#3615](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3615))
+- Bump peter-evans/create-pull-request from 3.12.1 to 3.13.0 ([#3616](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3616))
+
 ## [2022-02-25]
 ### Updated
 - Bump actions/setup-node from 2 to 3 ([#3614](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3614))
