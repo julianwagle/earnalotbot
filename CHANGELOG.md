@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-03-02]
+### Updated
+- Bump actions/checkout from 2 to 3 ([#3619](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3619))
+
 ## [2022-03-01]
 ### Updated
 - Bump actions/setup-python from 2 to 3 ([#3617](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3617))
