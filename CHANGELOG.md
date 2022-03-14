@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-03-13]
+### Changed
+- Add DRF spectacular link in requirements ([#3630](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3630))
+
 ## [2022-03-09]
 ### Changed
 - Fix a few typos in the documentation ([#3625](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3625))
