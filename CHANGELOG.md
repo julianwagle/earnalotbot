@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-03-28]
+### Changed
+- Update `black` version to `22.3.0` ([#3657](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3657))
+
 ## [2022-03-27]
 ### Updated
 - Update sphinx to 4.5.0 ([#3654](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3654))
