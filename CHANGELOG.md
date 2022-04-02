@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-04-01]
+### Changed
+- Update domain for Celery docs ([#3663](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3663))
+### Updated
+- Update watchgod to 0.8.2 ([#3664](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3664))
+- Update redis to 4.2.1 ([#3660](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3660))
+
 ## [2022-03-28]
 ### Changed
 - Update `black` version to `22.3.0` ([#3657](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3657))
