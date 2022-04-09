@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-04-08]
+### Updated
+- Auto-update pre-commit hooks ([#3673](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3673))
+
 ## [2022-04-05]
 ### Updated
 - Update celery to 5.2.6 ([#3671](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3671))
