@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-04-27]
+### Updated
+- Update mypy to 0.950 ([#3687](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3687))
+- Update python-slugify to 6.1.2 ([#3686](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3686))
+- Update drf-spectacular to 0.22.1 ([#3684](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3684))
+
 ## [2022-04-25]
 ### Updated
 - Update pytest to 7.1.2 ([#3683](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3683))
