@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-04-28]
+### Changed
+- Add the possibility to set a max django version on create_django_issue script ([#3680](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3680))
+
 ## [2022-04-27]
 ### Updated
 - Update mypy to 0.950 ([#3687](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3687))
