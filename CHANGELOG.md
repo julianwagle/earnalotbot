@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-05-06]
+### Updated
+- Update pre-commit to 2.19.0 ([#3697](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3697))
+
 ## [2022-05-04]
 ### Updated
 - Update django-coverage-plugin to 2.0.3 ([#3695](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3695))
