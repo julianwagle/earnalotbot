@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-05-14]
+### Updated
+- Update coverage to 6.3.3 ([#3709](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3709))
+- Update whitenoise to 6.1.0 ([#3707](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3707))
+- Update sentry-sdk to 1.5.12 ([#3706](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3706))
+- Update redis to 4.3.1 ([#3704](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3704))
+
 ## [2022-05-07]
 ### Changed
 - Add pyupgrade to pre-commit config ([#3702](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3702))
