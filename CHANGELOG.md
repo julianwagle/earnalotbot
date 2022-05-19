@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-05-18]
+### Updated
+- Update pillow to 9.1.1 ([#3714](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3714))
+
 ## [2022-05-16]
 ### Changed
 - Update postgres versions ([#3712](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3712))
