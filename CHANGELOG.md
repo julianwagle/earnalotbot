@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-06-01]
+### Updated
+- Update redis to 4.3.2 ([#3726](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3726))
+
 ## [2022-05-24]
 ### Updated
 - Update coverage to 6.4 ([#3716](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3716))
