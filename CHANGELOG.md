@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-06-05]
+### Updated
+- Update whitenoise to 6.2.0 ([#3737](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3737))
+- Update django-cors-headers to 3.13.0 ([#3738](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3738))
+
 ## [2022-06-04]
 ### Updated
 - Update django-cors-headers to 3.12.0 ([#3736](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3736))
