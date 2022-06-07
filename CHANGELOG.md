@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-06-06]
+### Updated
+- Bump pre-commit/action from 2.0.3 to 3.0.0 ([#3739](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3739))
+
 ## [2022-06-05]
 ### Updated
 - Update whitenoise to 6.2.0 ([#3737](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3737))
