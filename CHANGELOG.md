@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-06-11]
+### Updated
+- Update requests to 2.28.0 ([#3748](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3748))
+
 ## [2022-06-09]
 ### Updated
 - Bump actions/setup-python from 3 to 4 ([#3746](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3746))
