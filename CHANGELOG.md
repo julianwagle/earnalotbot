@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-06-22]
+### Updated
+- Update django-stubs to 1.12.0 ([#3757](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3757))
+- Update sentry-sdk to 1.6.0 ([#3756](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3756))
+- Update djangorestframework-stubs to 1.7.0 ([#3754](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3754))
+
 ## [2022-06-15]
 ### Updated
 - Update django-environ to 0.9.0 ([#3751](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3751))
