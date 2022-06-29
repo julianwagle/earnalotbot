@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-06-28]
+### Updated
+- Auto-update pre-commit hooks ([#3765](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3765))
+- Update black to 22.6.0 ([#3764](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3764))
+
 ## [2022-06-23]
 ### Updated
 - Update django-debug-toolbar to 3.5.0 ([#3760](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3760))
