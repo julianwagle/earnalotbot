@@ -3,6 +3,23 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-07-21]
+### Changed
+- Set user to form instance in update user view test ([#3776](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3776))
+- Fix warning from django-coverage-plugin in tests ([#3790](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3790))
+- Always use `const` instead of `var` in `gulpfile.js` ([#3786](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3786))
+### Updated
+- Update flower to 1.1.0 ([#3796](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3796))
+- Update coverage to 6.4.2 ([#3783](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3783))
+- Update mypy to 0.971 ([#3788](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3788))
+- Update sentry-sdk to 1.8.0 ([#3792](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3792))
+- Update pre-commit to 2.20.0 ([#3779](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3779))
+- Update django-extensions to 3.2.0 ([#3774](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3774))
+- Update tox to 3.25.1 ([#3767](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3767))
+- Update uvicorn to 0.18.2 ([#3762](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3762))
+- Update redis to 4.3.4 ([#3763](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3763))
+- Update requests to 2.28.1 ([#3766](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3766))
+
 ## [2022-07-10]
 ### Changed
 - Revert auto-update pre-commit hooks ([#3778](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3778))
