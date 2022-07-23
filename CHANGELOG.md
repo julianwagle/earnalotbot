@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-07-22]
+### Updated
+- Update pytest-sugar to 0.9.5 ([#3800](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3800))
+- Update sphinx to 5.0.2 ([#3801](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3801))
+- Update pillow to 9.2.0 ([#3799](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3799))
+- Update werkzeug to 2.1.2 ([#3797](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3797))
+
 ## [2022-07-21]
 ### Changed
 - Set user to form instance in update user view test ([#3776](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3776))
