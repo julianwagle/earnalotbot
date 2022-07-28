@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-07-27]
+### Updated
+- Update werkzeug to 2.2.0 ([#3813](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3813))
+- Update sphinx to 5.1.1 ([#3811](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3811))
+- Update drf-spectacular to 0.23.1 ([#3812](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3812))
+
 ## [2022-07-26]
 ### Changed
 - Switch from `watchgod` to `watchfiles` ([#3791](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3791))
