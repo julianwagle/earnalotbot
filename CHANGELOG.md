@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-08-24]
+### Updated
+- Update django-debug-toolbar to 3.6.0 ([#3847](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3847))
+- Update werkzeug to 2.2.2 ([#3846](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3846))
+- Update coverage to 6.4.4 ([#3842](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3842))
+- Update uvicorn to 0.18.3 ([#3845](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3845))
+- Update sentry-sdk to 1.9.5 ([#3841](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3841))
+- Update flower to 1.2.0 ([#3836](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3836))
+- Update django-storages to 1.13.1 ([#3833](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3833))
+
 ## [2022-08-15]
 ### Updated
 - Update coverage to 6.4.3 ([#3835](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3835))
