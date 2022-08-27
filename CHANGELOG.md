@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-08-26]
+### Changed
+- Fix formatting in docs ([#3850](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3850))
+
 ## [2022-08-24]
 ### Updated
 - Update django-debug-toolbar to 3.6.0 ([#3847](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3847))
