@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-09-01]
+### Changed
+- Add article to README about how to use a hosted DB ([#3844](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3844))
+### Updated
+- Update sentry-sdk to 1.9.6 ([#3856](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3856))
+- Auto-update pre-commit hooks ([#3858](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3858))
+- Update black to 22.8.0 ([#3857](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3857))
+
 ## [2022-08-26]
 ### Changed
 - Fix formatting in docs ([#3850](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3850))
