@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-09-02]
+### Updated
+- Update pytest to 7.1.3 ([#3860](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3860))
+- Update sentry-sdk to 1.9.7 ([#3859](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3859))
+
 ## [2022-09-01]
 ### Changed
 - Add article to README about how to use a hosted DB ([#3844](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3844))
