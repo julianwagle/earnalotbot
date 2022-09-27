@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-09-26]
+### Updated
+- Update drf-spectacular to 0.24.2 ([#3882](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3882))
+- Update djangorestframework to 3.14.0 ([#3881](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3881))
+- Update django-debug-toolbar to 3.7.0 ([#3878](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3878))
+- Auto-update pre-commit hooks ([#3877](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3877))
+- Bump stefanzweifel/git-auto-commit-action from 4.14.1 to 4.15.0 ([#3880](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3880))
+- Update sphinx to 5.2.1 ([#3879](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3879))
+
 ## [2022-09-24]
 ### Fixed
 - Remove `--no-deps` in pip wheels command of docs Dockerfile ([#3875](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3875))
