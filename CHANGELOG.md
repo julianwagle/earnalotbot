@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-09-29]
+### Changed
+- Remove outdated &amp; optional Sendgrid settings from production config ([#3885](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3885))
+
 ## [2022-09-27]
 ### Updated
 - Update sphinx to 5.2.2 ([#3884](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3884))
