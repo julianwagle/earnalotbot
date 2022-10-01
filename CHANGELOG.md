@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-09-30]
+### Updated
+- Update coverage to 6.5.0 ([#3890](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3890))
+- Update mypy to 0.981 ([#3889](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3889))
+- Update sentry-sdk to 1.9.9 ([#3888](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3888))
+- Update sphinx to 5.2.3 ([#3887](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3887))
+
 ## [2022-09-29]
 ### Changed
 - Remove outdated &amp; optional Sendgrid settings from production config ([#3885](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3885))
