@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-10-04]
+### Updated
+- Update django to 3.2.16 ([#3895](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3895))
+- Update mypy to 0.982 ([#3893](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3893))
+- Auto-update pre-commit hooks ([#3894](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3894))
+
 ## [2022-10-03]
 ### Updated
 - Update sentry-sdk to 1.9.10 ([#3892](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3892))
