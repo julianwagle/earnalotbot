@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-10-24]
+### Changed
+- Upgrade Python version from 3.9 to 3.10 ([#3913](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3913))
+### Updated
+- Update sentry-sdk to 1.10.1 ([#3911](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3911))
+- Bump stefanzweifel/git-auto-commit-action from 4.15.1 to 4.15.2 ([#3914](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3914))
+
 ## [2022-10-19]
 ### Changed
 - Set AWS_S3_MAX_MEMORY_SIZE ([#3810](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3810))
