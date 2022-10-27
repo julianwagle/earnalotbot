@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-10-26]
+### Updated
+- Update uvicorn to 0.19.0 ([#3920](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3920))
+- Update pytest to 7.2.0 ([#3919](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3919))
+- Update tox to 3.27.0 ([#3917](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3917))
+- Update psycopg2 to 2.9.5 ([#3918](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3918))
+
 ## [2022-10-24]
 ### Changed
 - Upgrade Python version from 3.9 to 3.10 ([#3913](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3913))
