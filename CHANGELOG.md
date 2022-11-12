@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-11-11]
+### Updated
+- Auto-update pre-commit hooks ([#3942](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3942))
+
 ## [2022-11-07]
 ### Updated
 - Update watchfiles to 0.18.1 ([#3938](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3938))
