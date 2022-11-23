@@ -3,6 +3,18 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-11-22]
+### Changed
+- Remove USE_L10N due to deprecation ([#3960](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3960))
+- Remove platform from compose file ([#3957](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3957))
+- feat(celery): Send task events for Celery by default ([#3959](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3959))
+### Updated
+- Update python-slugify to 7.0.0 ([#3950](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3950))
+- Update redis to 4.3.5 ([#3954](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3954))
+- Update sentry-sdk to 1.11.1 ([#3955](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3955))
+- Update uvicorn to 0.20.0 ([#3953](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3953))
+- Update tox to 3.27.1 ([#3945](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3945))
+
 ## [2022-11-11]
 ### Updated
 - Auto-update pre-commit hooks ([#3942](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3942))
