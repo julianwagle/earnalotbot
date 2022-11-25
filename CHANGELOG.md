@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-11-24]
+### Updated
+- Auto-update pre-commit hooks ([#3963](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3963))
+
 ## [2022-11-23]
 ### Changed
 - Fix graceful shutdown of local dev containers and use watchfiles for beat + flower ([#3925](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3925))
