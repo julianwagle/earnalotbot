@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-11-30]
+### Changed
+- Add Azure Storage as an option to serve static and media files ([#3967](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3967))
+### Updated
+- Auto-update pre-commit hooks ([#3970](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3970))
+
 ## [2022-11-26]
 ### Changed
 - Fix typo in flower start for watching celery ([#3966](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3966))
