@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-12-02]
+### Updated
+- Update flake8 to 6.0.0 ([#3974](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3974))
+
 ## [2022-11-30]
 ### Changed
 - Add Azure Storage as an option to serve static and media files ([#3967](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3967))
