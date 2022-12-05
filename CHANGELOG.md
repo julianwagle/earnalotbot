@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-12-04]
+### Updated
+- Update redis to 4.4.0 ([#3977](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3977))
+- Update django-debug-toolbar to 3.8.1 ([#3976](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3976))
+
 ## [2022-12-03]
 ### Updated
 - Auto-update pre-commit hooks ([#3975](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3975))
