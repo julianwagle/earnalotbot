@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-12-06]
+### Changed
+- Simplify production `DATABASES` setting to extend base definition ([#3969](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3969))
+### Fixed
+- Only set `SERVERS` for `drf-spectacular` in production ([#3609](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3609))
+### Updated
+- Update django-coverage-plugin to 3.0.0 ([#3979](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3979))
+- Bump stefanzweifel/git-auto-commit-action from 4.15.4 to 4.16.0 ([#3978](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3978))
+
 ## [2022-12-04]
 ### Updated
 - Update redis to 4.4.0 ([#3977](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3977))
