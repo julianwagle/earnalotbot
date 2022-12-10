@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-12-09]
+### Changed
+- Remove bind option mounts for docker compose volumes ([#3981](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3981))
+### Updated
+- Update djangorestframework-stubs to 1.8.0 ([#3990](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3990))
+- Update black to 22.12.0 ([#3988](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3988))
+
 ## [2022-12-08]
 ### Updated
 - Update tox to 4.0.3 ([#3987](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3987))
