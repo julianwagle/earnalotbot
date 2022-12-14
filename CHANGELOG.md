@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-12-13]
+### Changed
+- Improve documentation for Getting started with Docker ([#4003](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4003))
+### Updated
+- Update isort to 5.11.1 ([#3999](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3999))
+- Auto-update pre-commit hooks ([#3998](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3998))
+- Update isort to 5.11.0 ([#3997](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3997))
+
 ## [2022-12-10]
 ### Updated
 - Update tox to 4.0.5 ([#3993](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3993))
