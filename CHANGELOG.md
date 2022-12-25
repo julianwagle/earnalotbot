@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2022-12-24]
+### Updated
+- Update coverage to 7.0.1 ([#4024](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4024))
+
 ## [2022-12-21]
 ### Changed
 - Retry when trying to store a Celery result in backend ([#3996](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3996))
