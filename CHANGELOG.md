@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-01-04]
+### Changed
+- Fix typo on test settings ([#4049](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4049))
+### Updated
+- Update tox to 4.2.2 ([#4050](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4050))
+- Update tox to 4.2.1 ([#4046](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4046))
+- Update coverage to 7.0.3 ([#4047](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4047))
+
 ## [2023-01-03]
 ### Updated
 - Update flake8-isort to 6.0.0 ([#4022](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4022))
