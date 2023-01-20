@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-01-19]
+### Fixed
+- Add sourcemaps support to Gulp ([#4089](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4089))
+### Updated
+- Update coverage to 7.0.5 ([#4092](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4092))
+- Update redis to 4.4.2 ([#4091](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4091))
+- Update requests to 2.28.2 ([#4090](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4090))
+- Update tox to 4.3.5 ([#4087](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4087))
+
 ## [2023-01-17]
 ### Updated
 - Update tox to 4.3.3 ([#4081](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4081))
