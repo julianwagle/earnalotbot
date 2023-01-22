@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-01-21]
+### Updated
+- Update django-stubs to 1.13.2 ([#4093](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4093))
+
 ## [2023-01-19]
 ### Fixed
 - Add sourcemaps support to Gulp ([#4089](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4089))
