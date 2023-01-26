@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-01-25]
+### Changed
+- Rename ROOT_DIR to BASE_DIR ([#4086](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4086))
+- Update postgres and redis to point to mini tiers ([#4099](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4099))
+### Updated
+- Update coverage to 7.1.0 ([#4100](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4100))
+
 ## [2023-01-24]
 ### Updated
 - Update pre-commit to 3.0.0 ([#4098](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4098))
