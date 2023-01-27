@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-01-26]
+### Changed
+- Rename BASE_DIR_PATH to BASE_DIR ([#4102](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4102))
+### Updated
+- Update pre-commit to 3.0.1 ([#4104](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4104))
+- Update tox to 4.4.2 ([#4101](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4101))
+
 ## [2023-01-25]
 ### Changed
 - Rename ROOT_DIR to BASE_DIR ([#4086](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4086))
