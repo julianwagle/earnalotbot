@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-01-29]
+### Changed
+- Add Webpack support  ([#3623](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3623))
+- Remove `BrokenLinkEmailsMiddleware` ([#4112](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4112))
+
 ## [2023-01-28]
 ### Changed
 - Refactor `merge_production_dotenvs_in_dotenv.py` ([#4105](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4105))
