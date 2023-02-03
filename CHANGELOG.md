@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-02-02]
+### Updated
+- Update python-slugify to 8.0.0 ([#4111](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4111))
+- Update pre-commit to 3.0.3 ([#4121](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4121))
+- Update black to 23.1.0 ([#4120](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4120))
+- Update black pre-commit hook ([#4122](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4122))
+
 ## [2023-01-29]
 ### Changed
 - Add Webpack support  ([#3623](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3623))
