@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-02-03]
+### Updated
+- Update pre-commit to 3.0.4 ([#4127](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4127))
+
 ## [2023-02-02]
 ### Updated
 - Update python-slugify to 8.0.0 ([#4111](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4111))
