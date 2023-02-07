@@ -3,6 +3,19 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-02-06]
+### Changed
+- Added AWS ECS Full Deployment Article to README ([#2630](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/2630))
+- Update template docker images using Dependabot ([#4124](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4124))
+- Change `RequestFactory` to `APIRequestFactory` in tests for API views ([#4110](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4110))
+### Fixed
+- Fix django-webpack-loader setup when running tests ([#4128](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4128))
+### Updated
+- Update hiredis to 2.2.1 ([#4123](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4123))
+- Update tox to 4.4.4 ([#4133](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4133))
+- Update django to 4.0.9 ([#4134](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4134))
+- Update django-webpack-loader to 1.8.1 ([#4132](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4132))
+
 ## [2023-02-05]
 ### Changed
 - Add note about which service to request when running locally with Docker &amp; Webpack or Gulp ([#4130](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4130))
