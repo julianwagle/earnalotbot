@@ -3,6 +3,18 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-02-07]
+### Changed
+- Update sphinx-rtd-theme to 1.2.0 ([#4145](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4145))
+### Updated
+- Bump postcss-preset-env from 7.8.3 to 8.0.1 ([#4115](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4115))
+- Bump sass-loader from 12.6.0 to 13.2.0 ([#4116](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4116))
+- Bump babel-loader from 8.3.0 to 9.1.2 ([#4117](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4117))
+- Bump postcss-loader from 6.2.1 to 7.0.2 ([#4114](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4114))
+- Bump webpack-cli from 4.10.0 to 5.0.1 ([#4118](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4118))
+- Update redis to 4.5.0 ([#4142](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4142))
+- Update sentry-sdk to 1.15.0 ([#4141](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4141))
+
 ## [2023-02-06]
 ### Changed
 - Added AWS ECS Full Deployment Article to README ([#2630](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/2630))
