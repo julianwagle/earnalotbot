@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-02-09]
+### Changed
+- Remove unused pip cache paths in GHA &amp; add a note for pre-commit.ci ([#4151](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4151))
+### Updated
+- Update mypy to 0.991 ([#4106](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4106))
+
 ## [2023-02-08]
 ### Changed
 - Replace linting job by pre-commit.ci ([#4143](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4143))
