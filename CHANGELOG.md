@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-02-17]
+### Changed
+- Update version of github actions on the template project ([#4167](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4167))
+
 ## [2023-02-09]
 ### Changed
 - Remove unused pip cache paths in GHA &amp; add a note for pre-commit.ci ([#4151](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4151))
