@@ -3,6 +3,31 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-02-25]
+### Changed
+- Run linting with pre-commit on GitLab ([#4150](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4150))
+- Add instuction to run celery beat ([#4162](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4162))
+- Update pygithub to 1.58.0 ([#4182](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4182))
+- Update sh to 2.0.2 ([#4157](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4157))
+- Update tox to 4.4.6 ([#4173](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4173))
+- Update gitpython to 3.1.31 ([#4165](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4165))
+### Fixed
+- Disable caching for linter job on GitHub actions ([#4166](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4166))
+### Updated
+- Bump garland/aws-cli-docker from 1.15.47 to 1.16.140 ([#4136](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4136))
+- Update djangorestframework-stubs to 1.9.1 ([#4184](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4184))
+- Update whitenoise to 6.4.0 ([#4180](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4180))
+- Update django-stubs to 1.15.0 ([#4183](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4183))
+- Update django-crispy-forms to 2.0 ([#4158](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4158))
+- Update django-cors-headers to 3.14.0 ([#4181](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4181))
+- Update python-slugify to 8.0.1 ([#4178](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4178))
+- Update pre-commit to 3.1.0 ([#4176](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4176))
+- Update mypy to 1.0.1 ([#4168](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4168))
+- Update werkzeug to 2.2.3 ([#4160](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4160))
+- Update coverage to 7.2.0 ([#4177](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4177))
+- Update django to 4.0.10 ([#4159](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4159))
+- Update hiredis to 2.2.2 ([#4156](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4156))
+
 ## [2023-02-17]
 ### Changed
 - Update version of github actions on the template project ([#4167](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4167))
