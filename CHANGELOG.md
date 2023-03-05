@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-03-04]
+### Changed
+- Include contributing page to the docs ([#4144](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4144))
+- Add option to serve media files locally using nginx ([#2457](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/2457))
+### Updated
+- Update myst-parser to 0.19.1 ([#4193](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4193))
+- Update pytest to 7.2.2 ([#4191](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4191))
+- Update drf-spectacular to 0.26.0 ([#4192](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4192))
+
 ## [2023-02-28]
 ### Updated
 - Update pre-commit to 3.1.1 ([#4188](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4188))
