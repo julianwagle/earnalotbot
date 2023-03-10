@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-03-09]
+### Fixed
+- Fix the omit configuration for coverage ([#4201](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4201))
+### Updated
+- Update ipdb to 0.13.13 ([#4202](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4202))
+
 ## [2023-03-07]
 ### Changed
 - Update myst-parser to 1.0.0 ([#4197](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4197))
