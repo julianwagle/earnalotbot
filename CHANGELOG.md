@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-03-14]
+### Updated
+- Update django-celery-beat to 2.5.0 ([#4208](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4208))
+
 ## [2023-03-13]
 ### Updated
 - Update uvicorn to 0.21.0 ([#4203](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4203))
