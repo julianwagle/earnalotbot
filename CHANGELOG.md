@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-03-20]
+### Changed
+- Update sh to 2.0.3 ([#4224](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4224))
+### Updated
+- Update django-allauth to 0.53.1 ([#4223](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4223))
+- Update redis to 4.5.2 ([#4222](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4222))
+
 ## [2023-03-18]
 ### Updated
 - Update drf-spectacular to 0.26.1 ([#4221](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4221))
