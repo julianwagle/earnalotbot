@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-04-01]
+### Updated
+- Update pytest-instafail to 0.5.0 ([#4240](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4240))
+- Update pillow to 9.5.0 ([#4242](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4242))
+- Update django-allauth to 0.54.0 ([#4241](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4241))
+
 ## [2023-03-29]
 ### Changed
 - Auto-update pre-commit hooks ([#4235](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4235))
