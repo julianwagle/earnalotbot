@@ -3,6 +3,19 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-04-15]
+### Changed
+- Add username_type option ([#3958](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3958))
+- Run template tests in parallel in pytest-xdist ([#4275](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4275))
+- Fix inconsistent line length and move configs to pyproject.toml ([#4276](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4276))
+- Update contributing guide ([#4274](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4274))
+- Relax rules for linting of pull requests on this template ([#4273](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4273))
+- Add more pre-commit hooks ([#4266](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4266))
+- Upgrade Python to version 3.11 (Faster CPython) ([#4256](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4256))
+### Updated
+- Update drf-spectacular to 0.26.2 ([#4277](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4277))
+- Update pytest to 7.3.1 ([#4272](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4272))
+
 ## [2023-04-13]
 ### Updated
 - Update tox to 4.4.12 ([#4271](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4271))
