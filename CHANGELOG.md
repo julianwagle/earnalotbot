@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-04-18]
+### Changed
+- Document how to add 3rd party packages with Docker ([#4279](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4279))
+
 ## [2023-04-15]
 ### Changed
 - Add username_type option ([#3958](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3958))
