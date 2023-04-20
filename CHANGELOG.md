@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-04-19]
+### Updated
+- Update sentry-sdk to 1.20.0 ([#4282](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4282))
+
 ## [2023-04-18]
 ### Changed
 - Document how to add 3rd party packages with Docker ([#4279](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4279))
