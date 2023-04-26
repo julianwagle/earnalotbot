@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-04-25]
+### Changed
+- Update tox to 4.5.0 ([#4287](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4287))
+- [pre-commit.ci] pre-commit autoupdate ([#4289](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4289))
+### Updated
+- Update sentry-sdk to 1.21.0 ([#4293](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4293))
+- Update sphinx to 6.2.1 ([#4292](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4292))
+- Bump traefik from 2.9.10 to 2.10.0 ([#4290](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4290))
+- Auto-update pre-commit hooks ([#4288](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4288))
+
 ## [2023-04-24]
 ### Updated
 - Auto-update pre-commit hooks ([#4286](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4286))
