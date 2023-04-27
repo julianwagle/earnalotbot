@@ -3,6 +3,18 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-04-26]
+### Changed
+- Update tox to 4.5.1 ([#4299](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4299))
+- Update requests to 2.29.0 ([#4300](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4300))
+### Updated
+- Upgrade cssnano to v6.0.0 ([#4233](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4233))
+- Upgrade concurrently to 8.0.1 ([#4237](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4237))
+- Upgrade to node v18 ([#4294](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4294))
+- Update coverage to 7.2.3 ([#4297](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4297))
+- Update mypy to 1.2.0 ([#4295](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4295))
+- Update werkzeug to 2.3.0 ([#4296](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4296))
+
 ## [2023-04-25]
 ### Changed
 - Update tox to 4.5.0 ([#4287](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4287))
