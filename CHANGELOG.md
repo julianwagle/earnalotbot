@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-05-02]
+### Updated
+- Upgrade traefik to 2.10.1 ([#4304](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4304))
+- Update uvicorn to 0.22.0 ([#4305](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4305))
+- Update werkzeug to 2.3.3 ([#4307](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4307))
+
 ## [2023-04-28]
 ### Changed
 - Add django-upgrade to pre-commit hooks ([#4298](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4298))
