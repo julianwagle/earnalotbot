@@ -3,6 +3,17 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-05-04]
+### Changed
+- Remove pytz from dependencies ([#4309](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4309))
+### Updated
+- Update django-anymail to 9.2 ([#4316](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4316))
+- Update pre-commit to 3.3.1 ([#4315](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4315))
+- Update coverage to 7.2.5 ([#4314](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4314))
+- Update django to 4.1.9 ([#4313](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4313))
+- Update sentry-sdk to 1.21.1 ([#4312](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4312))
+- Update requests to 2.30.0 ([#4311](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4311))
+
 ## [2023-05-02]
 ### Updated
 - Upgrade traefik to 2.10.1 ([#4304](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4304))
