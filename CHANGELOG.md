@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-05-15]
+### Changed
+- Update sh to 2.0.4 ([#4338](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4338))
+- Update pytest-xdist to 3.3.0 ([#4336](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4336))
+### Updated
+- Update django-cors-headers to 4.0.0 ([#4329](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4329))
+- Update sentry-sdk to 1.23.0 ([#4337](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4337))
+
 ## [2023-05-09]
 ### Changed
 - Update pygithub to 1.58.2 ([#4326](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4326))
