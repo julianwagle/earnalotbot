@@ -3,6 +3,17 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-05-23]
+### Changed
+- Fix compatibility webpack-bundle-tracker&gt;=2.0.0 js library required after upgrade django-webpack-loader&gt;=2.0.0 ([#4350](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4350))
+### Updated
+- Update sphinx-rtd-theme to 1.2.1 ([#4348](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4348))
+- Update sentry-sdk to 1.24.0 ([#4349](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4349))
+- Bump webpack-bundle-tracker from 1.8.1 to 2.0.0 in /{{cookiecutter.project_slug}} ([#4347](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4347))
+- Update django-webpack-loader to 2.0.0 ([#4345](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4345))
+- Update pytest-xdist to 3.3.1 ([#4344](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4344))
+- Update requests to 2.31.0 ([#4346](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4346))
+
 ## [2023-05-18]
 ### Updated
 - Update pre-commit to 3.3.2 ([#4342](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4342))
