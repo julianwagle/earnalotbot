@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-05-24]
+### Fixed
+- Prevent Celery restarts on media file changes ([#4352](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4352))
+### Updated
+- Update coverage to 7.2.6 ([#4351](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4351))
+
 ## [2023-05-23]
 ### Changed
 - Fix compatibility webpack-bundle-tracker&gt;=2.0.0 js library required after upgrade django-webpack-loader&gt;=2.0.0 ([#4350](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4350))
