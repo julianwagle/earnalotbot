@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-05-28]
+### Changed
+- Update tox to 4.5.2 ([#4354](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4354))
+
 ## [2023-05-24]
 ### Fixed
 - Prevent Celery restarts on media file changes ([#4352](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4352))
