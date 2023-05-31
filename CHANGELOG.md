@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-05-30]
+### Updated
+- Update hiredis to 2.2.3 ([#4360](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4360))
+- Update django-debug-toolbar to 4.1.0 ([#4359](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4359))
+- Update redis to 4.5.5 ([#4358](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4358))
+- Update django-anymail to 10.0 ([#4357](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4357))
+- Update coverage to 7.2.7 ([#4356](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4356))
+
 ## [2023-05-28]
 ### Changed
 - Update tox to 4.5.2 ([#4354](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4354))
