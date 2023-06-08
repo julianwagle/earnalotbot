@@ -3,6 +3,19 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-06-07]
+### Changed
+- Update sphinx-rtd-theme to 1.2.2 ([#4375](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4375))
+- Replace `runserver` with `runserver_plus` ([#4373](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4373))
+- Add translations for Brazilian Portuguese ([#4367](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4367))
+- Update tox to 4.6.0 ([#4371](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4371))
+### Updated
+- Update sentry-sdk to 1.25.1 ([#4376](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4376))
+- Update django-extensions to 3.2.3 ([#4372](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4372))
+- Update djangorestframework-stubs to 3.14.1 ([#4366](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4366))
+- Update django-stubs to 4.2.1 ([#4365](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4365))
+- Update mypy to 1.3.0 ([#4327](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4327))
+
 ## [2023-06-02]
 ### Updated
 - Update sentry-sdk to 1.25.0 ([#4364](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4364))
