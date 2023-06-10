@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-06-09]
+### Fixed
+- Fix missing `compilemessages` step before deploying to prod ([#4363](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4363))
+
 ## [2023-06-08]
 ### Fixed
 - Fix failure in user view test caused by translations ([#4374](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4374))
