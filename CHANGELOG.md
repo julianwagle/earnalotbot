@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-06-16]
+### Changed
+- Update tox to 4.6.1 ([#4398](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4398))
+### Updated
+- Update whitenoise to 6.5.0 ([#4400](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4400))
+- Update django-redis to 5.3.0 ([#4399](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4399))
+- Auto-update pre-commit hooks ([#4395](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4395))
+
 ## [2023-06-14]
 ### Updated
 - Update django-cors-headers to 4.1.0 ([#4391](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4391))
