@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-06-17]
+### Changed
+- Update tox to 4.6.2 ([#4401](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4401))
+- Update myst-parser to 2.0.0 ([#4388](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4388))
+
 ## [2023-06-16]
 ### Changed
 - Update tox to 4.6.1 ([#4398](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4398))
