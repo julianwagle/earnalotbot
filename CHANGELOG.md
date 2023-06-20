@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-06-19]
+### Updated
+- Auto-update pre-commit hooks ([#4405](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4405))
+- Update celery to 5.3.1 ([#4404](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4404))
+
 ## [2023-06-18]
 ### Changed
 - Fix missing celery env variable when running compilemessages ([#4403](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4403))
