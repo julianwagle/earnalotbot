@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-06-21]
+### Changed
+- Update tox to 4.6.3 ([#4407](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4407))
+### Updated
+- Upgrade traefik to 2.10.3 ([#4408](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4408))
+
 ## [2023-06-19]
 ### Updated
 - Auto-update pre-commit hooks ([#4405](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4405))
