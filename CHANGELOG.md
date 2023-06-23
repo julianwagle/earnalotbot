@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-06-22]
+### Updated
+- Update pygithub to 1.59.0 ([#4410](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4410))
+- Update drf-spectacular to 0.26.3 ([#4411](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4411))
+- Update sentry-sdk to 1.26.0 ([#4409](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4409))
+
 ## [2023-06-21]
 ### Changed
 - Update tox to 4.6.3 ([#4407](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4407))
