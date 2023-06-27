@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-06-26]
+### Updated
+- Update pytest to 7.4.0 ([#4412](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4412))
+- Update redis to 4.6.0 ([#4415](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4415))
+- Update mypy to 1.4.1 ([#4416](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4416))
+
 ## [2023-06-22]
 ### Updated
 - Update pygithub to 1.59.0 ([#4410](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4410))
