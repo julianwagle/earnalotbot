@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-06-28]
+### Changed
+- Upgrade to django 4.2 ([#4393](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4393))
+### Fixed
+- Fix PostgreSQL version in GitHub workflow ([#4423](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4423))
+### Updated
+- Update werkzeug to 2.3.6 ([#4427](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4427))
+- Update django-compressor to 4.4 ([#4422](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4422))
+
 ## [2023-06-27]
 ### Changed
 - Populate User `name` field during social auth ([#3968](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/3968))
