@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-06-29]
+### Changed
+- Replace psycopg2 by psycopg3 ([#4421](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4421))
+
 ## [2023-06-28]
 ### Changed
 - Upgrade to django 4.2 ([#4393](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4393))
