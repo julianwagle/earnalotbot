@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-07-03]
+### Changed
+- Add a devcontainer configuration with Docker ([#4198](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4198))
+### Updated
+- Update django-stubs to 4.2.3 ([#4430](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4430))
+- Update django to 4.2.3 ([#4435](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4435))
+
 ## [2023-06-30]
 ### Changed
 - Add option to use django-allauth workflow in the admin ([#1921](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/1921))
