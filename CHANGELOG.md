@@ -3,6 +3,22 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-07-10]
+### Changed
+- Update gitpython to 3.1.32 ([#4451](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4451))
+- Clarify documentation on which port to use to access the application when using Webpack or Gulp ([#4413](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4413))
+- Update cookiecutter to 2.2.2 ([#4449](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4449))
+- Update tox to 4.6.4 ([#4448](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4448))
+- Update cookiecutter to 2.2.0 ([#4447](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4447))
+### Fixed
+- Prevent user&#39;s name being shown twice on user details page if username is set to email ([#4436](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4436))
+- Add missing trailing space in `EMAIL_SUBJECT_PREFIX` setting ([#4434](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4434))
+### Updated
+- Update django-coverage-plugin to 3.1.0 ([#4446](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4446))
+- Update pillow to 10.0.0 ([#4432](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4432))
+- Update django-cors-headers to 4.2.0 ([#4445](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4445))
+- Update sentry-sdk to 1.28.0 ([#4444](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4444))
+
 ## [2023-07-09]
 ### Fixed
 - Fix missing run configurations when PyCharm is selected ([#4441](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4441))
