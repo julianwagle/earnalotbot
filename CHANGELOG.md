@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-07-11]
+### Changed
+- Update cookiecutter to 2.2.3 ([#4456](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4456))
+- Improve type hints for `UserSerializer` ([#4429](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4429))
+- [pre-commit.ci] pre-commit autoupdate ([#4453](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4453))
+### Fixed
+- Fix `/tmp` bind mount in devcontainer config ([#4455](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4455))
+### Updated
+- Update black to 23.7.0 ([#4452](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4452))
+
 ## [2023-07-10]
 ### Changed
 - Update gitpython to 3.1.32 ([#4451](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4451))
