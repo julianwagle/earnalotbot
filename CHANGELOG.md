@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-07-18]
+### Changed
+- Update pyyaml to 6.0.1 ([#4467](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4467))
+### Updated
+- Update gunicorn to 21.1.0 ([#4470](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4470))
+- Update uvicorn to 0.23.1 ([#4468](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4468))
+- Update gunicorn to 21.0.1 ([#4466](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4466))
+
 ## [2023-07-13]
 ### Updated
 - Update sentry-sdk to 1.28.1 ([#4458](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4458))
