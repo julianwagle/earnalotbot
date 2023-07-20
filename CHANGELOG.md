@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-07-19]
+### Updated
+- Update factory-boy to 3.3.0 ([#4472](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4472))
+- Update gunicorn to 21.2.0 ([#4473](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4473))
+- Update djlint to 1.32.0 ([#4471](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4471))
+
 ## [2023-07-18]
 ### Changed
 - Update pyyaml to 6.0.1 ([#4467](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4467))
