@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-07-24]
+### Changed
+- Replace `docker-compose` by `docker compose` in docs ([#4463](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4463))
+### Fixed
+- Add missing custom CRSF error page in prod ([#4464](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4464))
+### Updated
+- Update drf-spectacular to 0.26.4 ([#4481](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4481))
+
 ## [2023-07-20]
 ### Updated
 - Update djlint to 1.32.1 ([#4475](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4475))
