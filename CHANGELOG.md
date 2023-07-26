@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-07-25]
+### Updated
+- Upgrade to traefik 2.10.4 ([#4483](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4483))
+
 ## [2023-07-24]
 ### Changed
 - Replace `docker-compose` by `docker compose` in docs ([#4463](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4463))
