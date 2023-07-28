@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-07-27]
+### Changed
+- Document that `docker exec` does not work for running management commands ([#4487](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4487))
+- Add Webpack instructions for developping locally with HTTPS ([#4486](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4486))
+
 ## [2023-07-25]
 ### Updated
 - Upgrade to traefik 2.10.4 ([#4483](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4483))
