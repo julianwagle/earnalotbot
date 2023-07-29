@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-07-28]
+### Changed
+- Add support for Drone CI ([#4382](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4382))
+
 ## [2023-07-27]
 ### Changed
 - Document that `docker exec` does not work for running management commands ([#4487](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4487))
