@@ -3,6 +3,18 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-08-01]
+### Changed
+- Change how we remove prettier pre-commit hook from the config ([#4450](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4450))
+### Updated
+- Auto-update pre-commit hooks ([#4499](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4499))
+- Update django-anymail to 10.1 ([#4497](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4497))
+- Update sentry-sdk to 1.29.2 ([#4496](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4496))
+- Update django to 4.2.4 ([#4495](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4495))
+- Update flake8 to 6.1.0 ([#4489](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4489))
+- Update uvicorn to 0.23.2 ([#4490](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4490))
+- Update sentry-sdk to 1.29.1 ([#4494](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4494))
+
 ## [2023-07-30]
 ### Fixed
 - Fix `README.md` file extension in `setup.py` ([#4488](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4488))
