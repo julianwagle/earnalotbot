@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-08-04]
+### Changed
+- Update cookiecutter to 2.3.0 ([#4502](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4502))
+### Updated
+- Auto-update pre-commit hooks ([#4503](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4503))
+
 ## [2023-08-01]
 ### Changed
 - Change how we remove prettier pre-commit hook from the config ([#4450](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4450))
