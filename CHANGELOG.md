@@ -3,6 +3,22 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-08-14]
+### Changed
+- Install Django and DRF stubs with `compatible-mypy` extra (as per offical recommendation) ([#4361](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4361))
+-  Fix `overrideCommand` value in `devcontainer` so that the `django` container can run (#4517) ([#4517](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4517))
+- Add a link in README to an article describing how to make a custom Django cookiecutter template ([#4514](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4514))
+- Update tox to 4.8.0 ([#4515](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4515))
+### Fixed
+- Prevent error in data migration caused by long project name ([#4525](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4525))
+- Remove unused gulp-concat when Webpack is selected ([#4520](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4520))
+- Exclude env files from container image (add .envs/ to .dockerignore) ([#4476](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4476))
+### Updated
+- Update werkzeug to 2.3.7 ([#4521](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4521))
+- Update coverage to 7.3.0 ([#4516](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4516))
+- Update django-debug-toolbar to 4.2.0 ([#4511](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4511))
+- Update flower to 2.0.1 ([#4518](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4518))
+
 ## [2023-08-10]
 ### Changed
 - Update sh to 2.0.6 ([#4508](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4508))
