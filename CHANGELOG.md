@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-08-16]
+### Updated
+- Update django-upgrade to 1.14.1 ([#4528](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4528))
+
 ## [2023-08-15]
 ### Updated
 - Update redis to 5.0.0 ([#4526](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4526))
