@@ -3,6 +3,19 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-08-28]
+### Changed
+- Add French translations ([#4454](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4454))
+- Change `MEDIA_URL` to an absolute URL in tests ([#4460](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4460))
+- Bump python from 3.11.4-slim-bullseye to 3.11.5-slim-bullseye in /{{cookiecutter.project_slug}}/compose/local/django ([#4544](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4544))
+- Bump python from 3.11.4-slim-bullseye to 3.11.5-slim-bullseye in /{{cookiecutter.project_slug}}/compose/local/docs ([#4545](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4545))
+### Fixed
+- Fix a small compatibility issue between black and flake8 ([#4541](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4541))
+### Updated
+- Update django-allauth to 0.55.0 ([#4535](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4535))
+- Update watchfiles to 0.20.0 ([#4537](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4537))
+- Update Python version from 3.11.4 to 3.11.5 ([#4542](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4542))
+
 ## [2023-08-19]
 ### Changed
 - Override `_after_postgeneration` to force save in `UserFactory` ([#4534](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4534))
