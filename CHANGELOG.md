@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-09-03]
+### Updated
+- Update celery to 5.3.4 ([#4562](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4562))
+
 ## [2023-09-02]
 ### Changed
 - Update gitpython to 3.1.34 ([#4559](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4559))
