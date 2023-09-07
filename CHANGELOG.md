@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-09-06]
+### Changed
+- Update sphinx-rtd-theme to 1.3.0 ([#4570](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4570))
+- Replace Mailhog with Mailpit ([#4551](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4551))
+### Updated
+- Update sphinx to 7.2.5 ([#4569](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4569))
+- Bump actions/checkout from 3 to 4 ([#4565](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4565))
+- Update coverage to 7.3.1 ([#4567](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4567))
+
 ## [2023-09-04]
 ### Updated
 - Update django to 4.2.5 ([#4563](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4563))
