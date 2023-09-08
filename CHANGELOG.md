@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-09-07]
+### Changed
+- Update gitpython to 3.1.35 ([#4572](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4572))
+### Updated
+- Update django-allauth to 0.56.0 ([#4571](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4571))
+
 ## [2023-09-06]
 ### Changed
 - Update sphinx-rtd-theme to 1.3.0 ([#4570](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4570))
