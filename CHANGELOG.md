@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-09-11]
+### Changed
+- Update tox to 4.11.3 ([#4577](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4577))
+### Updated
+- Auto-update pre-commit hooks ([#4579](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4579))
+- Update black to 23.9.1 ([#4580](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4580))
+- Update django-allauth to 0.56.1 ([#4576](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4576))
+
 ## [2023-09-08]
 ### Changed
 - Update tox to 4.11.2 ([#4575](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4575))
