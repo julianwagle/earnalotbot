@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-09-15]
+### Updated
+- Update flake8-isort to 6.1.0 ([#4585](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4585))
+- Update pillow to 10.0.1 ([#4584](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4584))
+
 ## [2023-09-14]
 ### Updated
 - Update sphinx to 7.2.6 ([#4583](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4583))
