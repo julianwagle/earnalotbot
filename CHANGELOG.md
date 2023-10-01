@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-09-30]
+### Changed
+- Update pygithub to 2.1.1 ([#4607](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4607))
+
 ## [2023-09-29]
 ### Changed
 - Update pygithub to 2.1.0.post0 ([#4606](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4606))
