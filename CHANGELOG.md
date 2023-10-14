@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-10-13]
+### Updated
+- Update pre-commit to 3.5.0 ([#4628](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4628))
+- Update watchfiles to 0.21.0 ([#4627](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4627))
+
 ## [2023-10-12]
 ### Updated
 - Update django-cors-headers to 4.3.0 ([#4625](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4625))
