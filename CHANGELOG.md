@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-10-17]
+### Changed
+- Update gitpython to 3.1.38 ([#4631](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4631))
+### Updated
+- Auto-update pre-commit hooks ([#4633](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4633))
+- Update black to 23.10.0 ([#4632](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4632))
+- Update pillow to 10.1.0 ([#4630](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4630))
+- Update django-crispy-forms to 2.1 ([#4629](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4629))
+
 ## [2023-10-13]
 ### Updated
 - Update pre-commit to 3.5.0 ([#4628](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4628))
