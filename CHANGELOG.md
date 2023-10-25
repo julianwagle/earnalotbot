@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-10-24]
+### Changed
+- Bump actions/setup-node from 3 to 4 ([#4643](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4643))
+### Updated
+- Update black to 23.10.1 ([#4639](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4639))
+- Auto-update pre-commit hooks ([#4641](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4641))
+
 ## [2023-10-23]
 ### Updated
 - Update pylint-django to 2.5.5 ([#4638](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4638))
