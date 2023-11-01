@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-10-31]
+### Updated
+- Update pytest-django to 4.6.0 ([#4656](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4656))
+- Update pytest to 7.4.3 ([#4654](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4654))
+- Update werkzeug to 3.0.1 ([#4655](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4655))
+- Update sentry-sdk to 1.33.1 ([#4653](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4653))
+- Update sentry-sdk to 1.33.0 ([#4652](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4652))
+- Update crispy-bootstrap5 to 2023.10 ([#4651](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4651))
+
 ## [2023-10-26]
 ### Updated
 - Update django-anymail to 10.2 ([#4645](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4645))
