@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-11-03]
+### Updated
+- Update flake8-isort to 6.1.1 ([#4662](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4662))
+
 ## [2023-11-02]
 ### Updated
 - Update sentry-sdk to 1.34.0 ([#4660](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4660))
