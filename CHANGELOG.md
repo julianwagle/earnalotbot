@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-11-08]
+### Updated
+- Update pytest-django to 4.7.0 ([#4672](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4672))
+
 ## [2023-11-06]
 ### Changed
 - Add `rmbackup` script to remove backups from `postgres/backups`. Fixes: #4663 ([#4664](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4664))
