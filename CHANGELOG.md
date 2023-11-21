@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-11-20]
+### Changed
+- Update pytest-xdist to 3.4.0 ([#4680](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4680))
+### Fixed
+- Fix bug with social account adapter name override, in very specific conditions ([#4650](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4650))
+### Updated
+- Update django-cors-headers to 4.3.1 ([#4684](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4684))
+- Update psycopg to 3.1.13 ([#4685](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4685))
+
 ## [2023-11-14]
 ### Updated
 - Update sentry-sdk to 1.35.0 ([#4681](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4681))
