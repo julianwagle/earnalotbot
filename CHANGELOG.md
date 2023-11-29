@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-11-28]
+### Changed
+- Update tox to 4.11.4 ([#4701](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4701))
+### Fixed
+- Excludes devcontainer.json from the pre-commit ([#4702](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4702))
+### Updated
+- Update sphinx-rtd-theme to 2.0.0 ([#4700](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4700))
+
 ## [2023-11-24]
 ### Updated
 - Update sentry-sdk to 1.37.1 ([#4696](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4696))
