@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-11-30]
+### Fixed
+- Removed tmp mount in devcontainer.json. Fix #4686 ([#4708](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4708))
+### Updated
+- Bump traefik from 2.10.5 to 2.10.6 ([#4706](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4706))
+
 ## [2023-11-29]
 ### Changed
 - [pre-commit.ci] pre-commit autoupdate ([#4640](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4640))
