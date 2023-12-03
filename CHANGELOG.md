@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-12-02]
+### Updated
+-  Update mailpit to latest ([#4710](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4710))
+
 ## [2023-11-30]
 ### Fixed
 - Removed tmp mount in devcontainer.json. Fix #4686 ([#4708](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4708))
