@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-12-04]
+### Updated
+- Update django to 4.2.8 ([#4713](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4713))
+- Bump node from 18 to 20 ([#4283](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4283))
+- Update psycopg to 3.1.14 ([#4711](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4711))
+
 ## [2023-12-02]
 ### Updated
 -  Update mailpit to latest ([#4710](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4710))
