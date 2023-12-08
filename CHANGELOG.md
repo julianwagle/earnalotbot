@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-12-07]
+### Updated
+- Bump actions/setup-python from 4 to 5 ([#4723](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4723))
+- Auto-update pre-commit hooks ([#4709](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4709))
+- Bump traefik from 2.10.6 to 2.10.7 ([#4722](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4722))
+
 ## [2023-12-06]
 ### Updated
 - Bump python from 3.11.6 to 3.11.7 ([#4719](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4719))
