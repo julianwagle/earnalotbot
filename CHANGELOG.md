@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2023-12-13]
+### Updated
+- Auto-update pre-commit hooks ([#4740](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4740))
+
 ## [2023-12-12]
 ### Updated
 - Update django-allauth to 0.59.0 ([#4739](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4739))
