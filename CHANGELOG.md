@@ -3,6 +3,18 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-01-02]
+### Updated
+- Update psycopg to 3.1.16 ([#4753](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4753))
+- Update djlint to 1.34.1 ([#4773](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4773))
+- Update uvicorn to 0.25.0 ([#4760](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4760))
+- Auto-update pre-commit hooks ([#4749](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4749))
+- Update black to 23.12.1 ([#4772](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4772))
+- Update pillow to 10.2.0 ([#4770](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4770))
+- Update django to 4.2.9 ([#4771](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4771))
+- Update pytest to 7.4.4 ([#4767](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4767))
+- Update coverage to 7.4.0 ([#4764](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4764))
+
 ## [2023-12-19]
 ### Changed
 - Upgrade debian to 12 bookworm ([#4745](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4745))
