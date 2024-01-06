@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-01-05]
+### Updated
+- Auto-update pre-commit hooks ([#4774](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4774))
+- Update flake8 to 7.0.0 ([#4775](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4775))
+
 ## [2024-01-02]
 ### Updated
 - Update psycopg to 3.1.16 ([#4753](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4753))
