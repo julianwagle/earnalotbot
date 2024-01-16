@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-01-15]
+### Changed
+- Update gitpython to 3.1.41 ([#4788](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4788))
+- Update allauth documentation links ([#4786](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4786))
+### Updated
+- Update django-allauth to 0.60.1 ([#4787](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4787))
+
 ## [2024-01-12]
 ### Changed
 - Update tox to 4.12.0 ([#4785](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4785))
