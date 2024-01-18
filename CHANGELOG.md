@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-01-17]
+### Changed
+- Update tox to 4.12.1 ([#4796](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4796))
+- Add a test to cover `DJANGO_ADMIN_FORCE_ALLAUTH` ([#4790](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4790))
+### Updated
+- Bump webpack-bundle-tracker to 3.0.1 ([#4781](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4781))
+- Update django-webpack-loader to 3.0.1 ([#4793](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4793))
+- Bump postcss-loader to 8.0.0 ([#4795](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4795))
+- Update uvicorn to 0.26.0 ([#4794](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4794))
+
 ## [2024-01-16]
 ### Updated
 - Bump sass-loader from 13.3.3 to 14.0.0 in /{{cookiecutter.project_slug}} ([#4791](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4791))
