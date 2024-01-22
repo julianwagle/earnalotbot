@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-01-21]
+### Changed
+- Update traefik doc links ([#4798](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4798))
+### Updated
+- Bump browser-sync from 2.29.3 to 3.0.2 in /{{cookiecutter.project_slug}} ([#4765](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4765))
+
 ## [2024-01-19]
 ### Updated
 - Update drf-spectacular to 0.27.1 ([#4797](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4797))
