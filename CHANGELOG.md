@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-01-29]
+### Changed
+- Update mention of coverage config file to `pyproject.toml` in documentation ([#4816](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4816))
+- Fix deprecation warning about renaming of `webpack_loader.loader` to `webpack_loader.loaders` ([#4815](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4815))
+### Updated
+- Update black to 24.1.1 ([#4814](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4814))
+- Auto-update pre-commit hooks ([#4817](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4817))
+
 ## [2024-01-27]
 ### Changed
 - Do not show webpack devserver overlay for warnings ([#4809](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4809))
