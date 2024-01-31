@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-01-30]
+### Changed
+- Update pygithub to 2.2.0 ([#4821](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4821))
+### Updated
+- Update pytest-django to 4.8.0 ([#4823](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4823))
+- Update sentry-sdk to 1.40.0 ([#4822](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4822))
+- Update uvicorn to 0.27.0.post1 ([#4818](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4818))
+
 ## [2024-01-29]
 ### Changed
 - Update mention of coverage config file to `pyproject.toml` in documentation ([#4816](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4816))
