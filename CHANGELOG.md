@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-01-31]
+### Changed
+- Bump tiangolo/issue-manager from 0.4.1 to 0.5.0 ([#4825](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4825))
+### Updated
+- Update python-slugify to 8.0.3 ([#4826](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4826))
+
 ## [2024-01-30]
 ### Changed
 - Update pygithub to 2.2.0 ([#4821](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4821))
