@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-02-05]
+### Changed
+- Bump peter-evans/create-pull-request from 5 to 6 ([#4827](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4827))
+### Updated
+- Update pytest to 8.0.0 ([#4813](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4813))
+- Update pytest-sugar to 1.0.0 ([#4828](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4828))
+- Update sphinx-autobuild to 2024.2.4 ([#4830](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4830))
+- Update django-debug-toolbar to 4.3.0 ([#4829](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4829))
+- Update psycopg to 3.1.18 ([#4831](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4831))
+
 ## [2024-01-31]
 ### Changed
 - Bump tiangolo/issue-manager from 0.4.1 to 0.5.0 ([#4825](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4825))
