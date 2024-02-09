@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-02-08]
+### Updated
+- Bump python to 3.11.8 in compose/local/docs ([#4840](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4840))
+- Bump python to 3.11.8 in compose/local/django ([#4841](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4841))
+- Bump python to 3.11.8 in compose/production/django ([#4842](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4842))
+
 ## [2024-02-07]
 ### Changed
 - Extend docker test with deploy check ([#4838](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4838))
