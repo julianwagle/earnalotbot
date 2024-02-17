@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-02-16]
+### Changed
+- Speed up GitHub CI for Docker setup ([#4863](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4863))
+- Update gitpython to 3.1.42 ([#4864](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4864))
+- Add link to the ruff repository in requirements ([#4866](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4866))
+
 ## [2024-02-13]
 ### Changed
 - Ruff linting &amp; formatting ([#4834](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4834))
