@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-02-17]
+### Changed
+- Update tox to 4.13.0 ([#4868](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4868))
+### Updated
+- Update pytest to 8.0.1 ([#4870](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4870))
+
 ## [2024-02-16]
 ### Changed
 - Speed up GitHub CI for Docker setup ([#4863](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4863))
