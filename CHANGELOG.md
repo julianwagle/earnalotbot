@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-02-19]
+### Updated
+- Update sentry-sdk to 1.40.5 ([#4876](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4876))
+
 ## [2024-02-17]
 ### Changed
 - Update tox to 4.13.0 ([#4868](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4868))
