@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-02-22]
+### Changed
+- Update cookiecutter to 2.6.0 ([#4882](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4882))
+
 ## [2024-02-21]
 ### Changed
 - Switch to `celery.shared_task` to define tasks ([#4881](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4881))
