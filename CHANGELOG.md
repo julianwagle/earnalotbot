@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-02-24]
+### Updated
+- Update coverage to 7.4.3 ([#4888](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4888))
+
 ## [2024-02-23]
 ### Changed
 - Switch to local imports within app ([#4883](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4883))
