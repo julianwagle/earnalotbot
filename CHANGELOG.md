@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-02-28]
+### Changed
+- Fix broken &#34;Two scoops of django&#34; link in FAQ ([#4892](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4892))
+### Fixed
+- Fix invalid HTML in django-allauth field element template ([#4894](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4894))
+- Fix permissions for media files when served by nginx ([#4889](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4889))
+### Updated
+- Update redis to 5.0.2 ([#4895](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4895))
+- Update sentry-sdk to 1.40.6 ([#4893](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4893))
+
 ## [2024-02-26]
 ### Changed
 - Allauth elements &amp; MFA ([#4843](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4843))
