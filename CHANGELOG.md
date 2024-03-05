@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-03-04]
+### Updated
+- Update pytest to 8.1.0 ([#4900](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4900))
+- Update django to 4.2.11 ([#4901](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4901))
+
 ## [2024-03-03]
 ### Updated
 - Update django-celery-beat to 2.6.0 ([#4899](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4899))
