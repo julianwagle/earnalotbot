@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-03-06]
+### Changed
+- Update tox to 4.14.0 ([#4904](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4904))
+### Fixed
+- Fix fully qualified docker images ([#4905](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4905))
+
 ## [2024-03-04]
 ### Updated
 - Update pytest to 8.1.0 ([#4900](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4900))
