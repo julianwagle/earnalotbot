@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-03-10]
+### Updated
+- Auto-update pre-commit hooks ([#4912](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4912))
+- Update ruff to 0.3.2 ([#4911](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4911))
+- Update uvicorn to 0.28.0 ([#4913](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4913))
+- Update redis to 5.0.3 ([#4916](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4916))
+- Update pytest to 8.1.1 ([#4914](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4914))
+
 ## [2024-03-07]
 ### Changed
 - Update tox to 4.14.1 ([#4906](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4906))
