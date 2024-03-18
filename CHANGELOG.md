@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-03-17]
+### Updated
+- Update djangorestframework to 3.15.0 ([#4929](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4929))
+
 ## [2024-03-10]
 ### Updated
 - Auto-update pre-commit hooks ([#4912](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4912))
