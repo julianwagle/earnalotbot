@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-03-18]
+### Changed
+- Split the docs from local.yml and build the service in CI ([#4909](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4909))
+### Updated
+- Update django-anymail to 10.3 ([#4919](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4919))
+- Update sentry-sdk to 1.42.0 ([#4921](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4921))
+- Update coverage to 7.4.4 ([#4926](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4926))
+- Update ruff to 0.3.3 ([#4927](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4927))
+- Auto-update pre-commit hooks ([#4928](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4928))
+
 ## [2024-03-17]
 ### Updated
 - Update djangorestframework to 3.15.0 ([#4929](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4929))
