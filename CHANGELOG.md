@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-03-29]
+### Changed
+- Add instruction for adding a django app ([#4944](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4944))
+
 ## [2024-03-27]
 ### Changed
 - Update pygithub to 2.3.0 ([#4942](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4942))
