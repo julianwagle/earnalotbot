@@ -3,6 +3,21 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-04-02]
+### Changed
+- Change pytest import mode to importlib ([#4950](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4950))
+- Use main over master for branch name in deployment-on-heroku instruction ([#4954](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4954))
+- change obsolete docker image &#34;docker/compose:1.29.2&#34; to &#34;docker:25.0&#34; ([#4961](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4961))
+### Updated
+- Update sentry-sdk to 1.44.0 ([#4948](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4948))
+- Update ruff to 0.3.5 ([#4955](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4955))
+- Update gitpython to 3.1.43 ([#4951](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4951))
+- Update pillow to 10.3.0 ([#4953](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4953))
+- Update django-model-utils to 4.5.0 ([#4956](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4956))
+- Update drf-spectacular to 0.27.2 ([#4957](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4957))
+- Update werkzeug to 3.0.2 ([#4958](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4958))
+- Auto-update pre-commit hooks ([#4959](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4959))
+
 ## [2024-03-29]
 ### Changed
 - Add instruction for adding a django app ([#4944](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4944))
