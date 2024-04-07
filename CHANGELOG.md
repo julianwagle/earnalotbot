@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-04-06]
+### Fixed
+- Fix syntax error in GitHub CI workflow  ([#4972](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4972))
+
 ## [2024-04-05]
 ### Updated
 - Update django-webpack-loader to 3.1.0 ([#4965](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4965))
