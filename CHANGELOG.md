@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-04-10]
+### Updated
+- Bump python from 3.12.2 to 3.12.3 in docs ([#4979](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4979))
+- Bump python from 3.12.2 to 3.12.3 in local ([#4981](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4981))
+- Bump python from 3.12.2 to 3.12.3 in production ([#4980](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4980))
+
 ## [2024-04-09]
 ### Changed
 - Fix start command for docs ([#4978](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4978))
