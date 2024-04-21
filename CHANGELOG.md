@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-04-20]
+### Updated
+- Auto-update pre-commit hooks ([#5014](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5014))
+- Update pytest-xdist to 3.6.0 ([#5013](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5013))
+
 ## [2024-04-19]
 ### Updated
 - Update ruff to 0.4.1 ([#5011](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5011))
