@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-05-05]
+### Updated
+- Auto-update pre-commit hooks ([#5046](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5046))
+- Update django-storages to 1.14.3 ([#5047](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5047))
+- Update coverage to 7.5.1 ([#5048](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5048))
+
 ## [2024-04-29]
 ### Changed
 - Bump myst-parser from 3.0.0 to 3.0.1 in /docs ([#5037](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5037))
