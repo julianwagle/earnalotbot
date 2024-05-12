@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-05-11]
+### Updated
+- Update pre-commit to 3.7.1 ([#5066](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5066))
+- Auto-update pre-commit hooks ([#5067](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5067))
+
 ## [2024-05-10]
 ### Updated
 - Update psycopg to 3.1.19 ([#5064](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5064))
