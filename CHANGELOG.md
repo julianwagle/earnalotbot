@@ -3,6 +3,20 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-05-13]
+### Changed
+- Rename docker compose files to include &#39;docker-compose&#39; ([#4995](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4995))
+- Remove obsolete `version` element from docker compose files ([#5059](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5059))
+- Add Redis persistent storage when using celery ([#5063](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5063))
+### Fixed
+- Add noqa to ignore ruff false positive ([#5068](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5068))
+- Fix staticfile settings with cloud provider and whitenoise ([#5057](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5057))
+### Updated
+- Update djangorestframework-stubs to 3.15.0 ([#5041](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5041))
+- Update django-stubs to 5.0.0 ([#5040](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5040))
+- Update mypy to 1.10.0 ([#5022](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5022))
+- Update werkzeug to 3.0.3 ([#5050](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5050))
+
 ## [2024-05-11]
 ### Updated
 - Update pre-commit to 3.7.1 ([#5066](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5066))
