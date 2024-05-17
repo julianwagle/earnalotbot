@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-05-16]
+### Changed
+- Update Two scoops of Django book link &amp; image ([#5073](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5073))
+### Updated
+- Update sentry-sdk to 2.2.0 ([#5074](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5074))
+- Update django-allauth to 0.63.0 ([#5070](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5070))
+
 ## [2024-05-15]
 ### Fixed
 - Disable DDT profiling panel ([#5069](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5069))
