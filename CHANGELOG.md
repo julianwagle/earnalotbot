@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-05-17]
+### Updated
+- Update django-allauth to 0.63.1 ([#5076](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5076))
+
 ## [2024-05-16]
 ### Changed
 - Update Two scoops of Django book link &amp; image ([#5073](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5073))
