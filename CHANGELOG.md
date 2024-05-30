@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-05-29]
+### Updated
+- Update requests to 2.32.3 ([#5108](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5108))
+- Update ruff to 0.4.6 ([#5107](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5107))
+- Auto-update pre-commit hooks ([#5106](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5106))
+- Update coverage to 7.5.3 ([#5104](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5104))
+- Update django-upgrade to 1.18.0 ([#5105](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5105))
+
 ## [2024-05-27]
 ### Changed
 - Rename SendInBlue ESP to Brevo ([#5094](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5094))
