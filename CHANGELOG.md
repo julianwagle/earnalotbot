@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-06-01]
+### Changed
+- Update Ruff pre-commit hook ([#5113](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5113))
+### Updated
+- Update ruff to 0.4.7 ([#5112](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5112))
+
 ## [2024-05-30]
 ### Updated
 - Update uvicorn to 0.30.0 ([#5101](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5101))
