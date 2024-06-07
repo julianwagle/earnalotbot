@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-06-06]
+### Changed
+- Update tox to 4.15.1 ([#5124](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5124))
+- Update Ruff pre-commit hook ([#5123](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5123))
+### Updated
+- Update sentry-sdk to 2.5.0 ([#5126](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5126))
+- Update ruff to 0.4.8 ([#5122](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5122))
+- Update redis to 5.0.5 ([#5125](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5125))
+
 ## [2024-06-04]
 ### Updated
 - Update pytest to 8.2.2 ([#5120](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5120))
