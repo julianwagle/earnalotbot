@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-06-13]
+### Updated
+- Update redis to 5.0.6 ([#5137](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5137))
+
 ## [2024-06-12]
 ### Updated
 - Bump amazon/aws-cli Docker image from 2.15.58 to 2.16.6 ([#5135](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5135))
