@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-06-14]
+### Updated
+- Bump python from 3.12.3-slim-bookworm to 3.12.4-slim-bookworm in /{{cookiecutter.project_slug}}/compose/local/docs ([#5129](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5129))
+- Bump python from 3.12.3-slim-bookworm to 3.12.4-slim-bookworm in /{{cookiecutter.project_slug}}/compose/local/django ([#5130](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5130))
+- Bump python from 3.12.3-slim-bookworm to 3.12.4-slim-bookworm in /{{cookiecutter.project_slug}}/compose/production/django ([#5132](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5132))
+- Bump amazon/aws-cli from 2.16.6 to 2.16.8 in /{{cookiecutter.project_slug}}/compose/production/aws ([#5138](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5138))
+- Update ruff to 0.4.9 ([#5139](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5139))
+
 ## [2024-06-13]
 ### Updated
 - Update redis to 5.0.6 ([#5137](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5137))
