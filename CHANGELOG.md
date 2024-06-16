@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-06-15]
+### Changed
+- Update start-flower in flower to wait until all celery workers are online ([#5012](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5012))
+- Enhancing the security of cookies ([#5102](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5102))
+### Updated
+- Update django-crispy-forms to 2.2 ([#5143](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5143))
+- Update sentry-sdk to 2.5.1 ([#5142](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5142))
+- Auto-update pre-commit hooks ([#5140](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5140))
+- Update django-allauth to 0.63.3 ([#5111](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5111))
+
 ## [2024-06-14]
 ### Updated
 - Bump python from 3.12.3-slim-bookworm to 3.12.4-slim-bookworm in /{{cookiecutter.project_slug}}/compose/local/docs ([#5129](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5129))
