@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-06-17]
+### Changed
+- Update flake8 pre-commit hook in template ([#5144](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5144))
+### Updated
+- Update django-compressor to 4.5 ([#5145](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5145))
+- Update rcssmin to 1.1.2 ([#4614](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4614))
+
 ## [2024-06-15]
 ### Changed
 - Update start-flower in flower to wait until all celery workers are online ([#5012](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5012))
