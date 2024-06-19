@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-06-18]
+### Updated
+- Bump amazon/aws-cli from 2.16.8 to 2.16.10 ([#5149](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5149))
+
 ## [2024-06-17]
 ### Changed
 - Update flake8 pre-commit hook in template ([#5144](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5144))
