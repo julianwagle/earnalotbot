@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-06-19]
+### Updated
+- Update djangorestframework to 3.15.2 ([#5156](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5156))
+- Update django-cors-headers to 4.4.0 ([#5154](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5154))
+- Update sentry-sdk to 2.6.0 ([#5153](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5153))
+- Update whitenoise to 6.7.0 ([#5155](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5155))
+
 ## [2024-06-18]
 ### Updated
 - Bump amazon/aws-cli from 2.16.8 to 2.16.10 ([#5149](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5149))
