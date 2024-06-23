@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-06-22]
+### Updated
+- Bump amazon/aws-cli from 2.16.10 to 2.17.0 ([#5161](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5161))
+- Auto-update pre-commit hooks ([#5160](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5160))
+- Update ruff to 0.4.10 ([#5159](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5159))
+
 ## [2024-06-20]
 ### Fixed
 - Remove deprecated docker and python tags from GitLab CI config ([#5158](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5158))
