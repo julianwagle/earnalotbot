@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-06-26]
+### Fixed
+- Fix keywords case warning in Dockerfile ([#5164](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5164))
+### Updated
+- Update redis to 5.0.7 ([#5170](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5170))
+- Update sentry-sdk to 2.7.0 ([#5169](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5169))
+
 ## [2024-06-24]
 ### Updated
 - Update django-anymail to 11.0 ([#5163](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5163))
