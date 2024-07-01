@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-06-30]
+### Updated
+- Update django-upgrade to 1.19.0 ([#5171](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5171))
+
 ## [2024-06-26]
 ### Fixed
 - Fix keywords case warning in Dockerfile ([#5164](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5164))
