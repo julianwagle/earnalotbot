@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-07-01]
+### Updated
+- Update ruff to 0.5.0 ([#5181](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5181))
+- Update sentry-sdk to 2.7.1 ([#5174](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5174))
+- Auto-update pre-commit hooks ([#5175](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5175))
+- Update psycopg to 3.2.1 ([#5180](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5180))
+
 ## [2024-06-30]
 ### Updated
 - Update django-upgrade to 1.19.0 ([#5171](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5171))
