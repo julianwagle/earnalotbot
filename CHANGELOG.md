@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-07-03]
+### Changed
+- Update tox to 4.16.0 ([#5186](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5186))
+
 ## [2024-07-02]
 ### Updated
 - Update pillow to 10.4.0 ([#5182](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5182))
