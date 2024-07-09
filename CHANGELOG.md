@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-07-08]
+### Changed
+- Auto-update pre-commit hooks ([#5194](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5194))
+### Updated
+- Update ruff to 0.5.1 ([#5190](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5190))
+- Update django-debug-toolbar to 4.4.5 ([#5192](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5192))
+- Update sentry-sdk to 2.8.0 ([#5195](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5195))
+
 ## [2024-07-05]
 ### Updated
 - Update django-debug-toolbar to 4.4.3 ([#5189](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5189))
