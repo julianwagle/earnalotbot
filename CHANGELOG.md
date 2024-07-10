@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-07-09]
+### Changed
+- Migrate from Collectfast to Collestfasta ([#5172](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5172))
+- Fix a typo in the `--all` option of the `makemessages` command ([#5198](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5198))
+### Updated
+- Update django-storages to 1.14.4 ([#5197](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5197))
+
 ## [2024-07-08]
 ### Changed
 - Auto-update pre-commit hooks ([#5194](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5194))
