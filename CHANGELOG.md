@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-07-10]
+### Updated
+- Update django-allauth to 0.63.4 ([#5204](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5204))
+- Update django to 4.2.14 ([#5200](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5200))
+- Update collectfasta to 3.2.0 ([#5201](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5201))
+- Update sentry-sdk to 2.9.0 ([#5202](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5202))
+- Update django-debug-toolbar to 4.4.6 ([#5203](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5203))
+
 ## [2024-07-09]
 ### Changed
 - Migrate from Collectfast to Collestfasta ([#5172](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5172))
