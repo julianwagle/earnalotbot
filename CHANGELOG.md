@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-07-12]
+### Updated
+- Update django-allauth to 0.63.6 ([#5210](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5210))
+- Update django-allauth to 0.63.5 ([#5206](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5206))
+- Update coverage to 7.6.0 ([#5207](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5207))
+- Update django-anymail to 11.0.1 ([#5208](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5208))
+
 ## [2024-07-10]
 ### Updated
 - Update django-allauth to 0.63.4 ([#5204](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5204))
