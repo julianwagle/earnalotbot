@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-07-15]
+### Changed
+- Auto-update ruff pre-commit hook ([#5212](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5212))
+### Updated
+- Update sentry-sdk to 2.10.0 ([#5216](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5216))
+- Update sphinx to 7.4.2 ([#5215](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5215))
+- Update ruff to 0.5.2 ([#5211](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5211))
+- Update sphinx to 7.4.0 ([#5214](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5214))
+
 ## [2024-07-12]
 ### Updated
 - Update django-allauth to 0.63.6 ([#5210](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5210))
