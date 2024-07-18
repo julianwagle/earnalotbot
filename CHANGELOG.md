@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-07-17]
+### Updated
+- Update sphinx to 7.4.5 ([#5222](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5222))
+
 ## [2024-07-16]
 ### Fixed
 - Clear `ENTRYPOINT` in `awscli` image to allow script execution ([#5221](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5221))
