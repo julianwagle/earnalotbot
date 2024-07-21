@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-07-20]
+### Updated
+- Update hiredis to 3.0.0 ([#5228](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5228))
+- Update uvicorn to 0.30.3 ([#5234](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5234))
+- Update django-crispy-forms to 2.3 ([#5229](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5229))
+- Auto-update pre-commit hooks ([#5232](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5232))
+
 ## [2024-07-19]
 ### Changed
 - Use &#34;ENV key=value&#34; instead of &#34;ENV key value&#34; in Dockerfiles ([#5225](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5225))
