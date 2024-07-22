@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-07-21]
+### Changed
+- Update ruff pre-commit hook ([#5238](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5238))
+### Updated
+- Update ruff to 0.5.4 ([#5237](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5237))
+- Update pytest to 8.3.1 ([#5236](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5236))
+- Update sphinx to 7.4.7 ([#5235](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5235))
+
 ## [2024-07-20]
 ### Updated
 - Update hiredis to 3.0.0 ([#5228](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5228))
