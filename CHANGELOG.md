@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-07-23]
+### Changed
+- Ensure that awscli service has a CMD to fix #5241 ([#5245](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5245))
+### Fixed
+- Downgrade watchfiles ([#5243](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5243))
+
 ## [2024-07-22]
 ### Updated
 - Update django-compressor to 4.5.1 ([#5240](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5240))
