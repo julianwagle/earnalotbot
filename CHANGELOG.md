@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-07-24]
+### Changed
+- fix non existent of two scoops of django image ([#5248](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5248))
+
 ## [2024-07-23]
 ### Changed
 - Ensure that awscli service has a CMD to fix #5241 ([#5245](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5245))
