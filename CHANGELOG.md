@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-07-25]
+### Changed
+- Upgrade to Django 5.0 ([#5199](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5199))
+### Updated
+- Update pytest to 8.3.2 ([#5249](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5249))
+- Update sentry-sdk to 2.11.0 ([#5247](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5247))
+
 ## [2024-07-24]
 ### Changed
 - fix non existent of two scoops of django image ([#5248](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5248))
