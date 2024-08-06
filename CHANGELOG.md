@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-08-05]
+### Changed
+- Simplify documentation for https in local development ([#5252](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5252))
+- Add Medium story in the Articles section ([#5275](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5275))
+- Update myst-parser to 4.0.0 ([#5279](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5279))
+### Updated
+- Update coverage to 7.6.1 ([#5276](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5276))
+- Auto-update pre-commit hooks ([#5277](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5277))
+
 ## [2024-08-04]
 ### Updated
 - Update uvicorn to 0.30.5 ([#5272](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5272))
