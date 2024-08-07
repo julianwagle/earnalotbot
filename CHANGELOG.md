@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-08-06]
+### Changed
+- Update tox to 4.17.0 ([#5280](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5280))
+### Updated
+- Update django to 5.0.8 ([#5281](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5281))
+
 ## [2024-08-05]
 ### Changed
 - Simplify documentation for https in local development ([#5252](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5252))
