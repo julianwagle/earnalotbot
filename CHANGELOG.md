@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-08-07]
+### Changed
+- Update pyyaml to 6.0.2 ([#5284](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5284))
+### Updated
+- Update tox to 4.17.1 ([#5285](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5285))
+- Update django-anymail to 11.1 ([#5286](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5286))
+
 ## [2024-08-06]
 ### Changed
 - Update tox to 4.17.0 ([#5280](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5280))
