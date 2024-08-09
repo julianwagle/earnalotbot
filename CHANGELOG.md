@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-08-08]
+### Updated
+- Update ruff to 0.5.7 ([#5291](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5291))
+- Bump python from 3.12.4 to 3.12.5 in docs Docker image ([#5287](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5287))
+- Bump python from 3.12.4 to 3.12.5 in local Docker image ([#5289](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5289))
+- Bump python from 3.12.4 to 3.12.5 in production Docker image ([#5290](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5290))
+
 ## [2024-08-07]
 ### Changed
 - Update pyyaml to 6.0.2 ([#5284](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5284))
