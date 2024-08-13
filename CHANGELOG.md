@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-08-12]
+### Updated
+- Update gunicorn to 23.0.0 ([#5294](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5294))
+
 ## [2024-08-09]
 ### Updated
 - Update Ruff pre-commit hook to v0.5.7 ([#5293](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5293))
