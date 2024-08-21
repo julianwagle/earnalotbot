@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-08-20]
+### Changed
+- Add missing extra_body block in allauth entrance.html ([#5308](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5308))
+### Updated
+- Bump sass-loader from 14.2.1 to 16.0.1 ([#5309](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5309))
+- Bump node from 20 to 22 ([#5039](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5039))
+- Bump webpack-merge from 5.10.0 to 6.0.1 ([#5187](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5187))
+- Bump css-loader from 6.11.0 to 7.1.2 ([#5089](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5089))
+- Bump traefik from 2.11.2 to 3.1.2 ([#5282](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5282))
+
 ## [2024-08-19]
 ### Updated
 - Update factory-boy to 3.3.1 ([#5307](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5307))
