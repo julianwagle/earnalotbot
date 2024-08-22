@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-08-21]
+### Changed
+- Add type hint for UserFactory ([#5312](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5312))
+
 ## [2024-08-20]
 ### Changed
 - Add missing extra_body block in allauth entrance.html ([#5308](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5308))
