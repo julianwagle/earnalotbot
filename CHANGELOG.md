@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-08-22]
+### Updated
+- Update django-celery-beat to 2.7.0 ([#5315](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5315))
+
 ## [2024-08-21]
 ### Changed
 - Add type hint for UserFactory ([#5312](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5312))
