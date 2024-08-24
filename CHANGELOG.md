@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-08-23]
+### Changed
+- Auto-update ruff pre-commit hook ([#5317](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5317))
+### Updated
+- Update werkzeug to 3.0.4 ([#5313](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5313))
+- Update ruff to 0.6.2 ([#5316](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5316))
+
 ## [2024-08-22]
 ### Updated
 - Update django-celery-beat to 2.7.0 ([#5315](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5315))
