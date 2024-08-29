@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-08-28]
+### Updated
+- Update watchfiles to 0.24.0 ([#5330](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5330))
+- Update djlint to 1.34.2 ([#5329](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5329))
+
 ## [2024-08-26]
 ### Changed
 - Remove unnecessary `--dry-run` flag ([#5323](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5323))
