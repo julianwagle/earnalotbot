@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-09-03]
+### Fixed
+- Pin watchdog to 4.0.2 ([#5335](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5335))
+### Updated
+- Update django to 5.0.9 ([#5341](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5341))
+- Update sphinx-autobuild to 2024.9.3 ([#5340](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5340))
+
 ## [2024-09-02]
 ### Updated
 - Auto-update pre-commit hooks ([#5334](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5334))
