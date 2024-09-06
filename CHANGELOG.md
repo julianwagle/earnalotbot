@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-09-05]
+### Updated
+- Update django-upgrade to 1.21.0 ([#5348](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5348))
+
 ## [2024-09-04]
 ### Changed
 - Bump peter-evans/create-pull-request from 6 to 7 ([#5342](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5342))
