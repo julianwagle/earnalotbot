@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-09-08]
+### Changed
+- Auto-update pre-commit hooks ([#5357](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5357))
+- Update tox to 4.18.1 ([#5358](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5358))
+- Remove &#34;storages&#34; from `INSTALLED_APPS` ([#5361](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5361))
+
 ## [2024-09-07]
 ### Changed
 - Fix Requires Python to allow minor versions ([#5360](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5360))
