@@ -3,6 +3,17 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-09-10]
+### Changed
+- Add nginx container to dependabot automation ([#5345](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5345))
+### Updated
+- Update pytest to 8.3.3 ([#5371](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5371))
+- Bump postcss-preset-env from 9.6.0 to 10.0.3 ([#5368](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5368))
+- Bump concurrently from 8.2.2 to 9.0.0 ([#5363](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5363))
+- Bump python to 3.12.6 in local Docker ([#5370](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5370))
+- Bump python to 3.12.6 in production Docker ([#5367](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5367))
+- Bump python to 3.12.6 in docs Docker image ([#5369](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5369))
+
 ## [2024-09-09]
 ### Changed
 - Bump tiangolo/issue-manager from 0.5.0 to 0.5.1 ([#5364](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5364))
