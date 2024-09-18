@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-09-17]
+### Changed
+- Update tox to 4.19.0 ([#5381](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5381))
+- Update postgres plan in Heroku deployment docs ([#5383](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5383))
+### Fixed
+- Set allauth email subject prefix ([#5278](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5278))
+### Updated
+- Update sphinx-autobuild to 2024.9.17 ([#5382](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5382))
+- Bump traefik from 3.1.2 to 3.1.3 ([#5380](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5380))
+
 ## [2024-09-16]
 ### Updated
 - Update psycopg to 3.2.2 ([#5378](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5378))
