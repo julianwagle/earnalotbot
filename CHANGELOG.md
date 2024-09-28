@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-09-27]
+### Updated
+- Update redis to 5.1.0 ([#5406](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5406))
+- Update django-allauth to 65.0.2 ([#5405](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5405))
+
 ## [2024-09-26]
 ### Changed
 - Auto-update pre-commit hooks ([#5403](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5403))
