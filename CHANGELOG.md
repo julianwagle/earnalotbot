@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-09-29]
+### Updated
+- Update psycopg to 3.2.3 ([#5411](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5411))
+
 ## [2024-09-28]
 ### Updated
 - Update uvicorn to 0.31.0 ([#5408](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5408))
