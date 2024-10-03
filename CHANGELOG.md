@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-02]
+### Updated
+- Bump python from 3.12.6 to 3.12.7 in docs Docker image ([#5416](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5416))
+- Bump python from 3.12.6 to 3.12.7 in local Docker image ([#5415](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5415))
+- Bump python from 3.12.6 to 3.12.7 production Docker ([#5414](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5414))
+
 ## [2024-10-01]
 ### Updated
 - Update sentry-sdk to 2.15.0 ([#5413](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5413))
