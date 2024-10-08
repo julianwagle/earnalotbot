@@ -3,6 +3,20 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-07]
+### Changed
+- Docs: fix Mailgun include in troubleshooting sections ([#5439](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5439))
+- Migrate docs build to use uv ([#5438](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5438))
+- Add workflow to run uv lock ([#5422](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5422))
+- Bump sphinx from 7.4.7 to 8.0.2 in /docs ([#5264](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5264))
+- Bump astral-sh/setup-uv from 2 to 3 ([#5435](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5435))
+### Updated
+- Update sphinx to 8.0.2 ([#5263](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5263))
+- Update pre-commit to 4.0.0 ([#5432](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5432))
+- Auto-update pre-commit hooks ([#5433](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5433))
+- Update sphinx-rtd-theme to 3.0.0 ([#5437](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5437))
+- Bump amazon/aws-cli from 2.17.0 to 2.18.0 in /{{cookiecutter.project_slug}}/compose/production/aws ([#5436](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5436))
+
 ## [2024-10-05]
 ### Changed
 - Replace pip with uv for the project files ([#5356](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5356))
