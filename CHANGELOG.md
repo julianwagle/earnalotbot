@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-08]
+### Changed
+- Use uv sync &amp; uv run in docs build ([#5440](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5440))
+- [pre-commit.ci] pre-commit autoupdate ([#5441](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5441))
+### Updated
+- Update pre-commit to 4.0.1 ([#5445](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5445))
+- Bump amazon/aws-cli from 2.18.0 to 2.18.1 in /{{cookiecutter.project_slug}}/compose/production/aws ([#5443](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5443))
+- Auto-update pre-commit hooks ([#5442](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5442))
+
 ## [2024-10-07]
 ### Changed
 - Docs: fix Mailgun include in troubleshooting sections ([#5439](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5439))
