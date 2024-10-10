@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-09]
+### Updated
+- Update coverage to 7.6.2 ([#5448](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5448))
+
 ## [2024-10-08]
 ### Changed
 - Use uv sync &amp; uv run in docs build ([#5440](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5440))
