@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-10]
+### Updated
+- Update sentry-sdk to 2.16.0 ([#5444](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5444))
+- Bump traefik from 3.1.5 to 3.1.6 ([#5449](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5449))
+
 ## [2024-10-09]
 ### Updated
 - Update coverage to 7.6.2 ([#5448](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5448))
