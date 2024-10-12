@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-11]
+### Changed
+- Update README.md broken links ([#5454](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5454))
+- wait-for-it as dependency in the run stage ([#5452](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5452))
+### Updated
+- Auto-update pre-commit hooks ([#5450](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5450))
+
 ## [2024-10-10]
 ### Updated
 - Update sentry-sdk to 2.16.0 ([#5444](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5444))
