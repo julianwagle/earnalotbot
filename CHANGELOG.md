@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-14]
+### Changed
+- Add requirements for ubuntu 24.04 ([#5467](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5467))
+### Updated
+- Update sphinx to 8.1.3 ([#5463](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5463))
+- Update coverage to 7.6.3 ([#5464](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5464))
+
 ## [2024-10-12]
 ### Changed
 - Pin Python version to 3.12 ([#5456](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5456))
