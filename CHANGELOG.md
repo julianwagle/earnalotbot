@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-15]
+### Changed
+- [pre-commit.ci] pre-commit autoupdate ([#5468](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5468))
+- Auto-update pre-commit hooks ([#5469](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5469))
+
 ## [2024-10-14]
 ### Changed
 - Add requirements for ubuntu 24.04 ([#5467](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5467))
