@@ -3,6 +3,17 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-17]
+### Changed
+- Run uv lock when updating template version ([#5478](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5478))
+- Auto-update pre-commit hooks ([#5477](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5477))
+- Auto-update pre-commit hooks ([#5475](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5475))
+### Updated
+- Update ruff to 0.7.0 ([#5474](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5474))
+- Update uvicorn to 0.32.0 ([#5471](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5471))
+- Update pillow to 11.0.0 ([#5470](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5470))
+- Update sentry-sdk to 2.17.0 ([#5473](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5473))
+
 ## [2024-10-15]
 ### Changed
 - [pre-commit.ci] pre-commit autoupdate ([#5468](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5468))
