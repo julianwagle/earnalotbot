@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-21]
+### Changed
+- Remove CELERY_BROKER_URL in favor of REDIS_URL ([#4861](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4861))
+### Fixed
+- Fix a number of issues with Azure storage ([#5476](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5476))
+### Updated
+- Update coverage to 7.6.4 ([#5480](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5480))
+
 ## [2024-10-17]
 ### Changed
 - Run uv lock when updating template version ([#5478](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5478))
