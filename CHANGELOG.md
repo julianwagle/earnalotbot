@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-22]
+### Changed
+- Fix broken links in generated README ([#5482](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5482))
+### Updated
+- Auto-update pre-commit hooks ([#5483](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5483))
+
 ## [2024-10-21]
 ### Changed
 - Remove CELERY_BROKER_URL in favor of REDIS_URL ([#4861](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4861))
