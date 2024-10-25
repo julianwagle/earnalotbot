@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-24]
+### Changed
+- Auto-update pre-commit hooks ([#5488](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5488))
+### Updated
+- Update ruff to 0.7.1 ([#5487](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5487))
+- Update redis to 5.2.0 ([#5486](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5486))
+- Update django-allauth to 65.1.0 ([#5485](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5485))
+
 ## [2024-10-22]
 ### Changed
 - Fix broken links in generated README ([#5482](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5482))
