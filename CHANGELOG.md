@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-25]
+### Changed
+- Auto-update pre-commit hooks ([#5490](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5490))
+### Updated
+- Update werkzeug to 3.0.5 and unpin watchdog&lt;5 ([#5489](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5489))
+
 ## [2024-10-24]
 ### Changed
 - Auto-update pre-commit hooks ([#5488](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5488))
