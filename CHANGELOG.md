@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-26]
+### Updated
+- Update django-stubs to 5.1.1 ([#5495](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5495))
+- Update mypy to 1.13.0 ([#5484](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5484))
+- Update werkzeug to 3.0.6 ([#5492](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5492))
+
 ## [2024-10-25]
 ### Changed
 - Auto-update pre-commit hooks ([#5490](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5490))
