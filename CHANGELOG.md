@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-10-30]
+### Changed
+- Update pyproject-fmt pre-commit hook to v2.5.0 ([#5505](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5505))
+- Auto-update djLint pre-commit hook ([#5504](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5504))
+- Small spelling correction in comment ([#5502](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5502))
+### Updated
+- Update djlint to 1.35.3 ([#5503](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5503))
+- Update whitenoise to 6.8.2 ([#5501](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5501))
+
 ## [2024-10-29]
 ### Updated
 - Update django-cors-headers to 4.6.0 ([#5499](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5499))
