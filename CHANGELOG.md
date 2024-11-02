@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-11-01]
+### Changed
+- Update djLint pre-commit hook ([#5509](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5509))
+### Updated
+- Update djlint to 1.35.4 ([#5508](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5508))
+- Bump amazon/aws-cli from 2.18.1 to 2.19.0 ([#5507](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5507))
+
 ## [2024-10-31]
 ### Changed
 - Replace docs extra by docs dependency group from PEP 735 ([#5493](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5493))
