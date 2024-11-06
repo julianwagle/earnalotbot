@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-11-05]
+### Changed
+- Auto-update pre-commit hooks ([#5518](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5518))
+### Updated
+- Update djlint to 1.36.0 ([#5517](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5517))
+
 ## [2024-11-04]
 ### Updated
 - Update sentry-sdk to 2.18.0 ([#5515](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5515))
