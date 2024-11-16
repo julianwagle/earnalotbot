@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-11-15]
+### Changed
+- Update Ruff pre-commit hook to 0.7.4 ([#5532](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5532))
+### Updated
+- Update coverage to 7.6.5 ([#5529](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5529))
+
 ## [2024-11-14]
 ### Updated
 - Bump amazon/aws-cli from 2.20.0 to 2.21.0 ([#5528](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5528))
