@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-11-20]
+### Fixed
+- Fix typos in translation instructions in README ([#5538](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5538))
+### Updated
+- Bump amazon/aws-cli from 2.21.0 to 2.22.1 ([#5537](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5537))
+
 ## [2024-11-16]
 ### Updated
 - Update ruff to 0.7.4 ([#5531](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5531))
