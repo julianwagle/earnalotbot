@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-11-21]
+### Changed
+- Add support for secure Redis (TLS support) ([#5526](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5526))
+### Updated
+- Update sentry-sdk to 2.19.0 ([#5543](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5543))
+- Update uvicorn to 0.32.1 ([#5539](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5539))
+- Bump traefik from 3.2.0 to 3.2.1 ([#5541](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5541))
+
 ## [2024-11-20]
 ### Fixed
 - Fix typos in translation instructions in README ([#5538](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5538))
