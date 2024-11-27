@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-11-26]
+### Updated
+- Update coverage to 7.6.8 ([#5547](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5547))
+- Update watchfiles to 1.0.0 ([#5548](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5548))
+
 ## [2024-11-25]
 ### Changed
 - Bump astral-sh/setup-uv from 3 to 4 ([#5549](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5549))
