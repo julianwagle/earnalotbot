@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-11-27]
+### Changed
+- Convert Gulpfile to ESM ([#5551](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5551))
+### Fixed
+- Pin dart-sass to 1.77.6 to avoid deprecation warnings ([#5552](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5552))
+### Updated
+- Bump gulp-imagemin from 7.1.0 to 9.1.0 ([#5052](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5052))
+- Bump gulp from 4.0.2 to 5.0.0 ([#4949](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4949))
+
 ## [2024-11-26]
 ### Updated
 - Update coverage to 7.6.8 ([#5547](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5547))
