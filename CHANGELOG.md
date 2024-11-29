@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-11-28]
+### Changed
+- Update djlint pre-commit hook to 1.36.2 ([#5556](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5556))
+### Updated
+- Update djlint to 1.36.2 ([#5555](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5555))
+
 ## [2024-11-27]
 ### Changed
 - Convert Gulpfile to ESM ([#5551](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5551))
