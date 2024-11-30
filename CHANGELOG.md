@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-11-29]
+### Changed
+- Update ruff pre-commit hook to 0.8.1 ([#5561](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5561))
+- Update djLint pre-commit hook to 1.36.3 ([#5560](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5560))
+### Updated
+- Update ruff to 0.8.1 ([#5557](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5557))
+- Update djlint to 1.36.3 ([#5558](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5558))
+
 ## [2024-11-28]
 ### Changed
 - Update djlint pre-commit hook to 1.36.2 ([#5556](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5556))
