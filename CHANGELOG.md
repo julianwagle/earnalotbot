@@ -3,6 +3,23 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-12-08]
+### Changed
+- Update ruff pre-commit hook ([#5578](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5578))
+### Fixed
+- Pin node to version 22.11 ([#5582](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5582))
+### Updated
+- Update ruff to 0.8.2 ([#5576](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5576))
+- Update coverage to 7.6.9 ([#5581](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5581))
+- Update sentry-sdk to 2.19.2 ([#5579](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5579))
+- Bump python from 3.12.7 to 3.12.8 in production Docker image ([#5575](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5575))
+- Bump python from 3.12.7 to 3.12.8 in local Docker image ([#5574](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5574))
+- Bump python from 3.12.7 to 3.12.8 in docs Docker image ([#5573](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5573))
+- Update hiredis to 3.1.0 ([#5571](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5571))
+- Update redis to 5.2.1 ([#5580](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5580))
+- Update django to 5.0.10 ([#5572](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5572))
+- Update drf-spectacular to 0.28.0 ([#5564](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5564))
+
 ## [2024-12-03]
 ### Updated
 - Update django-upgrade to 1.22.2 ([#5567](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5567))
