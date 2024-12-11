@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-12-10]
+### Updated
+- Update watchfiles to 1.0.3 ([#5585](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5585))
+- Bump node from 22.11 to 22.12 ([#5583](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5583))
+
 ## [2024-12-08]
 ### Changed
 - Update ruff pre-commit hook ([#5578](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5578))
