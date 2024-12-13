@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-12-12]
+### Changed
+- Auto-update pre-commit hooks ([#5588](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5588))
+### Updated
+- Update ruff to 0.8.3 ([#5587](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5587))
+
 ## [2024-12-11]
 ### Updated
 - Bump traefik from 3.2.1 to 3.2.2 ([#5586](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5586))
