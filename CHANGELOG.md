@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-12-23]
+### Changed
+- Bump astral-sh/setup-uv from 4 to 5 ([#5602](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5602))
+### Updated
+- Bump webpack-cli from 5.1.4 to 6.0.1 ([#5601](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5601))
+
 ## [2024-12-20]
 ### Changed
 - Auto-update pre-commit hooks ([#5596](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5596))
