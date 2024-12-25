@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-12-24]
+### Changed
+- Update djLint pre-commit hook ([#5604](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5604))
+### Updated
+- Update djlint to 1.36.4 ([#5603](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5603))
+- Update uvicorn to 0.34.0 ([#5592](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5592))
+
 ## [2024-12-23]
 ### Changed
 - Bump astral-sh/setup-uv from 4 to 5 ([#5602](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5602))
