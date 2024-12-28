@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2024-12-27]
+### Updated
+- Update coverage to 7.6.10 ([#5608](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5608))
+- Update uvicorn-worker to 0.3.0 ([#5607](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5607))
+
 ## [2024-12-26]
 ### Updated
 - Update collectfasta to 3.2.1 ([#5606](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5606))
