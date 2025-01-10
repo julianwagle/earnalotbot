@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-01-09]
+### Changed
+- Drop support for Python 2 in template generation hooks ([#5614](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5614))
+### Updated
+- Bump node from 22.12 to 22.13 ([#5627](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5627))
+
 ## [2025-01-07]
 ### Fixed
 - Set `minimum_pre_commit_version` in pre-commit config ([#5626](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5626))
