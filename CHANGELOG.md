@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-01-10]
+### Updated
+- Update watchfiles to 1.0.4 ([#5631](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5631))
+
 ## [2025-01-09]
 ### Changed
 - Drop support for Python 2 in template generation hooks ([#5614](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5614))
