@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-01-13]
+### Updated
+- Update django-environ to 0.12.0 ([#5635](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5635))
+- Bump traefik from 3.3.0 to 3.3.1 ([#5634](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5634))
+
 ## [2025-01-11]
 ### Changed
 - Update ruff to 0.9.0 &amp; script to keep versions aligned ([#5628](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5628))
