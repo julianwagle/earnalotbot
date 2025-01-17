@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-01-16]
+### Updated
+- Update ruff to 0.9.2 ([#5646](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5646))
+- Bump amazon/aws-cli from 2.22.1 to 2.23.0 ([#5645](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5645))
+
 ## [2025-01-15]
 ### Fixed
 - Fix setting for to `CELERY_WORKER_HIJACK_ROOT_LOGGER` ([#5643](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5643))
