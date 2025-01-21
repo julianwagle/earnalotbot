@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-01-20]
+### Changed
+- Group all API tests under a `tests.api` namespace ([#5615](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5615))
+- Migrate test generation to pathlib ([#5649](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5649))
+- Migrate post-generation hook to pathlib ([#5648](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5648))
+
 ## [2025-01-16]
 ### Updated
 - Update ruff to 0.9.2 ([#5646](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5646))
