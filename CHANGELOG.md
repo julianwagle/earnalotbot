@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-01-24]
+### Updated
+- Update ruff to 0.9.3 ([#5654](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5654))
+
 ## [2025-01-21]
 ### Changed
 - Update linter error code from TCH to TC ([#5651](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5651))
