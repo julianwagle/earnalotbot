@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-02-05]
+### Changed
+- Add missing trailing slash in test `MEDIA_URL` ([#5666](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5666))
+### Updated
+- Update django to 5.0.12 ([#5667](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5667))
+
 ## [2025-02-03]
 ### Updated
 - Bump traefik from 3.3.2 to 3.3.3 ([#5660](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5660))
