@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-02-06]
+### Fixed
+- Bump node version in production Dockerfile from 20 to 22.13 ([#5672](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5672))
+### Updated
+- Update ruff to 0.9.5 ([#5673](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5673))
+
 ## [2025-02-05]
 ### Changed
 - Add missing trailing slash in test `MEDIA_URL` ([#5666](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5666))
