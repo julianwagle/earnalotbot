@@ -3,6 +3,17 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-02-07]
+### Updated
+- Update mypy to 1.15.0 ([#5664](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5664))
+- Update django-stubs to 5.1.3 ([#5680](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5680))
+- Bump python from 3.12.8 to 3.12.9 in local Docker image ([#5678](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5678))
+- Bump python from 3.12.8 to 3.12.9 in production Docker image ([#5677](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5677))
+- Bump python from 3.12.8 to 3.12.9 in docs Docker image ([#5676](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5676))
+- Update django-allauth to 65.4.1 ([#5679](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5679))
+- Update django-cors-headers to 4.7.0 ([#5675](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5675))
+- Update whitenoise to 6.9.0 ([#5674](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5674))
+
 ## [2025-02-06]
 ### Fixed
 - Bump node version in production Dockerfile from 20 to 22.13 ([#5672](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5672))
