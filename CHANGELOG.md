@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-02-11]
+### Updated
+- Update coverage to 7.6.12 ([#5686](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5686))
+
 ## [2025-02-10]
 ### Updated
 - Update pytest-django to 4.10.0 ([#5684](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5684))
