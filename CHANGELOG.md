@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-02-25]
+### Changed
+- Fix links to FAQ about `contrib.sites` directory ([#5704](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5704))
+
 ## [2025-02-23]
 ### Changed
 - Group dependabot docker directories ([#5698](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5698))
