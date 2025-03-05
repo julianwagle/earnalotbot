@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-03-04]
+### Changed
+- Add groups for dependabot updates ([#5709](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5709))
+- Enable uv updates for Dependabot ([#5716](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5716))
+### Updated
+- Update sphinx to 8.3.0 ([#5714](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5714))
+- Update pytest to 8.3.5 ([#5713](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5713))
+
 ## [2025-03-01]
 ### Updated
 - Update ruff to 0.9.9 ([#5711](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5711))
