@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-03-17]
+### Updated
+- Update sentry-sdk to 2.23.1 ([#5727](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5727))
+- Update coverage to 7.7.0 ([#5725](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5725))
+
 ## [2025-03-15]
 ### Updated
 - Update psycopg to 3.2.6 ([#5721](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5721))
