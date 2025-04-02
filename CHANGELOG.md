@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-04-01]
+### Updated
+- Update pillow to 11.2.0 ([#5751](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5751))
+- Bump traefik from 3.3.4 to 3.3.5 ([#5750](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5750))
+- Update celery to 5.5.0 ([#5748](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5748))
+
 ## [2025-03-31]
 ### Changed
 - Auto-update pre-commit hooks ([#5744](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5744))
