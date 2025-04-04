@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-04-03]
+### Updated
+- Update django-anymail to 13.0 ([#5763](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5763))
+- Update pytest-django to 4.11.1 ([#5762](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5762))
+- Update ruff to 0.11.3 ([#5761](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5761))
+- Update django-allauth to 65.7.0 ([#5760](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5760))
+
 ## [2025-04-02]
 ### Fixed
 - Fix line endings for dotenv merge script on Windows ([#5754](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5754))
