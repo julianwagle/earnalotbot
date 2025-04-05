@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-04-04]
+### Changed
+- Skip align-versions workflow ([#5766](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5766))
+
 ## [2025-04-03]
 ### Updated
 - Update django-anymail to 13.0 ([#5763](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5763))
