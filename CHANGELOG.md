@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-04-08]
+### Updated
+- Update django-extensions to 4.0 ([#5770](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5770))
+
 ## [2025-04-05]
 ### Changed
 - Add Docker build caching on GitHub Actions ([#5700](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5700))
