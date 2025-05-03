@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-05-02]
+### Updated
+- Update ruff to 0.11.8 ([#5819](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5819))
+
 ## [2025-04-30]
 ### Changed
 - Bump astral-sh/setup-uv from 5 to 6 ([#5801](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5801))
