@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-05-09]
+### Updated
+- Update django-debug-toolbar to 5.2.0 ([#5816](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5816))
+- Update django-allauth to 65.8.0 ([#5830](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5830))
+- Update django to 5.1.9 ([#5828](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5828))
+
 ## [2025-05-02]
 ### Updated
 - Update ruff to 0.11.8 ([#5819](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5819))
