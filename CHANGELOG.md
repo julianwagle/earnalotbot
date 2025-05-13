@@ -3,6 +3,26 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-05-12]
+### Changed
+- Remove extra spaces in Dockerfile `COPY` instruction paths ([#5822](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5822))
+- Add support for PostgreSQL 17 ([#5805](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5805))
+### Fixed
+- Fix media folder permissions prod dockerfile ([#5831](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5831))
+### Updated
+- Update sentry-sdk to 2.28.0 ([#5839](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5839))
+- Update djangorestframework-stubs to 3.16.0 ([#5806](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5806))
+- Bump traefik from 3.3.5 to 3.4.0 ([#5824](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5824))
+- Bump python from 3.12.9 to 3.12.10 in production Dockerfile ([#5774](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5774))
+- Bump python from 3.12.9 to 3.12.10 in docs Dockerfile ([#5773](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5773))
+- Bump python from 3.12.9 to 3.12.10 local Dockerfile ([#5772](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5772))
+- Update redis to 6.0.0 ([#5814](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5814))
+- Update psycopg to 3.2.8 ([#5836](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5836))
+- Update django-stubs to 5.2.0 ([#5804](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5804))
+- Bump amazon/aws-cli from 2.25.0 to 2.27.12 ([#5838](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5838))
+- Update ruff to 0.11.9 ([#5834](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5834))
+- Update hiredis to 3.1.1 ([#5833](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5833))
+
 ## [2025-05-09]
 ### Updated
 - Update django-debug-toolbar to 5.2.0 ([#5816](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5816))
