@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-05-16]
+### Updated
+- Update django-celery-beat to 2.8.1 ([#5841](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5841))
+- Update ruff to 0.11.10 ([#5847](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5847))
+
 ## [2025-05-14]
 ### Updated
 - Auto-update pre-commit hooks ([#5846](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5846))
