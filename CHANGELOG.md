@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-05-21]
+### Updated
+- Auto-update pre-commit hooks ([#5858](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5858))
+
 ## [2025-05-20]
 ### Fixed
 - Pin fido2&lt;2 ([#5854](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5854))
