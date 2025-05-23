@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-05-22]
+### Changed
+- Remove pin for fido2 library ([#5861](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5861))
+### Updated
+- Update coverage to 7.8.1 ([#5860](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5860))
+- Update django-allauth to 65.8.1 ([#5859](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5859))
+
 ## [2025-05-21]
 ### Updated
 - Auto-update pre-commit hooks ([#5858](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5858))
