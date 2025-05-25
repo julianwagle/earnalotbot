@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-05-24]
+### Updated
+- Auto-update pre-commit hooks ([#5866](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5866))
+
 ## [2025-05-23]
 ### Updated
 - Update hiredis to 3.2.0 ([#5864](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5864))
