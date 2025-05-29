@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-05-28]
+### Updated
+- Update redis to 6.2.0 ([#5871](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5871))
+- Bump traefik from 3.4.0 to 3.4.1 ([#5870](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5870))
+
 ## [2025-05-27]
 ### Updated
 - Update coverage to 7.8.2 ([#5868](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5868))
