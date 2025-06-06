@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-06-05]
+### Updated
+- Bump python from 3.12.10 to 3.12.11 in docs Docker ([#5883](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5883))
+- Bump python from 3.12.10 to 3.12.11 in production Docker ([#5884](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5884))
+- Bump python from 3.12.10 3.12.11 in local Docker ([#5885](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5885))
+- Update django to 5.1.10 ([#5882](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5882))
+
 ## [2025-06-04]
 ### Updated
 - Update argon2-cffi to 25.1.0 ([#5880](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5880))
