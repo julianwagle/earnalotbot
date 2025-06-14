@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-06-13]
+### Updated
+- Update coverage to 7.9.0 ([#5897](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5897))
+- Update sentry-sdk to 2.30.0 ([#5896](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5896))
+
 ## [2025-06-11]
 ### Changed
 - Bump stefanzweifel/git-auto-commit-action from 5 to 6 ([#5893](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5893))
