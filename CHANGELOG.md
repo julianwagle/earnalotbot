@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-06-17]
+### Updated
+- Update django-coverage-plugin to 3.1.1 ([#5900](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5900))
+- Update watchfiles to 1.1.0 ([#5899](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5899))
+
 ## [2025-06-15]
 ### Updated
 - Update coverage to 7.9.1 ([#5898](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5898))
