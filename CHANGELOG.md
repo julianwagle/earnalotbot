@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-06-18]
+### Updated
+- Update ruff to 0.12.0 ([#5904](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5904))
+- Update django-stubs to 5.2.1 ([#5905](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5905))
+- Update django-redis to 6.0.0 ([#5903](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5903))
+- Update django-webpack-loader to 3.2.1 ([#5902](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5902))
+
 ## [2025-06-17]
 ### Updated
 - Update django-coverage-plugin to 3.1.1 ([#5900](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5900))
