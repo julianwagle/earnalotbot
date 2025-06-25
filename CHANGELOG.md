@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-06-24]
+### Changed
+- Auto-update pre-commit hooks ([#5908](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5908))
+### Updated
+- Update sentry-sdk to 2.31.0 ([#5912](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5912))
+
 ## [2025-06-19]
 ### Updated
 - Update pytest to 8.4.1 ([#5907](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5907))
