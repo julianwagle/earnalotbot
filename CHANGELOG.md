@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-06-30]
+### Updated
+- Bump traefik from 3.4.1 to 3.4.3 ([#5917](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5917))
+- Update uvicorn to 0.35.0 ([#5919](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5919))
+- Update sentry-sdk to 2.32.0 ([#5918](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5918))
+
 ## [2025-06-26]
 ### Updated
 - Update ruff to 0.12.1 ([#5916](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5916))
