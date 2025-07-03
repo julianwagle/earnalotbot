@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-07-02]
+### Updated
+- Update pillow to 11.3.0 ([#5921](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5921))
+
 ## [2025-06-30]
 ### Updated
 - Bump traefik from 3.4.1 to 3.4.3 ([#5917](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5917))
