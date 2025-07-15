@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-07-14]
+### Changed
+- Fix howto docker command ([#5929](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5929))
+
 ## [2025-07-11]
 ### Updated
 - Update ruff to 0.12.3 ([#5928](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5928))
