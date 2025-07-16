@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-07-15]
+### Updated
+- Update mypy to 1.16.1 ([#5901](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5901))
+- Bump traefik from 3.4.3 to 3.4.4 ([#5930](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5930))
+
 ## [2025-07-14]
 ### Changed
 - Fix howto docker command ([#5929](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5929))
