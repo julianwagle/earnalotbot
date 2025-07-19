@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-07-18]
+### Updated
+- Update mypy to 1.17.0 ([#5937](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5937))
+- Update django-stubs to 5.2.2 ([#5936](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5936))
+
 ## [2025-07-17]
 ### Updated
 - Update ruff to 0.12.4 ([#5935](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5935))
