@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-07-27]
+### Updated
+- Update coverage to 7.10.1 ([#5947](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5947))
+
 ## [2025-07-25]
 ### Updated
 - Update django-anymail to 13.0.1 ([#5946](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5946))
