@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-08-06]
+### Updated
+- Update coverage to 7.10.2 ([#5964](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5964))
+- Update redis to 6.3.0 ([#5963](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5963))
+
 ## [2025-08-05]
 ### Changed
 - Rename `master` branch to `main` ([#5961](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5961))
