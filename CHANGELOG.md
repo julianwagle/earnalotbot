@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-08-08]
+### Changed
+- Remove `project.css` when a bundler is used ([#5874](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5874))
+### Updated
+- Update redis to 6.4.0 ([#5968](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5968))
+- Update ruff to 0.12.8 ([#5969](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5969))
+
 ## [2025-08-07]
 ### Updated
 - Update djangorestframework to 3.16.1 ([#5966](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5966))
