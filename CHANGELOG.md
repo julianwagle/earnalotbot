@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-08-10]
+### Updated
+- Update pre-commit to 4.3.0 ([#5971](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5971))
+- Auto-update pre-commit hooks ([#5970](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5970))
+
 ## [2025-08-08]
 ### Changed
 - Remove `project.css` when a bundler is used ([#5874](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5874))
