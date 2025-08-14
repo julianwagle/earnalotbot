@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-08-13]
+### Changed
+- Bump actions/checkout from 4 to 5 ([#5973](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5973))
+### Fixed
+- Fix imagemin corruption with Gulp ([#5974](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5974))
+
 ## [2025-08-12]
 ### Updated
 - Update coverage to 7.10.3 ([#5972](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5972))
