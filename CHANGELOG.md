@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-08-14]
+### Updated
+- Update ruff to 0.12.9 ([#5975](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5975))
+
 ## [2025-08-13]
 ### Changed
 - Bump actions/checkout from 4 to 5 ([#5973](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5973))
