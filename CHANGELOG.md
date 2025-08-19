@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-08-18]
+### Updated
+- Bump node from 24.5 to 24.6 ([#5981](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5981))
+- Update coverage to 7.10.4 ([#5980](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5980))
+- Update pytest-sugar to 1.1.0 ([#5979](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5979))
+
 ## [2025-08-15]
 ### Updated
 - Update django-allauth to 65.11.0 ([#5977](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5977))
