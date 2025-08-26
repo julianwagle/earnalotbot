@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-08-25]
+### Changed
+- Fix link to Two Scoops of Django book ([#5985](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5985))
+### Updated
+- Update collectfasta to 3.3.1 ([#5987](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5987))
+- Update coverage to 7.10.5 ([#5986](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5986))
+- Update pytest-sugar to 1.1.1 ([#5984](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5984))
+
 ## [2025-08-21]
 ### Updated
 - Update ruff to 0.12.10 ([#5983](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5983))
