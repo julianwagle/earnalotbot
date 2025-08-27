@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-08-26]
+### Updated
+- Update sentry-sdk to 2.35.1 ([#5988](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5988))
+- Update sphinx-autobuild to 2025.8.25 ([#5989](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5989))
+
 ## [2025-08-25]
 ### Changed
 - Fix link to Two Scoops of Django book ([#5985](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5985))
