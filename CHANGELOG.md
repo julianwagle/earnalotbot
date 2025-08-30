@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-08-29]
+### Changed
+- Move template linting and formatting to ruff ([#5613](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5613))
+### Updated
+- Bump node from 24.6-bookworm-slim to 24.7-bookworm-slim in /{{cookiecutter.project_slug}}/compose/local/node ([#5997](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5997))
+- Update ruff to 0.12.11 ([#5998](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5998))
+
 ## [2025-08-28]
 ### Updated
 - Update django-allauth to 65.11.1 ([#5992](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5992))
