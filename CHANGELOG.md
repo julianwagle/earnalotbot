@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-03]
+### Changed
+- Update PythonAnywhere deployment page ([#6003](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6003))
+### Updated
+- Bump traefik from 3.5.0 to 3.5.1 ([#6004](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6004))
+
 ## [2025-09-02]
 ### Updated
 - Update sentry-sdk to 2.35.2 ([#6002](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6002))
