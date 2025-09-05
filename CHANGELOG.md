@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-04]
+### Changed
+- Bump actions/setup-python from 5 to 6 ([#6010](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6010))
+### Updated
+- Update django-anymail to 13.1 ([#6007](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6007))
+- Update sentry-sdk to 2.36.0 ([#6006](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6006))
+
 ## [2025-09-03]
 ### Changed
 - Update PythonAnywhere deployment page ([#6003](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6003))
