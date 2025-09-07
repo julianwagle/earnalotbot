@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-06]
+### Changed
+- Migrate to `uv` as package manager for the generated project ([#5434](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5434))
+
 ## [2025-09-05]
 ### Changed
 - Bump actions/setup-node from 4 to 5 ([#6008](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6008))
