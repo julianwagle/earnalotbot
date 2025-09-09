@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-08]
+### Changed
+- Fix ResourceWarning for unclosed files in test_cookiecutter_generation.py ([#6020](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6020))
+### Fixed
+- Use `--locked` instead of `--frozen` when running `uv sync` ([#6018](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6018))
+- Remove mentions of `pip` and `virtualenv` in the `install_python_dependencies.sh` utility script ([#6019](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6019))
+### Updated
+- Update psycopg to 3.2.10 ([#6023](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6023))
+- Update django-cors-headers to 4.8.0 ([#6022](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6022))
+
 ## [2025-09-06]
 ### Changed
 - Migrate to `uv` as package manager for the generated project ([#5434](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5434))
