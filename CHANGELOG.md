@@ -3,6 +3,23 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-09]
+### Changed
+- Bump pygithub from 2.5 to 2.8.1 ([#6038](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6038))
+- Bump pytest-xdist from 3.6.1 to 3.8.0 ([#6037](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6037))
+- Bump tox from 4.23.2 to 4.30.2 ([#6035](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6035))
+- Bump pre-commit from 4.1.0 to 4.3.0 ([#6034](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6034))
+- Bump gitpython from 3.1.43 to 3.1.45 ([#6032](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6032))
+- Bump requests from 2.32.3 to 2.32.4 ([#6028](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6028))
+- Bump jinja2 from 3.1.5 to 3.1.6 ([#6029](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6029))
+### Updated
+- Bump nginx from 1.17.8 to 1.29.1 ([#6036](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6036))
+- Bump amazon/aws-cli image from 2.28.0 to 2.29.0 ([#6031](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6031))
+- Update django-allauth to 65.11.2 ([#6030](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6030))
+- Update sentry-sdk to 2.37.1 ([#6027](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6027))
+- Update whitenoise to 6.10.0 ([#6026](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6026))
+- Update django-upgrade pre-commit hook ([#6025](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6025))
+
 ## [2025-09-08]
 ### Changed
 - Fix ResourceWarning for unclosed files in test_cookiecutter_generation.py ([#6020](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6020))
