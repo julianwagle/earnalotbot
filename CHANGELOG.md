@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-10]
+### Changed
+- Bump tox-uv from 1.17.0 to 1.28.0 ([#6040](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6040))
+- Bump requests from 2.32.4 to 2.32.5 ([#6043](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6043))
+- Bump sphinx-autobuild from 2024.10.3 to 2025.8.25 ([#6044](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6044))
+- Bump django-upgrade from 1.22.2 to 1.28.0 ([#6042](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6042))
+- Bump pytest from 8.3.4 to 8.4.2 ([#6039](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6039))
+### Updated
+- Bump traefik from 3.5.1 to 3.5.2 ([#6041](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6041))
+
 ## [2025-09-09]
 ### Changed
 - Bump pygithub from 2.5 to 2.8.1 ([#6038](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6038))
