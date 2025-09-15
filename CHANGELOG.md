@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-14]
+### Changed
+- Update documentation for deploying on PythonAnywhere with uv ([#6017](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6017))
+### Updated
+- Update django-stubs to 5.2.5 ([#6055](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6055))
+
 ## [2025-09-12]
 ### Updated
 - Bump amazon/aws-cli Docker image from 2.29.0 to 2.30.0 ([#6054](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6054))
