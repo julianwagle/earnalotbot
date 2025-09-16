@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-15]
+### Changed
+- Upgrade to Django 5.2 ([#5962](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5962))
+### Updated
+- Update sentry-sdk to 2.38.0 ([#6057](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6057))
+- Bump sass from 1.77.6 to 1.92.1 ([#6021](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6021))
+- Bump amazon/aws-cli from 2.30.0 to 2.30.1 ([#6056](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6056))
+
 ## [2025-09-14]
 ### Changed
 - Update documentation for deploying on PythonAnywhere with uv ([#6017](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6017))
