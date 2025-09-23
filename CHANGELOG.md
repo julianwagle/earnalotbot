@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-22]
+### Updated
+- Update coverage to 7.10.7 ([#6070](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6070))
+- Upgrade to Python 3.13 ([#6067](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6067))
+
 ## [2025-09-20]
 ### Updated
 - Update uvicorn-worker to 0.4.0 ([#6069](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6069))
