@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-23]
+### Changed
+- Added help command to sphinx Makefile ([#6024](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6024))
+- Update RTD config to latest recommendation for uv ([#6072](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6072))
+### Updated
+- Update uvicorn to 0.37.0 ([#6073](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6073))
+- Bump sass from 1.93.0 to 1.93.1 ([#6071](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6071))
+
 ## [2025-09-22]
 ### Updated
 - Update coverage to 7.10.7 ([#6070](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6070))
