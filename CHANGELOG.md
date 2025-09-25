@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-24]
+### Updated
+- Bump amazon/aws-cli from 2.30.1 to 2.31.0 ([#6075](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6075))
+
 ## [2025-09-23]
 ### Changed
 - Added help command to sphinx Makefile ([#6024](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6024))
