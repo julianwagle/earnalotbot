@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-25]
+### Updated
+- Update ruff to 0.13.2 ([#6078](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6078))
+- Update sentry-sdk to 2.39.0 ([#6077](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6077))
+
 ## [2025-09-24]
 ### Updated
 - Bump amazon/aws-cli from 2.30.1 to 2.31.0 ([#6075](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6075))
