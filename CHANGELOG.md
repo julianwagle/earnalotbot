@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-29]
+### Changed
+- Bump pyyaml from 6.0.2 to 6.0.3 ([#6079](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6079))
+
 ## [2025-09-25]
 ### Updated
 - Update ruff to 0.13.2 ([#6078](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6078))
