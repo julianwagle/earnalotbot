@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-09-30]
+### Changed
+- Fix issue #3745: Use Django Browser Reload instead a Javascript based one for auto reload ([#6016](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6016))
+### Updated
+- Bump node from 24.8 to 24.9 ([#6081](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6081))
+- Bump traefik from 3.5.2 to 3.5.3 ([#6083](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6083))
+- Update djangorestframework-stubs to 3.16.4 ([#6080](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6080))
+
 ## [2025-09-29]
 ### Changed
 - Bump pyyaml from 6.0.2 to 6.0.3 ([#6079](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6079))
