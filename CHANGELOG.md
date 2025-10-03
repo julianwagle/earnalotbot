@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-10-02]
+### Updated
+- Update ruff to 0.13.3 ([#6089](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6089))
+
 ## [2025-10-01]
 ### Changed
 - Bump tiangolo/issue-manager from 0.5.1 to 0.6.0 ([#6084](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6084))
