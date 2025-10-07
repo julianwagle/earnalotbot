@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-10-06]
+### Changed
+- fix(project generation fails with docker --load flag) ([#6097](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6097))
+### Updated
+- Update sentry-sdk to 2.40.0 ([#6096](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6096))
+- Update django-coverage-plugin to 3.2.0 ([#6095](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6095))
+- Update django-stubs to 5.2.6 ([#6093](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6093))
+- Update django-allauth to 65.12.0 ([#6092](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6092))
+
 ## [2025-10-03]
 ### Changed
 - Bump tox from 4.30.2 to 4.30.3 ([#6091](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6091))
