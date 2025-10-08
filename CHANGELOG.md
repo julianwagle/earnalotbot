@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-10-07]
+### Changed
+- Bump django-upgrade from 1.28.0 to 1.29.0 ([#6099](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6099))
+- Update django-upgrade pre-commit hook ([#6098](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6098))
+### Updated
+- Update ruff to 0.14.0 ([#6100](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6100))
+
 ## [2025-10-06]
 ### Changed
 - fix(project generation fails with docker --load flag) ([#6097](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6097))
