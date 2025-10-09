@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-10-08]
+### Changed
+- Bump astral-sh/setup-uv from 6 to 7 ([#6101](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6101))
+### Updated
+- Update django-stubs to 5.2.7 ([#6104](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6104))
+- Bump nginx from 1.29.1 to 1.29.2 ([#6103](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6103))
+
 ## [2025-10-07]
 ### Changed
 - Bump django-upgrade from 1.28.0 to 1.29.0 ([#6099](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6099))
