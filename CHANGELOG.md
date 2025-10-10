@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-10-09]
+### Updated
+- Update sentry-sdk to 2.41.0 ([#6106](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6106))
+
 ## [2025-10-08]
 ### Changed
 - Bump astral-sh/setup-uv from 6 to 7 ([#6101](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6101))
