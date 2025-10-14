@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-10-13]
+### Changed
+- Enable version updates for Docker Compose files ([#6116](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6116))
+- Bump tox-uv from 1.28.1 to 1.29.0 ([#6114](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6114))
+- Bump stefanzweifel/git-auto-commit-action from 6 to 7 ([#6113](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6113))
+
 ## [2025-10-10]
 ### Changed
 - Bump tox from 4.30.3 to 4.31.0 ([#6109](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6109))
