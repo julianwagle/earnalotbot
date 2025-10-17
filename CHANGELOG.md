@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-10-16]
+### Changed
+- Update pyproject-fmt pre-commit hook in template ([#6125](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6125))
+### Updated
+- Update django-allauth to 65.12.1 ([#6127](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6127))
+- Update pillow to 12.0.0 ([#6122](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6122))
+- Update sentry-sdk to 2.42.0 ([#6124](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6124))
+- Update coverage to 7.11.0 ([#6123](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6123))
+
 ## [2025-10-15]
 ### Updated
 - Bump redis from 6 to 7.2 ([#6118](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6118))
