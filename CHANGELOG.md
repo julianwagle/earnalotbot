@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-10-20]
+### Changed
+- Update pre-commit GitLab image to python3.13-bookworm ([#6126](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6126))
+- Fixed various broken URLs and typos in the documentation ([#6133](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6133))
+### Updated
+- Update uvicorn to 0.38.0 ([#6134](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6134))
+
 ## [2025-10-17]
 ### Updated
 - Update ruff to 0.14.1 ([#6128](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6128))
