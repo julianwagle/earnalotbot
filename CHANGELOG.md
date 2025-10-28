@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-10-27]
+### Changed
+- Bump tox from 4.31.0 to 4.32.0 ([#6145](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6145))
+### Fixed
+- keep_local_envs_in_vcs user preference ([#6132](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6132))
+
 ## [2025-10-24]
 ### Changed
 - Bump django-upgrade from 1.29.0 to 1.29.1 ([#6142](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6142))
