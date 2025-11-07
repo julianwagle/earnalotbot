@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-11-06]
+### Updated
+- Update django-webpack-loader to 3.2.2 ([#6161](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6161))
+- Update django to 5.2.8 ([#6160](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6160))
+
 ## [2025-11-03]
 ### Updated
 - Update drf-spectacular to 0.29.0 ([#6158](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6158))
