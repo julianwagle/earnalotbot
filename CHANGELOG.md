@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-11-07]
+### Updated
+- Auto-update pre-commit hooks ([#6165](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6165))
+- Update ruff to 0.14.4 ([#6164](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6164))
+- Update django-crispy-forms to 2.5 ([#6163](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6163))
+
 ## [2025-11-06]
 ### Updated
 - Update django-webpack-loader to 3.2.2 ([#6161](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6161))
