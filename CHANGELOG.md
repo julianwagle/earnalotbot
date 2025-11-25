@@ -3,6 +3,23 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-11-24]
+### Changed
+- Bump actions/checkout from 5 to 6 ([#6190](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6190))
+- Bump pre-commit from 4.3.0 to 4.5.0 ([#6198](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6198))
+- Bump pytest from 8.4.2 to 9.0.1 ([#6178](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6178))
+### Updated
+- Update coverage to 7.12.0 ([#6200](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6200))
+- Update pre-commit to 4.5.0 ([#6199](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6199))
+- Bump amazon/aws-cli from 2.31.0 to 2.32.3 ([#6197](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6197))
+- Update psycopg to 3.2.13 ([#6194](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6194))
+- Bump traefik from 3.5.4 to 3.6.2 ([#6192](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6192))
+- Update django-allauth to 65.13.1 ([#6189](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6189))
+- Update sentry-sdk to 2.45.0 ([#6185](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6185))
+- Update pytest to 9.0.1 ([#6179](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6179))
+- Update redis to 7.1.0 ([#6187](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6187))
+- Update ruff to 0.14.6 ([#6193](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6193))
+
 ## [2025-11-16]
 ### Changed
 - Add PostgreSQL 18 ([#6144](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6144))
