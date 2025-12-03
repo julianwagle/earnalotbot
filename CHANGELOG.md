@@ -3,6 +3,17 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-12-02]
+### Updated
+- Update django to 5.2.9 ([#6220](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6220))
+- Update mypy to 1.19.0 ([#6218](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6218))
+- Update django-stubs to 5.2.8 ([#6216](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6216))
+- Update psycopg to 3.3.0 ([#6215](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6215))
+- Update sphinx to 9.0.1 ([#6214](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6214))
+- Update werkzeug to 3.1.4 ([#6212](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6212))
+- Update celery to 5.6.0 ([#6211](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6211))
+- Update ruff to 0.14.7 ([#6205](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6205))
+
 ## [2025-11-25]
 ### Changed
 - Update PostgreSQL version range in README ([#6203](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6203))
