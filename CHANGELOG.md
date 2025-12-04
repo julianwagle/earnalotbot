@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-12-03]
+### Changed
+- Add docker buildkit flag ([#6219](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6219))
+### Updated
+- Update sentry-sdk to 2.47.0 ([#6223](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6223))
+- Update psycopg to 3.3.1 ([#6221](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6221))
+
 ## [2025-12-02]
 ### Updated
 - Update django to 5.2.9 ([#6220](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6220))
