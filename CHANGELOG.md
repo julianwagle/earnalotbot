@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-12-05]
+### Updated
+- Update rcssmin to 1.2.2 ([#6232](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6232))
+- Update django-compressor to 4.6.0 ([#6231](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6231))
+- Update ruff to 0.14.8 ([#6229](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6229))
+- Update sphinx to 9.0.4 ([#6228](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6228))
+- Update djangorestframework-stubs to 3.16.6 ([#6224](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6224))
+
 ## [2025-12-03]
 ### Changed
 - Add docker buildkit flag ([#6219](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6219))
