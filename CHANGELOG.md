@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-12-12]
+### Updated
+- Bump node from 24.11 to 24.12 ([#6247](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6247))
+- Update ruff to 0.14.9 ([#6245](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6245))
+
 ## [2025-12-10]
 ### Changed
 - Bump peter-evans/create-pull-request from 7 to 8 ([#6243](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6243))
