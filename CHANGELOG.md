@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-12-17]
+### Changed
+- Bump pre-commit from 4.5.0 to 4.5.1 ([#6252](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6252))
+### Updated
+- Bump traefik from 3.6.4 to 3.6.5 ([#6253](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6253))
+- Update pre-commit to 4.5.1 ([#6251](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6251))
+
 ## [2025-12-16]
 ### Updated
 - Update sentry-sdk to 2.48.0 ([#6250](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6250))
