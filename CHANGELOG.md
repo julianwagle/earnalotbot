@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-12-18]
+### Updated
+- Update django-anymail to 14.0 ([#6254](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6254))
+
 ## [2025-12-17]
 ### Changed
 - Bump pre-commit from 4.5.0 to 4.5.1 ([#6252](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6252))
