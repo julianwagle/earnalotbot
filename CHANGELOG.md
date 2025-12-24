@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-12-23]
+### Fixed
+- Remove silent `ImportError` suppression in `UsersConfig.ready()` ([#6263](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6263))
+- Switch Dependabot to uv ecosystem ([#6258](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6258))
+### Updated
+- Update collectfasta to 3.3.2 ([#6262](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6262))
+
 ## [2025-12-22]
 ### Updated
 - Update uvicorn to 0.40.0 ([#6261](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6261))
