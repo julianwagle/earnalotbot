@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-12-29]
+### Updated
+- Update coverage to 7.13.1 ([#6266](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6266))
+- Update collectfasta to 3.3.3 ([#6265](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6265))
+
 ## [2025-12-23]
 ### Fixed
 - Remove silent `ImportError` suppression in `UsersConfig.ready()` ([#6263](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6263))
