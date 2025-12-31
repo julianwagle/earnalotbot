@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2025-12-30]
+### Updated
+- Update celery to 5.6.1 ([#6267](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6267))
+- Bump traefik from 3.6.5 to 3.6.6 ([#6268](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6268))
+
 ## [2025-12-29]
 ### Updated
 - Update coverage to 7.13.1 ([#6266](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6266))
