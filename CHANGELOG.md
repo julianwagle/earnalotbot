@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-01-02]
+### Changed
+- Bump gitpython from 3.1.45 to 3.1.46 ([#6270](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6270))
+### Updated
+- Update sphinx to 9.1.0 ([#6269](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6269))
+- Update pillow to 12.1.0 ([#6271](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6271))
+
 ## [2025-12-30]
 ### Updated
 - Update celery to 5.6.1 ([#6267](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6267))
