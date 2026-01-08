@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-01-07]
+### Fixed
+- Fix virtual environment setup to GitLab CI ([#6175](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6175))
+### Updated
+- Update django to 5.2.10 ([#6277](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6277))
+
 ## [2026-01-05]
 ### Changed
 - Bump tox from 4.32.0 to 4.33.0 ([#6276](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6276))
