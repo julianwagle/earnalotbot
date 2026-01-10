@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-01-09]
+### Changed
+- Regenerate template lockfile ([#6282](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6282))
+- Bump tox from 4.33.0 to 4.34.0 ([#6281](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6281))
+
 ## [2026-01-08]
 ### Updated
 - Update ruff to 0.14.11 ([#6280](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6280))
