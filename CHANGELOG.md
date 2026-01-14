@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-01-13]
+### Changed
+- Bump filelock from 3.20.2 to 3.20.3 ([#6287](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6287))
+- Bump virtualenv from 20.36.0 to 20.36.1 ([#6286](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6286))
+- Bump sphinx-rtd-theme from 3.0.2 to 3.1.0 ([#6284](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6284))
+- Bump tox from 4.34.0 to 4.34.1 ([#6283](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6283))
+### Updated
+- Update djangorestframework-stubs to 3.16.7 ([#6285](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6285))
+
 ## [2026-01-09]
 ### Changed
 - Regenerate template lockfile ([#6282](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6282))
