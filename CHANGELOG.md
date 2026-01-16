@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-01-15]
+### Updated
+- Bump traefik from 3.6.6 to 3.6.7 ([#6291](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6291))
+- Bump node from 24.12 to 24.13 ([#6288](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6288))
+- Bump amazon/aws-cli from 2.32.3 to 2.33.0 ([#6289](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6289))
+
 ## [2026-01-13]
 ### Changed
 - Bump filelock from 3.20.2 to 3.20.3 ([#6287](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6287))
