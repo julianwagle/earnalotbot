@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-01-16]
+### Changed
+- Bump sphinx from 8.2.3 to 9.1.0 ([#6297](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6297))
+- Bump myst-parser from 4.0.1 to 5.0.0 ([#6296](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6296))
+### Updated
+- Update ruff to 0.14.13 ([#6293](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6293))
+
 ## [2026-01-15]
 ### Updated
 - Bump traefik from 3.6.6 to 3.6.7 ([#6291](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6291))
