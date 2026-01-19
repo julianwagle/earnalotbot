@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-01-18]
+### Updated
+- Update django-allauth to 65.14.0 ([#6298](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6298))
+
 ## [2026-01-16]
 ### Changed
 - Bump sphinx from 8.2.3 to 9.1.0 ([#6297](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6297))
