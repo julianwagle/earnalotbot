@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-02-04]
+### Updated
+- Update sentry-sdk to 2.52.0 ([#6320](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6320))
+- Update ruff to 0.15.0 ([#6319](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6319))
+- Update gunicorn to 25.0.1 ([#6313](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6313))
+- Update djangorestframework-stubs to 3.16.8 ([#6317](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6317))
+- Update coverage to 7.13.3 ([#6315](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6315))
+- Update django to 5.2.11 ([#6314](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6314))
+
 ## [2026-02-02]
 ### Updated
 - Auto-update pre-commit hooks ([#6311](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6311))
