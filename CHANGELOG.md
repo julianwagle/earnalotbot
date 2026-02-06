@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-02-05]
+### Updated
+- Bump nginx from 1.29.4 to 1.29.5 ([#6321](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6321))
+
 ## [2026-02-04]
 ### Updated
 - Update sentry-sdk to 2.52.0 ([#6320](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6320))
