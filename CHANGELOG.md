@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-02-09]
+### Changed
+- Auto-update pyproject-fmt pre-commit hook ([#6334](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6334))
+### Updated
+- Update django-allauth to 65.14.1 ([#6324](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6324))
+- Update gunicorn to 25.0.3 ([#6323](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6323))
+
 ## [2026-02-06]
 ### Updated
 - Update gunicorn to 25.0.2 ([#6322](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6322))
