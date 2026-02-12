@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-02-11]
+### Changed
+- Bump cryptography from 46.0.3 to 46.0.5 ([#6349](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6349))
+- Auto-update pre-commit hooks ([#6350](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6350))
+### Updated
+- Update pillow to 12.1.1 ([#6351](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6351))
+
 ## [2026-02-10]
 ### Changed
 - Auto-update pre-commit hooks ([#6339](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6339))
