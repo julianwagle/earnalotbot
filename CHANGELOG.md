@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-02-24]
+### Changed
+- Bump tox-uv from 1.29.0 to 1.30.0 ([#6383](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6383))
+- Add agents instructions ([#6208](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6208))
+- Bump tox from 4.44.0 to 4.45.0 ([#6382](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6382))
+- Auto-update pre-commit hooks ([#6381](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6381))
+### Updated
+- Bump traefik from 3.6.8 to 3.6.9 ([#6384](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6384))
+
 ## [2026-02-23]
 ### Changed
 - Bump tox from 4.41.0 to 4.44.0 ([#6379](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6379))
