@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-02-25]
+### Changed
+- Bump django-upgrade from 1.29.1 to 1.30.0 ([#6389](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6389))
+- Bump tox-uv from 1.30.0 to 1.32.1 ([#6387](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6387))
+- Bump tox from 4.45.0 to 4.46.0 ([#6388](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6388))
+### Updated
+- Bump node from 24.13 to 24.14 ([#6386](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6386))
+- Update django-upgrade pre-commit hook ([#6385](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6385))
+
 ## [2026-02-24]
 ### Changed
 - Bump tox-uv from 1.29.0 to 1.30.0 ([#6383](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6383))
