@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-03-02]
+### Changed
+- Update dependabot.yml to remove Django 6.0 ignore rule ([#6402](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6402))
+- Bump tox from 4.46.3 to 4.47.0 ([#6401](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6401))
+### Updated
+- Update sentry-sdk to 2.54.0 ([#6403](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6403))
+- Bump amazon/aws-cli from 2.33.0 to 2.34.0 ([#6400](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6400))
+
 ## [2026-03-01]
 ### Changed
 - Add `django-ninja` as REST API option ([#6088](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6088))
