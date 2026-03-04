@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-03-03]
+### Changed
+- Bump cookiecutter from 2.6 to 2.7.0 ([#6406](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6406))
+- Bump tox-uv from 1.33.0 to 1.33.1 ([#6405](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6405))
+### Updated
+- Update django to 5.2.12 ([#6407](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6407))
+
 ## [2026-03-02]
 ### Changed
 - Update dependabot.yml to remove Django 6.0 ignore rule ([#6402](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6402))
