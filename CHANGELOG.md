@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-03-09]
+### Changed
+- Bump tox from 4.48.1 to 4.49.0 ([#6422](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6422))
+- Bump binaryornot from 0.4.4 to 0.6.0 ([#6421](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6421))
+- Upgrade factory-boy to 3.3.3 and fix mypy compatibility ([#6417](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6417))
+### Updated
+- Update django-allauth to 65.15.0 ([#6424](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6424))
+- Update redis to 7.3.0 ([#6418](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6418))
+
 ## [2026-03-06]
 ### Changed
 - Bump tox from 4.47.3 to 4.48.1 ([#6416](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6416))
