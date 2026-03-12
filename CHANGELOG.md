@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-03-11]
+### Changed
+- Add a generative AI page to the docs ([#6378](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6378))
+
 ## [2026-03-10]
 ### Changed
 - Upgrade to Django 6.0 ([#6411](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6411))
