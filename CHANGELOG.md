@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-03-16]
+### Updated
+- Update hiredis to 3.3.1 ([#6438](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6438))
+- Update uvicorn to 0.42.0 ([#6437](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6437))
+
 ## [2026-03-14]
 ### Changed
 - Bump pyjwt from 2.10.1 to 2.12.0 ([#6435](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6435))
