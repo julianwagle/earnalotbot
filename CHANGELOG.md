@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-03-17]
+### Updated
+- Update sentry-sdk to 2.55.0 ([#6443](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6443))
+- Update coverage to 7.13.5 ([#6442](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6442))
+- Update pyproject-fmt from v2.18.1 to v2.19.0 ([#6441](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6441))
+- Update django-stubs to 6.0.0 ([#6440](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6440))
+
 ## [2026-03-16]
 ### Updated
 - Update hiredis to 3.3.1 ([#6438](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6438))
