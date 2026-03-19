@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-03-18]
+### Changed
+- Bump tox from 4.49.1 to 4.50.0 ([#6444](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6444))
+### Updated
+- Update django-ninja to 1.6.2 ([#6448](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6448))
+- Update djangorestframework to 3.17.0 ([#6447](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6447))
+- Update django-ninja to 1.6.1 ([#6446](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6446))
+- Update django-stubs to 6.0.1 ([#6445](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6445))
+
 ## [2026-03-17]
 ### Updated
 - Update sentry-sdk to 2.55.0 ([#6443](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6443))
