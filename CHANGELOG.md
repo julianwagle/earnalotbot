@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-03-19]
+### Changed
+- Bump tox from 4.50.0 to 4.50.1 ([#6450](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6450))
+### Updated
+- Update ruff to 0.15.7 ([#6451](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6451))
+- Update pyproject-fmt pre-commit hook ([#6449](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6449))
+
 ## [2026-03-18]
 ### Changed
 - Bump tox from 4.49.1 to 4.50.0 ([#6444](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6444))
