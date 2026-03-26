@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-03-25]
+### Updated
+- Update djangorestframework to 3.17.1 ([#6458](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6458))
+- Bump nginx from 1.29.6 to 1.29.7 ([#6460](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6460))
+- Update gunicorn to 25.2.0 ([#6459](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6459))
+
 ## [2026-03-24]
 ### Updated
 - Update redis to 7.4.0 ([#6456](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6456))
