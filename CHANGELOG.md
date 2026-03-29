@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-03-28]
+### Changed
+- Upgrade to Python 3.14 ([#6412](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6412))
+- Bump cryptography from 46.0.5 to 46.0.6 ([#6468](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6468))
+
 ## [2026-03-27]
 ### Updated
 - Update gunicorn to 25.3.0 ([#6465](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6465))
