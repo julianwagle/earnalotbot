@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-03-31]
+### Changed
+- Bump tox from 4.51.0 to 4.52.0 ([#6472](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6472))
+- Bump requests from 2.33.0 to 2.33.1 ([#6471](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6471))
+- Bump pygments from 2.19.2 to 2.20.0 ([#6470](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6470))
+### Updated
+- Update sentry-sdk to 2.57.0 ([#6473](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6473))
+
 ## [2026-03-30]
 ### Changed
 - Bump tox from 4.50.3 to 4.51.0 ([#6469](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6469))
