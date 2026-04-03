@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-04-02]
+### Updated
+- Update ruff to 0.15.9 ([#6484](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6484))
+- Update werkzeug to 3.1.8 ([#6485](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6485))
+- Update django-debug-toolbar to 6.3.0 ([#6483](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6483))
+- Update django-allauth to 65.15.1 ([#6482](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6482))
+
 ## [2026-04-01]
 ### Changed
 - Bump tox-uv from 1.33.4 to 1.34.0 ([#6477](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6477))
