@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-04-07]
+### Updated
+- Update django to 6.0.4 ([#6492](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6492))
+
 ## [2026-04-06]
 ### Fixed
 - Fix project generation failure rCSSmin on Windows ([#6491](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6491))
