@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-04-08]
+### Changed
+- Bump pytest from 9.0.2 to 9.0.3 ([#6494](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6494))
+### Updated
+- Bump traefik from v3.6.12 to v3.6.13 ([#6496](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6496))
+- Bump nginx from 1.29.7 to 1.29.8 ([#6495](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6495))
+- Update pytest to 9.0.3 ([#6493](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6493))
+
 ## [2026-04-07]
 ### Updated
 - Update django to 6.0.4 ([#6492](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6492))
