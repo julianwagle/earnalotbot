@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-04-09]
+### Changed
+- Bump cryptography from 46.0.6 to 46.0.7 ([#6497](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6497))
+### Updated
+- Update ruff to 0.15.10 ([#6498](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6498))
+
 ## [2026-04-08]
 ### Changed
 - Bump pytest from 9.0.2 to 9.0.3 ([#6494](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6494))
