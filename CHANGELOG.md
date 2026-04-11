@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-04-10]
+### Changed
+- Bump uv from 0.10.5 to 0.11.6 ([#6500](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6500))
+- Bump tox from 4.52.0 to 4.52.1 ([#6499](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6499))
+
 ## [2026-04-09]
 ### Changed
 - Bump cryptography from 46.0.6 to 46.0.7 ([#6497](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6497))
