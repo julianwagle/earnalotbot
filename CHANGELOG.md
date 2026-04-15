@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-04-14]
+### Changed
+- Bump tox-uv from 1.34.0 to 1.35.1 ([#6502](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6502))
+### Updated
+- Update pyproject-fmt from v2.21.0 to v2.21.1 ([#6506](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6506))
+- Update django-allauth to 65.16.0 ([#6504](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6504))
+- Update sentry-sdk to 2.58.0 ([#6503](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6503))
+- Update mypy to 1.20.1 ([#6501](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6501))
+
 ## [2026-04-10]
 ### Changed
 - Bump uv from 0.10.5 to 0.11.6 ([#6500](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6500))
