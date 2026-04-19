@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-04-18]
+### Changed
+- Remove deprecated intellicode extensions from `devcontainer.json` ([#6519](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6519))
+### Updated
+- Update django-allauth to 65.16.1 ([#6520](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6520))
+
 ## [2026-04-17]
 ### Updated
 - Update ruff to 0.15.11 ([#6515](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6515))
