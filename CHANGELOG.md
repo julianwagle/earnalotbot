@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-04-22]
+### Changed
+- Bump pre-commit from 4.5.1 to 4.6.0 ([#6528](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6528))
+- Bump gitpython from 3.1.46 to 3.1.47 ([#6527](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6527))
+### Updated
+- Update pre-commit to 4.6.0 ([#6526](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6526))
+- Update mypy to 1.20.2 ([#6525](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6525))
+- Update uvicorn to 0.45.0 ([#6524](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6524))
+
 ## [2026-04-19]
 ### Updated
 - Update django-anymail to 15.0 ([#6522](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6522))
