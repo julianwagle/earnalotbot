@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-05-02]
+### Updated
+- Update psycopg to 3.3.4 ([#6536](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6536))
+
 ## [2026-04-30]
 ### Updated
 - Bump traefik from v3.6.14 to v3.6.15 ([#6535](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6535))
