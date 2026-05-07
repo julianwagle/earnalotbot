@@ -3,6 +3,18 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-05-06]
+### Changed
+- Bump tox-uv from 1.35.1 to 1.35.2 ([#6540](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6540))
+- Bump tox from 4.53.0 to 4.53.1 ([#6537](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6537))
+- Bump gitpython from 3.1.49 to 3.1.50 ([#6543](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6543))
+### Updated
+- Update gunicorn to 26.0.0 ([#6541](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6541))
+- Bump traefik from v3.6.15 to v3.7.0 ([#6544](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6544))
+- Update sentry-sdk to 2.59.0 ([#6538](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6538))
+- Auto-update pre-commit hooks ([#6539](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6539))
+- Update django to 6.0.5 ([#6542](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6542))
+
 ## [2026-05-02]
 ### Updated
 - Update psycopg to 3.3.4 ([#6536](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6536))
