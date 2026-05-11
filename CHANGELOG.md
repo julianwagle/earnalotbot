@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-05-10]
+### Updated
+- Update django-stubs to 6.0.4 ([#6551](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6551))
+
 ## [2026-05-09]
 ### Fixed
 - Add home directory for the `django` created user in Docker production ([#6550](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6550))
