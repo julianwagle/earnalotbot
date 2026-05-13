@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-05-12]
+### Changed
+- Bump requests from 2.33.1 to 2.34.0 ([#6561](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6561))
+- Bump urllib3 from 2.6.3 to 2.7.0 ([#6559](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6559))
+### Updated
+- Update coverage to 7.14.0 ([#6553](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6553))
+
 ## [2026-05-10]
 ### Updated
 - Update django-stubs to 6.0.4 ([#6551](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6551))
