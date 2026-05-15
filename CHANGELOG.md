@@ -3,6 +3,22 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-05-14]
+### Changed
+- Fix RST formatting for keep_local_envs_in_vcs option ([#6557](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6557))
+- Bump myst-parser from 5.0.0 to 5.1.0 ([#6568](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6568))
+- Bump requests from 2.34.0 to 2.34.1 ([#6567](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6567))
+### Updated
+- Update ruff to 0.15.13 ([#6573](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6573))
+- Bump webpack-cli from 6.0.1 to 7.0.2 ([#6556](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6556))
+- Update django-webpack-loader to 3.2.4 ([#6564](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6564))
+- Bump cssnano from 7.1.9 to 8.0.1 ([#6555](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6555))
+- Bump postcss-preset-env from 10.6.1 to 11.3.0 ([#6571](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6571))
+- Bump nginx from 1.29.8 to 1.31.0 ([#6569](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6569))
+- Update djangorestframework-stubs to 3.17.0 ([#6566](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6566))
+- Update sentry-sdk to 2.60.0 ([#6565](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6565))
+- Bump traefik from v3.7.0 to v3.7.1 ([#6570](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6570))
+
 ## [2026-05-13]
 ### Changed
 - Bump tox from 4.53.1 to 4.54.0 ([#6562](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6562))
