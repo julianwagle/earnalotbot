@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-05-21]
+### Changed
+- Bump idna from 3.11 to 3.15 ([#6578](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6578))
+
 ## [2026-05-18]
 ### Updated
 - Update watchfiles to 1.2.0 ([#6576](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6576))
