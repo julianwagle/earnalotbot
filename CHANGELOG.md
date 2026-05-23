@@ -3,6 +3,17 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-05-22]
+### Changed
+- Add `pytest` command to justfile ([#6584](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6584))
+- Update djLint repository URL in pre-commit config ([#6577](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6577))
+- Add check-merge-conflict hook to pre-commit configuration ([#6580](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6580))
+### Updated
+- Bump sass-loader from 16.0.8 to 17.0.0 ([#6579](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6579))
+- Bump node from 26.1 to 26.2 ([#6582](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6582))
+- Update django-allauth to 65.17.0 ([#6581](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6581))
+- Update ruff to 0.15.14 ([#6585](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6585))
+
 ## [2026-05-21]
 ### Changed
 - Bump idna from 3.11 to 3.15 ([#6578](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6578))
