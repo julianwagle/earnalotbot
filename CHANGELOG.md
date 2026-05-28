@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-05-27]
+### Fixed
+- Fix missing HTML title to allauth manage template ([#6587](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6587))
+### Updated
+- Update coverage to 7.14.1 ([#6592](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6592))
+
 ## [2026-05-26]
 ### Updated
 - Update mypy to 2.1.0 ([#6591](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6591))
