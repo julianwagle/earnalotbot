@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-05-28]
+### Changed
+- Bump tox from 4.54.0 to 4.55.0 ([#6593](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6593))
+### Updated
+- Update redis to 8.0.0 ([#6595](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6595))
+- Update sentry-sdk to 2.61.0 ([#6594](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6594))
+- Update ruff to 0.15.15 ([#6596](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6596))
+
 ## [2026-05-27]
 ### Fixed
 - Fix missing HTML title to allauth manage template ([#6587](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6587))
