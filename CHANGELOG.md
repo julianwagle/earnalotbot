@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-05-30]
+### Changed
+- Bump uv from 0.11.6 to 0.11.15 ([#6599](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6599))
+### Updated
+- Update pyproject-fmt from v2.21.2 to v2.23.0 ([#6601](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6601))
+
 ## [2026-05-29]
 ### Updated
 - Update django-allauth to 65.18.0 ([#6598](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6598))
