@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-06-02]
+### Updated
+- Update django-redis to 7.0.0 ([#6605](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6605))
+
 ## [2026-06-01]
 ### Updated
 - Update sentry-sdk to 2.61.1 ([#6602](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6602))
