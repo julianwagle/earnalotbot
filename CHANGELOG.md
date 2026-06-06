@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-06-05]
+### Changed
+- Bump djlint from 1.36.4 to 1.38.1 ([#6617](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6617))
+### Updated
+- Update djlint to 1.38.2 ([#6619](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6619))
+- Bump traefik from v3.7.1 to v3.7.3 ([#6618](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6618))
+
 ## [2026-06-04]
 ### Changed
 - Bump starlette from 0.50.0 to 1.0.1 ([#6612](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6612))
