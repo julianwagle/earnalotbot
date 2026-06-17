@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-06-16]
+### Changed
+- Bump cryptography from 46.0.7 to 48.0.1 ([#6638](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6638))
+- Bump starlette from 1.0.1 to 1.3.1 ([#6637](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6637))
+- Bump pyjwt from 2.12.0 to 2.13.0 ([#6636](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6636))
+### Updated
+- Update sentry-sdk to 2.63.0 ([#6639](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6639))
+
 ## [2026-06-15]
 ### Changed
 - Bump pytest from 9.0.3 to 9.1.0 ([#6635](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6635))
