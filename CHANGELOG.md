@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-06-19]
+### Changed
+- Bump actions/checkout from 6 to 7 ([#6651](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6651))
+### Updated
+- Update django-debug-toolbar to 7.0.0 ([#6649](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6649))
+- Update django-environ to 0.14.0 ([#6648](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6648))
+- Update ruff to 0.15.18 ([#6647](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6647))
+
 ## [2026-06-18]
 ### Updated
 - Bump the babel group across 1 directory with 2 updates ([#6646](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6646))
