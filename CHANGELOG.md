@@ -3,6 +3,17 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-06-25]
+### Changed
+- Bump tox from 4.55.1 to 4.56.1 ([#6664](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6664))
+- Bump tiangolo/issue-manager from 0.6.0 to 0.8.0 ([#6666](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6666))
+### Updated
+- Update coverage to 7.14.3 ([#6668](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6668))
+- Update redis to 8.0.1 ([#6658](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6658))
+- Update django-stubs to 6.0.6 ([#6657](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6657))
+- Update djlint to 1.39.4 ([#6660](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6660))
+- Update ruff to 0.15.20 ([#6667](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6667))
+
 ## [2026-06-22]
 ### Changed
 - Bump pytest from 9.1.0 to 9.1.1 ([#6655](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6655))
