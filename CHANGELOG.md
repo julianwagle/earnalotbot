@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-06-27]
+### Updated
+- Bump node from 26.3 to 26.4 ([#6670](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6670))
+
 ## [2026-06-25]
 ### Changed
 - Bump tox from 4.55.1 to 4.56.1 ([#6664](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6664))
