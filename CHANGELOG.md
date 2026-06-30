@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-06-29]
+### Changed
+- Bump django-upgrade from 1.30.0 to 1.31.1 ([#6672](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6672))
+### Updated
+- Auto-update pre-commit hooks ([#6669](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6669))
+- Update djlint to 1.39.5 ([#6675](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6675))
+
 ## [2026-06-27]
 ### Updated
 - Bump node from 26.3 to 26.4 ([#6670](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6670))
