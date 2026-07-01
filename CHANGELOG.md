@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-06-30]
+### Changed
+- Downgrade tiangolo/issue-manager from 0.8.0 to 0.6.0 ([#6677](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6677))
+### Updated
+- Update sentry-sdk to 2.64.0 ([#6676](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6676))
+
 ## [2026-06-29]
 ### Changed
 - Bump django-upgrade from 1.30.0 to 1.31.1 ([#6672](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6672))
