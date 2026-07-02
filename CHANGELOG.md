@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-07-01]
+### Updated
+- Bump traefik from v3.7.5 to v3.7.6 ([#6683](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6683))
+- Update djlint to 1.40.0 ([#6680](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6680))
+
 ## [2026-06-30]
 ### Changed
 - Downgrade tiangolo/issue-manager from 0.8.0 to 0.6.0 ([#6677](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6677))
