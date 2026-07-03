@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-07-02]
+### Updated
+- Update coverage to 7.15.0 ([#6689](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6689))
+- Update pillow to 12.3.0 ([#6685](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6685))
+- Update djlint to 1.40.1 ([#6686](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6686))
+
 ## [2026-07-01]
 ### Updated
 - Bump traefik from v3.7.5 to v3.7.6 ([#6683](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6683))
