@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-07-08]
+### Changed
+- Avoid duplicated pre-commit autoupdates PRs ([#6705](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6705))
+### Updated
+- Update uvicorn to 0.51.0 ([#6706](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6706))
+- Update djlint to 1.40.4 ([#6702](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6702))
+- Update django to 6.0.7 ([#6701](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6701))
+
 ## [2026-07-07]
 ### Changed
 - Bump tox from 4.56.1 to 4.56.2 ([#6700](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6700))
