@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-07-09]
+### Changed
+- Bump tox from 4.56.2 to 4.56.4 ([#6711](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6711))
+### Updated
+- Bump traefik from v3.7.6 to v3.7.7 ([#6710](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6710))
+
 ## [2026-07-08]
 ### Changed
 - Avoid duplicated pre-commit autoupdates PRs ([#6705](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6705))
