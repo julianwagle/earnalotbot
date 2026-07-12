@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-07-11]
+### Updated
+- Update pyproject-fmt to v2.25.2 ([#6707](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6707))
+
 ## [2026-07-10]
 ### Updated
 - Bump node from 26.4 to 26.5 ([#6708](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6708))
