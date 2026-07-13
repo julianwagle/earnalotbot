@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-07-12]
+### Updated
+- Update djlint to 1.40.5 ([#6715](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6715))
+
 ## [2026-07-11]
 ### Updated
 - Update pyproject-fmt to v2.25.2 ([#6707](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6707))
