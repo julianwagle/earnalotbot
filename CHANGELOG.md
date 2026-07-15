@@ -3,6 +3,12 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-07-14]
+### Changed
+- Bump actions/setup-node from 6 to 7 ([#6724](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6724))
+### Updated
+- Update pyproject-fmt from v2.25.2 to v2.25.3 ([#6723](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6723))
+
 ## [2026-07-13]
 ### Changed
 - Update sentry-sdk to 2.65.0 ([#6721](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6721))
