@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-07-15]
+### Updated
+- Update django-stubs to 6.0.7 ([#6725](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6725))
+
 ## [2026-07-14]
 ### Changed
 - Bump actions/setup-node from 6 to 7 ([#6724](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6724))
