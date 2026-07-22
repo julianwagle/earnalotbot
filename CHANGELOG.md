@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-07-21]
+### Changed
+- Bump gitpython from 3.1.52 to 3.1.53 ([#6745](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6745))
+- Bump tox from 4.57.0 to 4.57.2 ([#6744](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6744))
+
 ## [2026-07-20]
 ### Changed
 - Bump tox from 4.56.4 to 4.57.0 ([#6741](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6741))
