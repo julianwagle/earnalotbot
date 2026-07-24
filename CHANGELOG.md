@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-07-23]
+### Changed
+- Bump gitpython from 3.1.54 to 3.1.55 ([#6755](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6755))
+
 ## [2026-07-22]
 ### Changed
 - Bump pre-commit from 4.6.0 to 4.6.1 ([#6752](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6752))
