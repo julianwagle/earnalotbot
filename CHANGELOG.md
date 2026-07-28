@@ -3,6 +3,17 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-07-27]
+### Changed
+- Remove DATABASE_URL where possible ([#4862](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/4862))
+- Bump sh from 2.3.0 to 2.4.0 ([#6762](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6762))
+- Bump gitpython from 3.1.55 to 3.1.57 ([#6761](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6761))
+### Fixed
+- Stop setting public read ACL on static files stored in object storage ([#6714](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6714))
+### Updated
+- Update pyproject-fmt from v2.25.3 to v2.25.4 ([#6758](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6758))
+- Bump traefik from v3.7.8 to v3.7.9 ([#6760](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6760))
+
 ## [2026-07-24]
 ### Updated
 - Update ruff to 0.16.0 ([#6756](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6756))
