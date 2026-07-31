@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-07-30]
+### Changed
+- Replace `use_mailpit` option by `mail_catcher` with 3 choices: None/Mailpit/Mailtrap ([#6732](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6732))
+
 ## [2026-07-29]
 ### Updated
 - Update pyproject-fmt from v2.25.4 to v2.26.0 ([#6765](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6765))
