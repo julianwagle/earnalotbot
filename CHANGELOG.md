@@ -3,6 +3,14 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-07-31]
+### Fixed
+- Fix uv lock file Python requirement ([#6773](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6773))
+### Updated
+- Update django-anymail to 15.1 ([#6772](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6772))
+- Update ruff to 0.16.1 ([#6771](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6771))
+- Update redis to 8.1.0 ([#6770](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6770))
+
 ## [2026-07-30]
 ### Changed
 - Replace `use_mailpit` option by `mail_catcher` with 3 choices: None/Mailpit/Mailtrap ([#6732](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6732))
