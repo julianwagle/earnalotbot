@@ -3,6 +3,11 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-08-02]
+### Updated
+- Update djlint to 1.43.2 ([#6775](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6775))
+- Update uvicorn to 0.52.1 ([#6774](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6774))
+
 ## [2026-07-31]
 ### Fixed
 - Fix uv lock file Python requirement ([#6773](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6773))
