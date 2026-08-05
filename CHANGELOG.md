@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-08-04]
+### Changed
+- Improve djLint config to declare django-allauth tags ([#6782](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6782))
+- Bump cryptography from 48.0.1 to 50.0.0 ([#6779](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6779))
+### Updated
+- Update django to 6.0.8 ([#6781](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6781))
+- Update pyproject-fmt from v2.26.0 to v2.27.0 ([#6777](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6777))
+- Update coverage to 7.15.3 ([#6776](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6776))
+- Bump traefik from v3.7.9 to v3.7.10 ([#6778](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6778))
+
 ## [2026-08-02]
 ### Updated
 - Update djlint to 1.43.2 ([#6775](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6775))
