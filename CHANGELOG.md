@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-08-05]
+### Updated
+- Update djangorestframework to 3.17.2 ([#6784](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6784))
+
 ## [2026-08-04]
 ### Changed
 - Improve djLint config to declare django-allauth tags ([#6782](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6782))
