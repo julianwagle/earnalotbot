@@ -3,6 +3,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-08-06]
+### Updated
+- Update django-allauth to 65.19.0 ([#6788](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6788))
+- Update coverage to 7.15.4 ([#6789](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6789))
+- Update django-stubs to 6.0.8 ([#6787](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6787))
+- Update pytest-django to 4.13.0 ([#6785](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6785))
+
 ## [2026-08-05]
 ### Updated
 - Update djangorestframework to 3.17.2 ([#6784](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6784))
