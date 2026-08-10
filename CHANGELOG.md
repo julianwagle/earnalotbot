@@ -3,6 +3,16 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-08-09]
+### Changed
+- Bump gitpython from 3.1.57 to 3.1.58 ([#6797](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6797))
+### Updated
+- Update ruff to 0.16.2 ([#6794](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6794))
+- Update djangorestframework to 3.18.0 ([#6793](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6793))
+- Update django-stubs to 6.0.9 ([#6792](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6792))
+- Update hiredis to 3.4.1 ([#6791](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6791))
+- Update djlint to 1.44.2 ([#6796](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6796))
+
 ## [2026-08-06]
 ### Updated
 - Update django-allauth to 65.19.0 ([#6788](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6788))
