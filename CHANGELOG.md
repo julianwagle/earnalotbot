@@ -3,6 +3,20 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-08-18]
+### Changed
+- Bump tox from 4.59.0 to 4.60.0 ([#6819](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6819))
+### Fixed
+- Fix GitHub CI when Docker is on and `keep_local_envs_in_vcs` is off ([#6817](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6817))
+### Updated
+- Update django-upgrade to 1.32.0 ([#6822](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6822))
+- Update pyproject-fmt from 2.27.1 to 2.28.0 ([#6818](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6818))
+- Update gunicorn to 26.1.0 ([#6824](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6824))
+- Update mypy to 2.3.1 ([#6823](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6823))
+- Update django-ninja to 1.6.3 ([#6820](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6820))
+- Update flower to 2.1.0 ([#6816](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6816))
+- Update django-stubs to 6.1.0 ([#6803](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6803))
+
 ## [2026-08-14]
 ### Changed
 - Bump gitpython from 3.1.58 to 3.1.59 ([#6813](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6813))
