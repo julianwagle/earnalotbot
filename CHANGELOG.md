@@ -3,6 +3,27 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-09-01]
+### Changed
+- Bump tox from 4.60.0 to 4.61.1 ([#6846](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6846))
+- Bump gitpython from 3.1.59 to 3.1.61 ([#6847](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6847))
+- Bump pygithub from 2.9.1 to 2.10.0 ([#6831](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6831))
+### Fixed
+- Fix deterministic npm builds with package lock ([#6839](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6839))
+### Updated
+- Update uvicorn to 0.52.4 ([#6825](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6825))
+- Update psycopg to 3.3.5 ([#6849](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6849))
+- Update django-ninja to 1.7.0 ([#6840](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6840))
+- Update pyproject-fmt from v2.28.0 to v2.29.2 ([#6835](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6835))
+- Update coverage to 7.16.0 ([#6848](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6848))
+- Bump traefik from v3.7.10 to v3.7.12 ([#6841](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6841))
+- Update djangorestframework-stubs to 3.18.1 ([#6836](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6836))
+- Update gunicorn to 26.2.0 ([#6833](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6833))
+- Update sentry-sdk to 2.68.1 ([#6832](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6832))
+- Bump nginx from 1.31.3 to 1.31.4 ([#6829](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6829))
+- Update collectfasta to 3.3.4 ([#6827](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6827))
+- Update ruff to 0.16.5 ([#6837](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6837))
+
 ## [2026-08-18]
 ### Changed
 - Bump tox from 4.59.0 to 4.60.0 ([#6819](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6819))
