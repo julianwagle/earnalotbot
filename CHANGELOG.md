@@ -3,6 +3,15 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-09-08]
+### Updated
+- Update djlint to 1.46.1 ([#6864](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6864))
+- Update sentry-sdk to 2.69.0 ([#6863](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6863))
+- Update djlint to 1.46.0 ([#6862](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6862))
+- Update djangorestframework to 3.18.1 ([#6861](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6861))
+- Bump traefik from v3.7.12 to v3.7.13 ([#6860](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6860))
+- Update django-anymail to 15.2 ([#6859](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6859))
+
 ## [2026-09-04]
 ### Changed
 - Bump tox from 4.61.1 to 4.61.2 ([#6857](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6857))
