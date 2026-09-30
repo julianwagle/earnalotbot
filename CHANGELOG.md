@@ -3,6 +3,18 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-09-29]
+### Changed
+- Bump tox from 4.64.2 to 4.64.3 ([#6908](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6908))
+### Updated
+- Bump gulp-sass from 5.1.0 to 6.0.1 ([#5718](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/5718))
+- Bump sass-loader from 17.0.0 to 17.0.1 ([#6911](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6911))
+- Bump webpack from 5.110.1 to 5.111.1 ([#6910](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6910))
+- Bump the babel group across 1 directory with 2 updates ([#6909](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6909))
+- Update djlint to 1.46.3 ([#6906](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6906))
+- Update django-allauth to 65.19.5 ([#6904](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6904))
+- Bump fast-uri from 3.1.6 to 3.1.8 ([#6905](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6905))
+
 ## [2026-09-28]
 ### Changed
 - Bump tox from 4.61.5 to 4.64.2 ([#6901](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6901))
