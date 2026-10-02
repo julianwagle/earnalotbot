@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-10-01]
+### Changed
+- Remove package-lock.json with package.json ([#6921](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6921))
+
 ## [2026-09-29]
 ### Changed
 - Bump tox from 4.64.2 to 4.64.3 ([#6908](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6908))
