@@ -3,6 +3,24 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-10-03]
+### Changed
+- Bump urllib3 from 2.7.0 to 2.8.0 ([#6924](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6924))
+- Bump pyjwt from 2.13.0 to 2.15.0 ([#6925](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6925))
+- Bump virtualenv from 21.1.0 to 21.7.13 ([#6923](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6923))
+- Bump tox from 4.64.3 to 4.64.4 ([#6920](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6920))
+### Updated
+- Update django-upgrade to 1.33.0 ([#6932](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6932))
+- Update pyproject-fmt from v2.29.4 to v2.30.0 ([#6931](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6931))
+- Bump amazon/aws-cli from 2.37.3 to 2.37.5 ([#6929](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6929))
+- Update ruff to 0.16.10 ([#6926](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6926))
+- Update django-allauth to 65.19.7 ([#6922](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6922))
+- Update djlint to 1.46.4 ([#6919](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6919))
+- Bump autoprefixer from 10.5.4 to 10.6.1 ([#6917](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6917))
+- Bump postcss from 8.5.26 to 8.5.28 ([#6916](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6916))
+- Bump sass from 1.103.1 to 1.105.0 ([#6915](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6915))
+- Bump brace-expansion from 1.1.18 to 1.1.21 ([#6913](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6913))
+
 ## [2026-10-01]
 ### Changed
 - Remove package-lock.json with package.json ([#6921](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6921))
