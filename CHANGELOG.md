@@ -3,6 +3,19 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-10-05]
+### Changed
+- Bump tox-uv from 1.36.0 to 1.36.1 ([#6937](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6937))
+- Bump gitpython from 3.1.62 to 3.2.0 ([#6939](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6939))
+- Bump tox from 4.64.4 to 4.64.7 ([#6940](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6940))
+### Updated
+- Update pyproject-fmt from v2.30.0 to v2.30.1 ([#6933](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6933))
+- Update mypy to 2.4.0 ([#6942](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6942))
+- Bump sass from 1.105.0 to 1.105.1 ([#6938](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6938))
+- Bump cssnano from 8.0.10 to 9.1.2 ([#6936](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6936))
+- Bump postcss-preset-env from 11.5.0 to 11.5.5 ([#6935](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6935))
+- Update django-stubs to 6.1.2 ([#6941](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6941))
+
 ## [2026-10-03]
 ### Changed
 - Bump urllib3 from 2.7.0 to 2.8.0 ([#6924](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6924))
