@@ -3,6 +3,25 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-10-13]
+### Changed
+- Bump tox from 4.64.7 to 4.64.10 ([#6956](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6956))
+### Updated
+- Bump webpack-dev-server from 5.2.6 to 6.0.0 ([#6692](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6692))
+- Update pre-commit to 4.7.0 ([#6959](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6959))
+- Bump traefik from v3.7.13 to v3.7.14 ([#6957](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6957))
+- Bump shell-quote and concurrently ([#6961](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6961))
+- Bump proxy-addr from 2.0.7 to 2.0.8 ([#6946](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6946))
+- Bump compression from 1.8.1 to 1.8.2 ([#6945](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6945))
+- Bump source-map-js from 1.2.1 to 1.2.2 ([#6944](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6944))
+- Bump postcss-selector-parser from 7.1.5 to 7.1.6 ([#6943](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6943))
+- Update pyproject-fmt from v2.30.1 to v2.30.3 ([#6954](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6954))
+- Update sentry-sdk to 2.72.0 ([#6955](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6955))
+- Update ruff to 0.17.0 ([#6953](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6953))
+- Update python-slugify to 9.1.3 ([#6950](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6950))
+- Update djangorestframework to 3.18.3 ([#6949](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6949))
+- Update django to 6.0.9 ([#6947](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6947))
+
 ## [2026-10-05]
 ### Changed
 - Bump tox-uv from 1.36.0 to 1.36.1 ([#6937](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6937))
