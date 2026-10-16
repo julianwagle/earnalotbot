@@ -3,6 +3,10 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## [2026-10-15]
+### Fixed
+- Resolve webpack `publicPath` at runtime instead of build time ([#6895](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6895))
+
 ## [2026-10-14]
 ### Changed
 - Remove unmaintained pixrem dependency ([#6968](https://api.github.com/repos/cookiecutter/cookiecutter-django/pulls/6968))
